@@ -1,0 +1,174 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 10,
+  "navLabel": "Spouse and partner visas",
+  "eyebrow": "Family visas",
+  "h1": "Spouse visa UK",
+  "h1Accent": "and partner visas.",
+  "intro": "A spouse visa UK application lets you live here with your husband, wife or civil partner who is British or settled. We help you choose the right partner route, meet the financial requirement and build strong relationship evidence.",
+  "cardText": "Joining a British or settled partner, extensions and switching.",
+  "facts": [
+    {
+      "value": "£29,000",
+      "label": "Financial requirement for most new applications"
+    },
+    {
+      "value": "2 years 9 months",
+      "label": "First grant from outside the UK"
+    },
+    {
+      "value": "A1 English",
+      "label": "For a first application"
+    },
+    {
+      "value": "5 years",
+      "label": "Usual route to settlement"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A genuine, continuing relationship",
+      "hint": "Married, civil partners, unmarried partners or fiancé(e)s"
+    },
+    {
+      "item": "£29,000 a year",
+      "hint": "From income, savings or both"
+    },
+    {
+      "item": "English at A1 level",
+      "hint": "Rising to A2 when you extend"
+    },
+    {
+      "item": "Suitable accommodation",
+      "hint": "Without relying on public funds"
+    }
+  ],
+  "purposesTitle": "Which spouse visa UK route fits you?",
+  "purposesIntro": "All partner routes sit under Appendix FM of the Immigration Rules.",
+  "purposes": [
+    {
+      "icon": "heart",
+      "title": "Spouse or civil partner",
+      "text": "For married couples and civil partners."
+    },
+    {
+      "icon": "home",
+      "title": "Unmarried partner",
+      "text": "For couples who have lived together for at least 2 years."
+    },
+    {
+      "icon": "family",
+      "title": "Fiancé(e) visa",
+      "text": "For couples marrying in the UK within 6 months of arriving."
+    },
+    {
+      "icon": "clock",
+      "title": "Extension",
+      "text": "To extend after your first grant, towards settlement."
+    }
+  ],
+  "notCoveredTitle": "Common reasons spouse visas are refused",
+  "notCovered": [
+    "Payslips or bank statements not in the required format",
+    "Income counted from the wrong period",
+    "Weak evidence that the relationship is genuine",
+    "An English test from an unapproved provider",
+    "Accommodation that is overcrowded or not secured"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ passports, and any previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Relationship evidence",
+      "details": "Marriage or civil partnership certificate, and evidence of your relationship and contact.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements, employer letter, or savings evidence in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "From an approved provider at A1 or above, unless you are exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Accommodation evidence",
+      "details": "Tenancy agreement or property documents, and permission from the owner if needed.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "The financial requirement",
+      "text": "Most new applications need £29,000 a year, from employment, self-employment, pension or savings. Savings above £16,000 can make up a shortfall. Some sponsors who receive certain benefits are exempt. [Read our financial requirement guide](/spouse-visa-financial-requirement/)"
+    },
+    {
+      "title": "English language",
+      "text": "You need A1 for a first application, A2 when you extend and B1 for settlement, unless you are exempt. [Read our English language guide](/english-language-requirement/)"
+    },
+    {
+      "title": "Your route to settlement",
+      "text": "Partners of British citizens keep a 5-year route to Indefinite Leave to Remain under the government’s plans. [Read about the ILR changes](/ilr-changes-2026/)"
+    },
+    {
+      "title": "Don’t overstay",
+      "text": "If you are already in the UK, you must apply before your current permission ends. Get advice early if your visa is running out."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Spouse visa UK requirements in detail",
+      "text": "Your partner must be British, Irish, settled in the UK, or have refugee status or humanitarian protection. You must both be 18 or over, intend to live together permanently in the UK, and show that your relationship is genuine and continuing. You also need to meet the financial, English language and accommodation requirements."
+    },
+    {
+      "heading": "How long does a spouse visa UK application take?",
+      "text": "Applications from outside the UK are usually decided within about 12 weeks, and in-country applications within about 8 weeks, though times vary. Priority services can be available for an extra fee."
+    },
+    {
+      "heading": "After your spouse visa",
+      "text": "You extend your visa after your first grant, then apply for Indefinite Leave to Remain when you qualify, and later British citizenship if you wish. We can help at each stage and check your [time outside the UK](/absence-calculator/) before you apply."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much do I need to earn for a spouse visa UK?",
+      "a": "Most new applications need £29,000 a year. You can use employment, self-employment, pension income or savings, and in some cases combine them."
+    },
+    {
+      "q": "Can my savings count towards a spouse visa?",
+      "a": "Yes. Savings above £16,000 can be used to make up a shortfall in income, using a set formula."
+    },
+    {
+      "q": "Can I work on a spouse visa?",
+      "a": "Yes. You can work and study in the UK on a spouse or partner visa."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    }
+  ],
+  "related": [
+    "spouse-visa-financial-requirement",
+    "english-language-requirement",
+    "indefinite-leave-to-remain"
+  ],
+  "title": "Spouse Visa UK | Partner Visa Advice and Applications",
+  "description": "Spouse visa UK advice from IAA-regulated advisers: partner routes, the £29,000 financial requirement, English, documents and extensions.",
+  "focusKeyword": "spouse visa UK",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

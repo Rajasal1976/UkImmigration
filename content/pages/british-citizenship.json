@@ -1,0 +1,171 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 40,
+  "navLabel": "British citizenship",
+  "eyebrow": "Citizenship",
+  "h1": "British citizenship",
+  "h1Accent": "naturalisation and registration.",
+  "widget": "absence",
+  "widgetTitle": "Check your absences for citizenship",
+  "intro": "Once you have ILR or settled status, you may be able to apply for British citizenship by naturalisation. We check your residence, absences and good character carefully, so nothing delays your ceremony.",
+  "cardText": "Naturalisation and registration, including good character checks.",
+  "facts": [
+    {
+      "value": "5 years",
+      "label": "Residence (3 if married to a British citizen)"
+    },
+    {
+      "value": "450 days",
+      "label": "Most time abroad in 5 years"
+    },
+    {
+      "value": "90 days",
+      "label": "Most time abroad in the last 12 months"
+    },
+    {
+      "value": "12 months",
+      "label": "Usually holding ILR first"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "ILR or settled status",
+      "hint": "Usually held for 12 months, unless married to a British citizen"
+    },
+    {
+      "item": "Residence and absences",
+      "hint": "Within the limits for your route"
+    },
+    {
+      "item": "Good character",
+      "hint": "Including immigration and criminal history"
+    },
+    {
+      "item": "Life in the UK test and B1 English"
+    }
+  ],
+  "purposesTitle": "British citizenship routes",
+  "purposes": [
+    {
+      "icon": "home",
+      "title": "Naturalisation",
+      "text": "The standard route after 5 years’ residence."
+    },
+    {
+      "icon": "heart",
+      "title": "Married to a British citizen",
+      "text": "A 3-year residence route, with no wait after ILR."
+    },
+    {
+      "icon": "family",
+      "title": "Registering children",
+      "text": "Children born in the UK or with British parents."
+    },
+    {
+      "icon": "passport",
+      "title": "Other registrations",
+      "text": "Including some British nationals overseas."
+    }
+  ],
+  "notCoveredTitle": "Common British citizenship problems",
+  "notCovered": [
+    "Absences over the limits",
+    "Breaches of immigration rules during the residence period",
+    "Undisclosed driving or other offences",
+    "Applying before holding ILR for 12 months",
+    "Referees who don’t meet the rules"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports and ILR evidence",
+      "details": "Covering your residence period.",
+      "needed": "Required"
+    },
+    {
+      "document": "Travel history",
+      "details": "Every trip abroad during the residence period.",
+      "needed": "Required"
+    },
+    {
+      "document": "Life in the UK test pass",
+      "details": "Your unique reference.",
+      "needed": "Required"
+    },
+    {
+      "document": "English evidence",
+      "details": "At B1 level, unless exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Referees",
+      "details": "Two referees who meet the rules.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Absence limits",
+      "text": "For the 5-year route: no more than 450 days outside the UK in 5 years, and 90 days in the last 12 months. For the 3-year spouse route: 270 days in 3 years and 90 in the last 12 months. Use the calculator on this page."
+    },
+    {
+      "title": "Good character",
+      "text": "The Home Office looks at criminal records, immigration breaches, debts and honesty in past applications. Declare everything; we advise on how."
+    },
+    {
+      "title": "Married to a British citizen",
+      "text": "You can apply as soon as you have ILR, with a 3-year residence requirement."
+    },
+    {
+      "title": "The citizenship ceremony",
+      "text": "After approval you attend a ceremony, usually within 3 months, and become British on that day."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Who can apply for British citizenship?",
+      "text": "Most adults become British by naturalisation. You can usually apply if you have ILR, EU settled status or permanent residence; have lived in the UK for at least 5 years (3 if married to a British citizen); have held settled status for 12 months unless married to a British citizen; have passed the Life in the UK test; have B1 English; meet the good character requirement; and intend to keep living in the UK."
+    },
+    {
+      "heading": "Registering children as British citizens",
+      "text": "Children born in the UK to settled parents, or whose parents became settled after their birth, may be able to register as British. We advise on the right route for your family."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long after ILR can I apply for British citizenship?",
+      "a": "Usually after 12 months, or straight away if you are married to a British citizen."
+    },
+    {
+      "q": "How many days can I be abroad for British citizenship?",
+      "a": "No more than 450 days in the 5 years before applying, and 90 days in the last 12 months, on the standard route."
+    },
+    {
+      "q": "Do I need to give up my other nationality?",
+      "a": "The UK allows dual nationality, but some countries don’t. Check your other country’s rules."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    }
+  ],
+  "related": [
+    "absence-calculator",
+    "indefinite-leave-to-remain",
+    "life-in-the-uk-test",
+    "english-language-requirement"
+  ],
+  "title": "British Citizenship | Naturalisation Applications",
+  "description": "British citizenship advice: naturalisation requirements, the 450-day and 90-day absence limits, good character, and registering children.",
+  "focusKeyword": "British citizenship",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

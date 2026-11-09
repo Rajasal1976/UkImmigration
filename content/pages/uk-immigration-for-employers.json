@@ -1,0 +1,58 @@
+{
+  "layout": "section",
+  "group": "employers",
+  "order": 0,
+  "navLabel": "Employer services",
+  "eyebrow": "For employers",
+  "h1": "UK immigration for employers",
+  "h1Accent": "sponsor licences and compliance.",
+  "intro": "Our UK immigration for employers service covers everything from getting a sponsor licence to staying compliant and running right to work checks, so you can hire from overseas with confidence.",
+  "facts": [
+    {
+      "value": "Licence",
+      "label": "Applications and renewals"
+    },
+    {
+      "value": "Compliance",
+      "label": "Audits and HR records"
+    },
+    {
+      "value": "Right to work",
+      "label": "Checks done properly"
+    },
+    {
+      "value": "Workers",
+      "label": "Skilled Worker visas"
+    }
+  ],
+  "childrenTitle": "Employer services",
+  "sections": [
+    {
+      "heading": "Why UK immigration for employers needs care",
+      "text": "Sponsoring workers brings real duties. The Home Office can visit without warning, and gaps in records or reporting can lead to a downgrade, suspension or loss of your licence. Our UK immigration for employers service helps you get it right from the start and stay that way."
+    },
+    {
+      "heading": "Hiring a Skilled Worker",
+      "text": "Once you hold a licence, you assign a Certificate of Sponsorship and your worker applies for a [Skilled Worker visa](/skilled-worker-visa/). We can handle both sides."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a sponsor licence to employ someone from overseas?",
+      "a": "For most work visas, yes, including workers already in the UK on another visa who want to switch."
+    },
+    {
+      "q": "Can you help with compliance after we get a licence?",
+      "a": "Yes. We offer compliance support, including mock audits and HR record set-up."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "title": "UK Immigration for Employers | Sponsor Licences",
+  "description": "UK immigration for employers: sponsor licence applications, compliance support, right to work checks and Skilled Worker visas for your staff.",
+  "focusKeyword": "UK immigration for employers",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

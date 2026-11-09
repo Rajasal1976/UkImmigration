@@ -1,0 +1,115 @@
+---
+// Absence calculator for ILR and British citizenship. Same rules as the uvsuk.co.uk tool:
+// ILR: no more than 180 days outside the UK in any rolling 12 months.
+// Citizenship: 450 days in 5 years (270 in 3 years if married to a British citizen), and 90 in the last 12 months.
+// The days someone leaves and returns are not counted as days outside the UK.
+---
+<div class="absence-tool" id="absence-tool">
+    <div class="tool">
+      <div class="tool-in">
+        <fieldset class="modes" style="border:0;padding:0;margin:0 0 22px">
+          <legend class="fl" style="padding:0;margin-bottom:8px;font-size:14px;font-weight:600;color:var(--ink)">What are you applying for?</legend>
+          <label class="mode"><input type="radio" name="mode" value="ilr" checked><span><strong>Indefinite Leave to Remain</strong>No more than 180 days outside the UK in any 12 months</span></label>
+          <label class="mode"><input type="radio" name="mode" value="citizen"><span><strong>British citizenship</strong>No more than 450 days in 5 years, and 90 in the last 12 months</span></label>
+          <label class="mode"><input type="radio" name="mode" value="spouse"><span><strong>Citizenship, married to a British citizen</strong>No more than 270 days in 3 years, and 90 in the last 12 months</span></label>
+        </fieldset>
+        <div class="dates">
+          <div id="start-wrap"><label class="fl" for="start">Start of qualifying period</label><input type="date" id="start" value=""></div>
+          <div><label class="fl" for="apply">Date you’ll apply</label><input type="date" id="apply" value=""></div>
+        </div>
+        <div class="trips-head"><span class="fl" style="margin:0">Your trips abroad</span><span style="font-size:13px;color:var(--muted)">Left UK · Returned</span></div>
+        <div id="trips"></div>
+        <button class="add" type="button" id="add">+ Add a trip</button>
+        <small>The days you leave and return don’t count as days outside the UK. This tool is a guide: we check your exact position at consultation.</small>
+      </div>
+      <div class="tool-out" aria-live="polite"><div id="out"></div></div>
+    </div>
+
+</div>
+<script>
+  const root = document.getElementById('absence-tool');
+  // Absence calculator: same rules as the uvsuk.co.uk tool
+  const MODES = { ilr: {}, citizen: { years: 5, total: 450, lastYear: 90 }, spouse: { years: 3, total: 270, lastYear: 90 } };
+  const DAY = 864e5;
+  const toDay = (v) => (v ? Math.floor(Date.UTC(+v.slice(0, 4), +v.slice(5, 7) - 1, +v.slice(8, 10)) / DAY) : null);
+  const fmt = (d) => new Date(d * DAY).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+  const yearsBefore = (d, n) => { const x = new Date(d * DAY); x.setUTCFullYear(x.getUTCFullYear() - n); return Math.floor(x.getTime() / DAY); };
+  const tripDays = (t) => { const a = toDay(t.out), b = toDay(t.back); return a !== null && b !== null && b > a ? b - a - 1 : 0; };
+  let trips = [{ id: 1, out: '', back: '' }];
+  let next = 2;
+  const list = root.querySelector('#trips'), out = root.querySelector('#out');
+  const startI = root.querySelector('#start'), applyI = root.querySelector('#apply'), startWrap = root.querySelector('#start-wrap');
+  const mode = () => root.querySelector('input[name="mode"]:checked').value;
+  function render() {
+    list.innerHTML = trips.map((t) => `<div class="trip" data-id="${t.id}"><input type="date" aria-label="Date you left the UK" data-k="out" value="${t.out}"><input type="date" aria-label="Date you returned" data-k="back" value="${t.back}"><span class="d">${tripDays(t) ? tripDays(t) + ' days' : '–'}</span><button type="button" aria-label="Remove trip">×</button></div>`).join('');
+    calc();
+  }
+  function row(cls, icon, html) { return `<div class="res ${cls}"><i>${icon}</i><span>${html}</span></div>`; }
+  function calc() {
+    const m = mode(); startWrap.style.display = m === 'ilr' ? '' : 'none';
+    const days = new Set();
+    trips.forEach((t) => { const a = toDay(t.out), b = toDay(t.back); if (a !== null && b !== null && b > a) for (let d = a + 1; d < b; d++) days.add(d); });
+    const apply = toDay(applyI.value);
+    if (apply === null || !days.size) { out.innerHTML = '<p class="empty">Add your trips to see your result.</p>'; return; }
+    let html = '';
+    if (m === 'ilr') {
+      const start = toDay(startI.value);
+      if (start === null || start >= apply) { out.innerHTML = '<p class="empty">Enter the start of your qualifying period.</p>'; return; }
+      let run = 0, worst = 0, worstDay = start;
+      for (let d = start; d <= apply; d++) { if (days.has(d)) run++; if (d - 365 >= start && days.has(d - 365)) run--; if (run > worst) { worst = run; worstDay = d; } }
+      let total = 0; days.forEach((d) => { if (d >= start && d <= apply) total++; });
+      const ok = worst <= 180;
+      html = `<div class="verdict">${ok ? 'Within the ILR limit' : 'Over the ILR limit'}</div>`
+        + row(ok ? 'ok' : 'bad', ok ? '✓' : '!', `Most days outside the UK in any 12 months: <b>${worst}</b> (limit 180)<br><small style="color:var(--ink-mute)">Highest in the 12 months up to ${fmt(worstDay)}</small>`)
+        + row('info', 'i', `Total days outside the UK in this period: <b>${total}</b>`);
+    } else {
+      const c = MODES[m], from = yearsBefore(apply, c.years), ly = yearsBefore(apply, 1);
+      let total = 0, recent = 0; days.forEach((d) => { if (d > from && d <= apply) total++; if (d > ly && d <= apply) recent++; });
+      const ok1 = total <= c.total, ok2 = recent <= c.lastYear;
+      html = `<div class="verdict">${ok1 && ok2 ? 'Within the citizenship limits' : 'Over a citizenship limit'}</div>`
+        + row(ok1 ? 'ok' : 'bad', ok1 ? '✓' : '!', `Days outside the UK in the last ${c.years} years: <b>${total}</b> (limit ${c.total})`)
+        + row(ok2 ? 'ok' : 'bad', ok2 ? '✓' : '!', `Days outside the UK in the last 12 months: <b>${recent}</b> (limit ${c.lastYear})`);
+    }
+    out.innerHTML = html + '<p style="font-size:14px;margin-top:16px;color:var(--ink-mute)">Over a limit? There can be exceptions. <a href="/contact-us/">Book a consultation</a> and we’ll look at your case.</p>';
+  }
+  list.addEventListener('input', (e) => { const r = e.target.closest('.trip'); const t = trips.find((x) => x.id === +r.dataset.id); t[e.target.dataset.k] = e.target.value; r.querySelector('.d').textContent = tripDays(t) ? tripDays(t) + ' days' : '–'; calc(); });
+  list.addEventListener('click', (e) => { if (e.target.tagName !== 'BUTTON') return; const id = +e.target.closest('.trip').dataset.id; trips = trips.filter((t) => t.id !== id); render(); });
+  root.querySelector('#add').addEventListener('click', () => { trips.push({ id: next++, out: '', back: '' }); render(); });
+  root.querySelectorAll('input[name="mode"]').forEach((r) => r.addEventListener('change', calc));
+  [startI, applyI].forEach((i) => i.addEventListener('input', calc));
+  render();
+
+</script>
+<style is:global>
+/* Absence calculator */
+.tool { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #fff; }
+.tool-in { padding: 34px; border-right: 1px solid var(--line); }
+.tool-out { padding: 34px; background: var(--green-50); }
+.tool label.fl { display: block; font-size: 14px; font-weight: 600; color: var(--ink); margin: 0 0 6px; }
+.modes { display: grid; gap: 8px; margin-bottom: 22px; }
+.mode { position: relative; }
+.mode input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.mode span { display: block; padding: 12px 14px; border: 1.5px solid var(--line); border-radius: 4px; font-size: 14px; }
+.mode span strong { display: block; color: var(--ink); font-size: 15px; }
+.mode input:checked + span { border-color: var(--green-800); background: var(--gold-soft); }
+.mode input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.dates { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+input[type=date] { width: 100%; min-height: 46px; padding: 0 10px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1.5px solid var(--line); border-radius: 4px; }
+.trips-head { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 0 8px; }
+.trip { display: grid; grid-template-columns: 1fr 1fr 70px 30px; gap: 8px; align-items: center; margin-bottom: 8px; }
+.trip .d { font-size: 13.5px; color: var(--ink-mute); text-align: right; }
+.trip button { border: 0; background: transparent; color: var(--ink-mute); font-size: 20px; cursor: pointer; }
+.add { margin-top: 6px; background: transparent; border: 1.5px dashed var(--line); width: 100%; min-height: 44px; border-radius: 4px; font: inherit; font-weight: 600; color: var(--green-800); cursor: pointer; }
+.tool small { display: block; margin-top: 12px; font-size: 13px; color: var(--ink-mute); }
+.result { display: grid; gap: 10px; }
+.res { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: 4px; background: #fff; border: 1px solid var(--line); font-size: 15px; }
+.res b { color: var(--ink); }
+.res i { font-style: normal; flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 14px; }
+.res.ok i { background: var(--tick-soft); color: var(--tick); }
+.res.bad i { background: var(--rani-soft); color: var(--rani); }
+.res.info i { background: var(--gold-soft); color: var(--gold-text); }
+.verdict { font-family: var(--serif); font-size: 28px; color: var(--ink); margin-bottom: 14px; }
+.empty { color: var(--ink-mute); font-size: 15.5px; }
+
+
+</style>

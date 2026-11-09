@@ -1,0 +1,139 @@
+{
+  "layout": "visa",
+  "group": "employers",
+  "order": 30,
+  "navLabel": "Right to work checks",
+  "eyebrow": "For employers",
+  "h1": "Right to work checks",
+  "h1Accent": "done properly.",
+  "intro": "Every UK employer must carry out right to work checks before someone starts work. We help you set up a simple, compliant process, so you avoid civil penalties and protect your business.",
+  "cardText": "Checking every employee’s right to work, the right way.",
+  "facts": [
+    {
+      "value": "Before day one",
+      "label": "Checks must be done before work starts"
+    },
+    {
+      "value": "£45,000",
+      "label": "Maximum penalty per illegal worker, first breach"
+    },
+    {
+      "value": "£60,000",
+      "label": "Maximum for repeat breaches"
+    },
+    {
+      "value": "Every employee",
+      "label": "Not just visa holders"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Check before the person starts work"
+    },
+    {
+      "item": "Use the right method",
+      "hint": "Manual, online share code or digital ID"
+    },
+    {
+      "item": "Keep a dated copy",
+      "hint": "For the time they work for you, plus 2 years"
+    },
+    {
+      "item": "Follow up time-limited permission",
+      "hint": "Before it expires"
+    }
+  ],
+  "purposesTitle": "The three ways to check",
+  "purposes": [
+    {
+      "icon": "passport",
+      "title": "Manual document check",
+      "text": "For British and Irish passports and some other documents."
+    },
+    {
+      "icon": "info",
+      "title": "Online share code check",
+      "text": "For people with an eVisa or settled status."
+    },
+    {
+      "icon": "shield",
+      "title": "Digital identity check",
+      "text": "Through a certified provider, for valid British and Irish passports."
+    }
+  ],
+  "notCoveredTitle": "Common right to work mistakes",
+  "notCovered": [
+    "Checking after the person has started",
+    "Accepting a document that isn’t on the Home Office list",
+    "Not keeping a dated copy",
+    "Missing a follow-up check when permission expires"
+  ],
+  "documentsTable": [
+    {
+      "document": "Original documents or share code",
+      "details": "From the employee.",
+      "needed": "Required"
+    },
+    {
+      "document": "Copy of the check",
+      "details": "Dated, and kept securely.",
+      "needed": "Required"
+    },
+    {
+      "document": "Follow-up dates",
+      "details": "For anyone with time-limited permission.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Civil penalties",
+      "text": "Employing someone who doesn’t have the right to work can lead to a penalty of up to £45,000 per worker for a first breach, and £60,000 for repeat breaches."
+    },
+    {
+      "title": "eVisas have replaced most physical documents",
+      "text": "Most migrants now prove their status online with a share code instead of a BRP."
+    },
+    {
+      "title": "Sponsors have extra duties",
+      "text": "Right to work checks are part of your [sponsor licence compliance](/sponsor-licence-compliance/)."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "How to carry out right to work checks",
+      "text": "Ask to see the employee’s original documents in their presence, or use the Home Office online checking service with their share code, or a certified digital identity provider for British and Irish passports. Check the documents are genuine and belong to them, make a clear dated copy, and keep it securely."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to check British employees?",
+      "a": "Yes. Right to work checks apply to everyone you employ, so you have a defence against a penalty."
+    },
+    {
+      "q": "What is a share code?",
+      "a": "A code the employee gets from GOV.UK that lets you check their right to work online."
+    },
+    {
+      "q": "How long must I keep the records?",
+      "a": "For the time the person works for you, and for 2 years after they leave."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "sponsor-licence-compliance",
+    "sponsor-licence"
+  ],
+  "title": "Right to Work Checks | Employer Guide and Support",
+  "description": "Right to work checks for UK employers: manual, online share code and digital ID checks, penalties up to £60,000 and how to stay compliant.",
+  "focusKeyword": "right to work checks",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

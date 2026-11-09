@@ -1,0 +1,53 @@
+---
+import Page from '../layouts/Page.astro';
+import { pages } from '../data/pages.js';
+import { posts } from '../data/blog.js';
+import { site } from '../data/site.js';
+const all = [
+  ...pages.map((p) => ({ url: `/${p.slug}/`, title: p.h1, description: p.description, text: `${p.h1} ${p.title} ${p.description} ${p.intro ?? ''} ${p.focusKeyword ?? ''}` })),
+  ...posts.map((p) => ({ url: `/blog/${p.slug}/`, title: p.h1, description: p.description, text: `${p.h1} ${p.title} ${p.description} ${p.intro ?? ''}` })),
+  { url: '/absence-calculator/', title: 'Absence calculator', description: 'Check your time outside the UK for ILR and British citizenship.', text: 'absence calculator days outside uk ilr citizenship 180 450 trips abroad' },
+  { url: '/contact-us/', title: 'Contact us', description: 'Call, email or visit our Manchester office.', text: 'contact phone email address office manchester' },
+];
+const index = all.map((p) => ({ url: p.url, title: p.title, description: p.description, text: p.text.toLowerCase() }));
+---
+<Page title={`Search | ${site.name}`} description="Search our UK immigration pages and guides." noindex>
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Search</h1>
+        <form action="/search/" method="get" role="search" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;max-width:640px">
+          <label for="site-search" class="sr-only">Search the website</label>
+          <input id="site-search" name="q" type="search" placeholder="For example spouse visa, ILR, sponsor licence" style="flex:1 1 260px;min-height:50px;padding:0 16px;font:inherit;border:1.5px solid var(--line);border-radius:12px" />
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        <p class="lead" id="search-summary"></p>
+      </div>
+    </div>
+    <div class="wrap section" style="padding-top:40px">
+      <ul class="results" id="results" data-index={JSON.stringify(index)}></ul>
+      <p id="no-results" hidden>No pages matched. Try another word, or <a href="/contact-us/">ask us directly</a>.</p>
+    </div>
+  </main>
+</Page>
+<style>
+  .results { list-style: none; padding: 0; margin: 0; max-width: 760px; }
+  .results :global(li) { border-bottom: 1px solid var(--line); }
+  .results :global(a) { display: block; padding: 18px 0; text-decoration: none; font-size: 20px; font-weight: 700; }
+  .results :global(small) { display: block; color: var(--ink-mute); font-weight: 400; font-size: 15px; }
+</style>
+<script>
+  const list = document.getElementById('results')!;
+  const index = JSON.parse(list.dataset.index || '[]');
+  const q = (new URLSearchParams(location.search).get('q') || '').trim();
+  const input = document.getElementById('site-search') as HTMLInputElement | null;
+  if (input) input.value = q;
+  const words = q.toLowerCase().split(/\s+/).filter((w) => w && !['visa', 'visas', 'uk', 'the', 'a', 'for'].includes(w));
+  const hits = q ? index.map((p: any) => ({ p, score: words.filter((w) => p.text.includes(w)).length }))
+    .filter((h: any) => h.score > 0 || (!words.length && h.p.text.includes(q.toLowerCase())))
+    .sort((a: any, b: any) => b.score - a.score).map((h: any) => h.p) : [];
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' } as any)[c]);
+  document.getElementById('search-summary')!.textContent = q ? `Results for “${q}”` : '';
+  list.innerHTML = hits.map((p: any) => `<li><a href="${p.url}">${esc(p.title)}<small>${esc(p.description)}</small></a></li>`).join('');
+  document.getElementById('no-results')!.hidden = !q || hits.length > 0;
+</script>

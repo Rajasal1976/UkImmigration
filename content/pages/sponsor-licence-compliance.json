@@ -1,0 +1,148 @@
+{
+  "layout": "visa",
+  "group": "employers",
+  "order": 20,
+  "navLabel": "Sponsor licence compliance",
+  "eyebrow": "For employers",
+  "h1": "Sponsor licence compliance",
+  "h1Accent": "be ready for a Home Office visit.",
+  "intro": "Getting a licence is only the start. Our sponsor licence compliance support helps you meet your duties every day, so you’re ready for a Home Office visit and your sponsored workers are protected.",
+  "cardText": "Mock audits, HR records and reporting support for sponsors.",
+  "facts": [
+    {
+      "value": "Unannounced",
+      "label": "Home Office visits can happen"
+    },
+    {
+      "value": "Appendix D",
+      "label": "Records you must keep"
+    },
+    {
+      "value": "Reporting",
+      "label": "Changes within set deadlines"
+    },
+    {
+      "value": "Mock audits",
+      "label": "Find gaps before they do"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Right to work checks for every employee"
+    },
+    {
+      "item": "Appendix D records",
+      "hint": "For each sponsored worker"
+    },
+    {
+      "item": "Reporting changes on time",
+      "hint": "Through the Sponsor Management System"
+    },
+    {
+      "item": "Paying sponsored workers correctly"
+    }
+  ],
+  "purposesTitle": "Our sponsor licence compliance service",
+  "purposes": [
+    {
+      "icon": "shield",
+      "title": "Mock compliance audits",
+      "text": "We review your records as a Home Office officer would."
+    },
+    {
+      "icon": "book",
+      "title": "HR record set-up",
+      "text": "Simple record-keeping that matches Appendix D."
+    },
+    {
+      "icon": "clock",
+      "title": "Reporting support",
+      "text": "Help with changes you must report."
+    },
+    {
+      "icon": "people",
+      "title": "Training",
+      "text": "For your Key Personnel."
+    }
+  ],
+  "notCoveredTitle": "What happens if you’re not compliant",
+  "notCovered": [
+    "A downgrade to a B rating, with a paid action plan",
+    "Suspension of your licence while the Home Office investigates",
+    "Revocation, which usually cuts your workers’ permission short",
+    "Civil penalties for illegal working"
+  ],
+  "documentsTable": [
+    {
+      "document": "Sponsored worker files",
+      "details": "Right to work checks, contracts, payslips and contact details.",
+      "needed": "Required"
+    },
+    {
+      "document": "Absence and attendance records",
+      "details": "For each sponsored worker.",
+      "needed": "Required"
+    },
+    {
+      "document": "Recruitment records",
+      "details": "For each role you sponsored.",
+      "needed": "Required"
+    },
+    {
+      "document": "Reporting log",
+      "details": "What you reported and when.",
+      "needed": "Helpful"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Home Office compliance visits",
+      "text": "Officers usually check HR records, interview Key Personnel and sometimes speak to sponsored workers."
+    },
+    {
+      "title": "Report changes on time",
+      "text": "Some changes, such as a worker not starting or leaving early, must be reported within set deadlines."
+    },
+    {
+      "title": "Right to work checks",
+      "text": "Must be done for every employee before they start. [Read our guide](/right-to-work-checks/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Your sponsor licence compliance duties",
+      "text": "When you hold a sponsor licence, the Home Office expects you to carry out and keep right to work checks for every employee, keep the records set out in Appendix D for each sponsored worker, report certain changes through the Sponsor Management System, and make sure sponsored workers are doing the job and paid the salary you sponsored them for."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often does the Home Office visit sponsors?",
+      "a": "There’s no fixed schedule. Visits can be before or after a licence is granted, and can be unannounced."
+    },
+    {
+      "q": "What is a mock audit?",
+      "a": "We review your records and processes as a Home Office officer would, and give you a clear report and action list."
+    },
+    {
+      "q": "Can a downgraded licence be restored?",
+      "a": "Usually, by completing the Home Office action plan. We help you through it."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "sponsor-licence",
+    "right-to-work-checks"
+  ],
+  "title": "Sponsor Licence Compliance | Audits and HR Support",
+  "description": "Sponsor licence compliance support: mock audits, Appendix D records, reporting duties and Home Office visits. Protect your licence and workers.",
+  "focusKeyword": "sponsor licence compliance",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

@@ -1,0 +1,168 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 20,
+  "navLabel": "Skilled Worker visa",
+  "eyebrow": "Work visas",
+  "h1": "Skilled Worker visa",
+  "h1Accent": "applications and extensions.",
+  "intro": "The Skilled Worker visa lets you work in the UK for an employer with a sponsor licence. We help with new Skilled Worker visa applications, extensions and changes of employer, and check the job meets the rules first.",
+  "cardText": "Applications, extensions and changes of employment.",
+  "facts": [
+    {
+      "value": "£41,700",
+      "label": "General salary threshold"
+    },
+    {
+      "value": "RQF 6",
+      "label": "Skill level for most new roles"
+    },
+    {
+      "value": "B2 English",
+      "label": "For new applicants since January 2026"
+    },
+    {
+      "value": "Sponsor",
+      "label": "Needs a licensed employer"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A job offer from a licensed sponsor"
+    },
+    {
+      "item": "A Certificate of Sponsorship",
+      "hint": "From your employer"
+    },
+    {
+      "item": "The right skill level and salary",
+      "hint": "Usually degree level and £41,700 or the going rate"
+    },
+    {
+      "item": "English at B2 level",
+      "hint": "For new applicants"
+    }
+  ],
+  "purposesTitle": "How we help with your Skilled Worker visa",
+  "purposes": [
+    {
+      "icon": "briefcase",
+      "title": "New applications",
+      "text": "From inside or outside the UK."
+    },
+    {
+      "icon": "clock",
+      "title": "Extensions",
+      "text": "With the same employer."
+    },
+    {
+      "icon": "trade",
+      "title": "Changing employer",
+      "text": "A new application before you start the new job."
+    },
+    {
+      "icon": "family",
+      "title": "Dependants",
+      "text": "Partners and children joining you."
+    }
+  ],
+  "notCoveredTitle": "Common Skilled Worker visa problems",
+  "notCovered": [
+    "A job code that doesn’t match the duties",
+    "Salary below the threshold or going rate",
+    "Starting a new job before the new visa is granted",
+    "Missing maintenance evidence",
+    "Errors on the Certificate of Sponsorship"
+  ],
+  "documentsTable": [
+    {
+      "document": "Certificate of Sponsorship",
+      "details": "The reference number from your employer.",
+      "needed": "Required"
+    },
+    {
+      "document": "Passport",
+      "details": "Your current passport.",
+      "needed": "Required"
+    },
+    {
+      "document": "English evidence",
+      "details": "An approved test at B2, a degree taught in English, or nationality exemption.",
+      "needed": "Required"
+    },
+    {
+      "document": "Maintenance funds",
+      "details": "£1,270 held for 28 days, unless your employer certifies maintenance.",
+      "needed": "If applicable"
+    },
+    {
+      "document": "Criminal record certificate",
+      "details": "For some roles in health, education and social care.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Salary thresholds",
+      "text": "The general threshold is £41,700 a year, or the going rate for the job if higher. Lower thresholds apply to new entrants, some PhD holders and jobs on the Immigration Salary List."
+    },
+    {
+      "title": "Changing employer",
+      "text": "You must make a new application, with a new Certificate of Sponsorship, before you start the new job."
+    },
+    {
+      "title": "Older rules for some workers",
+      "text": "People first sponsored before 22 July 2025 may continue on older, lower thresholds in some situations. We check which rules apply to you."
+    },
+    {
+      "title": "Settlement",
+      "text": "Under the government’s plans, Skilled Workers earning £50,271 or more in 3 of the last 5 years keep a 5-year route to ILR. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Skilled Worker visa requirements",
+      "text": "You need a job offer from a UK employer with a sponsor licence, a Certificate of Sponsorship, a job at the required skill level (degree level for most new roles since July 2025), a salary of at least £41,700 or the going rate if higher, and English at B2 level. You may also need £1,270 in savings unless your employer certifies your maintenance."
+    },
+    {
+      "heading": "Employers: hiring a Skilled Worker",
+      "text": "If you want to sponsor workers, you need a [sponsor licence](/sponsor-licence/) first, and you must meet ongoing [compliance duties](/sponsor-licence-compliance/). We help employers with both."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the minimum salary for a Skilled Worker visa?",
+      "a": "The general threshold is £41,700 a year, or the going rate for the job if higher. Some applicants qualify for lower thresholds."
+    },
+    {
+      "q": "Can I change jobs on a Skilled Worker visa?",
+      "a": "Yes, but you need a new application with a new Certificate of Sponsorship before you start the new job."
+    },
+    {
+      "q": "Can my family join me?",
+      "a": "Partners and children can usually apply as your dependants."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    }
+  ],
+  "related": [
+    "sponsor-licence",
+    "indefinite-leave-to-remain",
+    "english-language-requirement"
+  ],
+  "title": "Skilled Worker Visa | Applications and Extensions",
+  "description": "Skilled Worker visa advice: £41,700 salary threshold, RQF 6 skill level, B2 English, changing employer and extensions. IAA-regulated advisers.",
+  "focusKeyword": "Skilled Worker visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

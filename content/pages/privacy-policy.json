@@ -1,0 +1,42 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 30,
+  "navLabel": "Privacy policy",
+  "h1": "Privacy policy",
+  "focusKeyword": "privacy policy",
+  "intro": "This privacy policy explains how we collect, use and protect your personal information when you use our website and services.",
+  "body": [
+    "Who we are: UK Immigration Advisory is a trading name of Unique Visa Services Ltd, 61 Mosley Street, Suite 6, Manchester M2 3HZ. We are the data controller for the personal information you give us.",
+    "What we collect: the information needed to advise you and prepare your application, including contact details, passport and immigration details, family, employment and financial information, and the documents you send us. Some applications involve sensitive information, which we collect only where the Home Office requires it.",
+    "Why we use it: to advise you, prepare and submit your application, contact you about your case and keep the records we must keep as a regulated adviser. Our legal basis is the contract between us, your consent where we ask for it, and our legal and regulatory obligations.",
+    "Who we share it with: the Home Office and other authorities as needed for your application, and service providers who run our website, forms and email. We never sell your information.",
+    "How long we keep it: client files are kept for 6 years after your matter ends, to meet our regulatory, legal and accounting duties.",
+    "Your rights: you can ask for a copy of your information, ask us to correct or delete it, or object to how we use it. You can complain to the Information Commissioner’s Office at ico.org.uk.",
+    "Cookies: our website uses only the cookies and browser storage needed for it to work. The absence calculator runs in your browser and doesn’t send your data to us."
+  ],
+  "sections": [
+    {
+      "heading": "Changes to this privacy policy",
+      "text": "We may update this privacy policy when the law or our services change. The latest version is always on this page."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you sell my information?",
+      "a": "No, never."
+    },
+    {
+      "q": "Does the absence calculator store my trips?",
+      "a": "No. It runs in your browser and doesn’t send anything to us."
+    },
+    {
+      "q": "Who can I complain to about this privacy policy?",
+      "a": "The Information Commissioner’s Office at ico.org.uk."
+    }
+  ],
+  "title": "Privacy Policy | UK Immigration Advisory",
+  "description": "Our privacy policy explains how UK Immigration Advisory collects, uses, shares and protects your personal information, and your rights under UK law.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

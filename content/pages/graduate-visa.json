@@ -1,0 +1,136 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 60,
+  "navLabel": "Graduate visa",
+  "eyebrow": "Work after study",
+  "h1": "Graduate visa",
+  "h1Accent": "stay and work after your degree.",
+  "intro": "The Graduate visa lets you stay in the UK to work or look for work after successfully completing an eligible UK degree. It is being shortened from 1 January 2027, so apply as early as you can.",
+  "cardText": "Stay and work in the UK after your degree.",
+  "facts": [
+    {
+      "value": "2 years",
+      "label": "If you apply by 31 December 2026"
+    },
+    {
+      "value": "18 months",
+      "label": "If you apply from 1 January 2027"
+    },
+    {
+      "value": "3 years",
+      "label": "For PhD graduates"
+    },
+    {
+      "value": "No sponsor",
+      "label": "Work in almost any job"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "You are in the UK on a Student visa"
+    },
+    {
+      "item": "You completed an eligible UK course"
+    },
+    {
+      "item": "Your university has told the Home Office"
+    },
+    {
+      "item": "Your Student visa hasn’t expired"
+    }
+  ],
+  "purposesTitle": "What you can do on a Graduate visa",
+  "purposes": [
+    {
+      "icon": "briefcase",
+      "title": "Work in almost any job",
+      "text": "At any skill level, without a sponsor."
+    },
+    {
+      "icon": "chart",
+      "title": "Self-employment",
+      "text": "Work for yourself."
+    },
+    {
+      "icon": "trade",
+      "title": "Switch later",
+      "text": "For example to a Skilled Worker visa."
+    }
+  ],
+  "notCoveredTitle": "Graduate visa limits",
+  "notCovered": [
+    "It can’t be extended",
+    "It doesn’t lead directly to settlement",
+    "You must apply from inside the UK",
+    "You can’t apply before your university confirms completion"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passport",
+      "details": "Your current passport.",
+      "needed": "Required"
+    },
+    {
+      "document": "CAS reference",
+      "details": "The CAS you used for your most recent Student visa.",
+      "needed": "Required"
+    },
+    {
+      "document": "Evidence of your status",
+      "details": "Your eVisa or BRP details.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Graduate visa changes from 1 January 2027",
+      "text": "Applications made on or before 31 December 2026 are granted 2 years (3 for PhD graduates). Applications made on or after 1 January 2027 are granted 18 months for bachelor’s and master’s graduates. The date the Home Office receives your application counts."
+    },
+    {
+      "title": "Apply in time",
+      "text": "You must apply from inside the UK before your Student visa expires, after your university has reported your completion."
+    },
+    {
+      "title": "Moving on",
+      "text": "Many graduates switch to a [Skilled Worker visa](/skilled-worker-visa/) with a sponsoring employer."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Who can apply for the Graduate visa?",
+      "text": "You can usually apply if you are in the UK on a Student visa, you have successfully completed a UK bachelor’s degree, master’s degree, PhD or other eligible course, your university has reported your completion to the Home Office, and your Student visa hasn’t expired."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long is the Graduate visa?",
+      "a": "2 years if you apply by 31 December 2026, or 18 months from 1 January 2027. PhD graduates get 3 years."
+    },
+    {
+      "q": "Can I extend the Graduate visa?",
+      "a": "No. Many graduates switch to the Skilled Worker visa instead."
+    },
+    {
+      "q": "Do I need a job offer?",
+      "a": "No. You can work in almost any job, or look for work."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "student-visa-uk",
+    "skilled-worker-visa"
+  ],
+  "title": "Graduate Visa | Apply Before It Shortens in 2027",
+  "description": "Graduate visa advice: 2 years if you apply by 31 December 2026, 18 months from 1 January 2027. Who can apply and how we help.",
+  "focusKeyword": "Graduate visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

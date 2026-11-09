@@ -1,0 +1,13 @@
+---
+import { site } from '../data/site.js';
+const { title = 'Speak to a regulated adviser', text = 'Book a consultation and we’ll tell you your options, what you’ll need and our fee before you commit.', href = site.bookingUrl, label = 'Book a consultation' } = Astro.props;
+---
+<div class="wrap" style="padding-top:24px;padding-bottom:80px">
+  <div class="cta-band">
+    <div><h2>{title}</h2><p>{text}</p></div>
+    <div class="btn-row">
+      <a class="btn" style="background:#E2C27A;color:#0D172B" href={href}>{label}</a>
+      <a class="btn" style="border-color:rgba(255,255,255,.6);color:#fff" href={`tel:${site.phoneIntl}`}>Call {site.phone}</a>
+    </div>
+  </div>
+</div>

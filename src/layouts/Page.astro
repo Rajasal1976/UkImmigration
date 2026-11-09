@@ -1,0 +1,103 @@
+---
+// The frame every page sits in: <head> for SEO (title, description, canonical, social sharing,
+// structured data), header and footer. SEO fields are edited per page in the admin.
+import '../styles/site.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppButton from '../components/WhatsAppButton.astro';
+import { site } from '../data/site.js';
+import homeContent from '../../content/home.json';
+
+interface Props {
+  title: string;
+  description: string;
+  schemas?: string[];   // extra structured data (JSON text)
+  noindex?: boolean;
+  crumbs?: [string, string][]; // breadcrumb trail for Google, e.g. [['Home','/'],['Visas','/uk-immigration-services/']]
+}
+const { title, description, schemas = [], noindex: noindexProp = false, crumbs = [] } = Astro.props;
+const pageContent = import.meta.glob('../../content/pages/*.json', { eager: true, import: 'default' });
+const blogContent = import.meta.glob('../../content/blog/*.json', { eager: true, import: 'default' });
+const slug = Astro.url.pathname.replace(/^\/|\/$/g, '');
+const seo: any = slug === '' ? homeContent
+  : slug.startsWith('blog/') ? (blogContent[`../../content/blog/${slug.slice(5)}.json`] ?? {})
+  : (pageContent[`../../content/pages/${slug}.json`] ?? {});
+const noindex = noindexProp || seo.noindex === true;
+const shareImagePath = seo.shareImage || site.shareImage || site.logo;
+const shareImage = shareImagePath ? new URL(shareImagePath, site.url).href : '';
+const canonical = new URL(Astro.url.pathname, site.url).href;
+
+// "Edit this page" button: only shown to someone logged in to the editor (/admin) in this browser.
+const editUrl = slug === '' ? '/admin/#/collections/homepage/entries/home'
+  : slug.startsWith('blog/') ? `/admin/#/collections/blog/entries/${slug.slice(5)}`
+  : pageContent[`../../content/pages/${slug}.json`] ? `/admin/#/collections/pages/entries/${slug}` : '/admin/';
+
+const business = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': `${site.url}/#business`,
+  name: site.name,
+  legalName: site.legalName,
+  parentOrganization: { '@type': 'Organization', name: site.groupName || 'Unique Visa Services', url: 'https://www.uvsuk.co.uk' },
+  description: 'IAA-regulated UK immigration advice: spouse visas, Skilled Worker, ILR, British citizenship and sponsor licences.',
+  url: site.url,
+  logo: new URL(site.logo, site.url).href,
+  image: new URL(site.logo, site.url).href,
+  telephone: site.phoneIntl,
+  ...(site.phone2 ? { contactPoint: [{ '@type': 'ContactPoint', telephone: site.phoneIntl, contactType: 'customer service', areaServed: 'GB', name: site.phoneLabel || 'Manchester' }, { '@type': 'ContactPoint', telephone: site.phone2Intl, contactType: 'customer service', areaServed: 'GB', name: site.phone2Label || 'London' }] } : {}),
+  email: site.email,
+  priceRange: '££',
+  address: { '@type': 'PostalAddress', streetAddress: site.address.line1, addressLocality: site.address.city, postalCode: site.address.postcode, addressCountry: 'GB' },
+  openingHours: site.hoursSchema,
+  areaServed: 'GB',
+  ...(site.googleRating && site.googleReviewCount ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: site.googleRating, reviewCount: site.googleReviewCount } } : {}),
+  ...(site.social.length ? { sameAs: site.social.map((s) => s.url) } : {}),
+};
+const breadcrumb = crumbs.length > 1 ? {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: new URL(url, site.url).href })),
+} : null;
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+  {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:type" content={slug.startsWith('blog/') ? 'article' : 'website'} />
+  {shareImage && <meta property="og:image" content={shareImage} />}
+  <meta name="twitter:card" content="summary_large_image" />
+  {shareImage && <meta name="twitter:image" content={shareImage} />}
+  <meta name="theme-color" content="#16243E" />
+  {site.googleVerification && <meta name="google-site-verification" content={site.googleVerification} />}
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" />
+  <script type="application/ld+json" set:html={JSON.stringify(business)} />
+  {breadcrumb && <script type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />}
+  {schemas.map((s) => <script type="application/ld+json" set:html={s} />)}
+  <slot name="head" />
+</head>
+<body>
+  <Header />
+  <slot />
+  <Footer />
+  <WhatsAppButton pageTitle={title} />
+  <a id="edit-page" href={editUrl} rel="nofollow" style="position:fixed;left:16px;bottom:16px;z-index:50;display:none;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;background:#16243E;color:#fff;font:600 15px/1 Inter,system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.25)">
+    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>Edit this page
+  </a>
+  <script is:inline>
+    try { if (localStorage.getItem('decap-cms-user')) document.getElementById('edit-page').style.display = 'inline-flex'; } catch (e) {}
+  </script>
+</body>
+</html>

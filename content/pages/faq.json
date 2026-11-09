@@ -1,0 +1,57 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 20,
+  "navLabel": "FAQs",
+  "h1": "UK immigration FAQs",
+  "focusKeyword": "UK immigration FAQs",
+  "intro": "Our UK immigration FAQs answer the questions clients ask us most. Can’t see yours? Call us or book a consultation.",
+  "faqs": [
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    },
+    {
+      "q": "Can you help if I’m not in Manchester?",
+      "a": "Yes. We work with clients across the UK and overseas by phone, video call and email, and you’re welcome to visit our Manchester office."
+    },
+    {
+      "q": "How much do I need to earn for a spouse visa?",
+      "a": "Most new applications need £29,000 a year. [Read our guide](/spouse-visa-financial-requirement/)."
+    },
+    {
+      "q": "How many days can I spend outside the UK before ILR?",
+      "a": "For most routes, no more than 180 days in any rolling 12 months. Use our [absence calculator](/absence-calculator/)."
+    },
+    {
+      "q": "When can I apply for British citizenship?",
+      "a": "Usually 12 months after getting ILR, or straight away if married to a British citizen."
+    },
+    {
+      "q": "Are the ILR rules changing?",
+      "a": "Yes. Most routes are due to move to 10 years during 2027. [Read about the changes](/ilr-changes-2026/)."
+    },
+    {
+      "q": "Do I need a sponsor licence to hire from overseas?",
+      "a": "For most work visas, yes. [Read about sponsor licences](/sponsor-licence/)."
+    },
+    {
+      "q": "Can you guarantee my visa?",
+      "a": "No one can guarantee a Home Office decision. We prepare your application to give it the best chance."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "More UK immigration FAQs and guides",
+      "text": "Our [UK immigration guides](/uk-immigration-guides/) explain absences, the settlement changes, finances, English language and the Life in the UK test in more detail. Each service page also has its own UK immigration FAQs."
+    }
+  ],
+  "title": "UK Immigration FAQs | Your Questions Answered",
+  "description": "UK immigration FAQs: regulation, fees, spouse visa income, ILR absences, citizenship timing, the 2027 settlement changes and sponsor licences.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

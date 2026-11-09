@@ -1,0 +1,67 @@
+{
+  "layout": "section",
+  "group": "visas",
+  "order": 0,
+  "navLabel": "All visa services",
+  "eyebrow": "IAA-regulated advice",
+  "h1": "UK immigration services",
+  "h1Accent": "for individuals and families.",
+  "intro": "Our UK immigration services cover family, work, study, settlement and citizenship applications. We tell you honestly whether you qualify, then prepare and check your application with you.",
+  "facts": [
+    {
+      "value": "IAA",
+      "label": "Regulated advisers"
+    },
+    {
+      "value": "Since 2008",
+      "label": "Part of Unique Visa Services"
+    },
+    {
+      "value": "Fixed fees",
+      "label": "Agreed in writing"
+    },
+    {
+      "value": "UK-wide",
+      "label": "Phone, video or in person"
+    }
+  ],
+  "childrenTitle": "Choose a service",
+  "childrenIntro": "Each page explains who the route is for, the main requirements and how we help.",
+  "sections": [
+    {
+      "heading": "How our UK immigration services work",
+      "text": "Every case starts with a consultation. We look at your circumstances, explain which routes are open to you and what each involves, and agree a fixed fee in writing before any work starts. We then prepare your application, check every document against the rules and guide you through submission."
+    },
+    {
+      "heading": "Why get advice before you apply?",
+      "text": "Home Office applications are detailed and unforgiving: a missing document, a payslip in the wrong format or an absence you didn’t count can lead to a refusal and a lost fee. Our UK immigration services are designed to spot those problems before the Home Office does."
+    },
+    {
+      "heading": "Who we help",
+      "text": "People joining partners in the UK, skilled workers and their employers, students and graduates, families inviting visitors, and long-term residents ready for settlement or British citizenship. If your situation doesn’t fit neatly into one category, book a consultation and we’ll talk it through."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    },
+    {
+      "q": "Can you help if I’m not in Manchester?",
+      "a": "Yes. We work with clients across the UK and overseas by phone, video call and email, and you’re welcome to visit our Manchester office."
+    },
+    {
+      "q": "Which UK immigration services do you offer?",
+      "a": "Spouse and partner visas, Skilled Worker visas, Indefinite Leave to Remain, British citizenship, Student and Graduate visas, visit visas, refusal reviews and sponsor licences for employers."
+    }
+  ],
+  "title": "UK Immigration Services | IAA-Regulated Advisers",
+  "description": "UK immigration services from IAA-regulated advisers: spouse visas, Skilled Worker, ILR, British citizenship, student, visit visas and refusal help.",
+  "focusKeyword": "UK immigration services",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

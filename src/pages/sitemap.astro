@@ -1,0 +1,29 @@
+---
+// Sitemap page: every page on the site, grouped by section. Updates itself when pages are
+// added, deleted or moved to the bin in the admin. Pages hidden from Google are left out.
+import Page from '../layouts/Page.astro';
+import { pages, groups } from '../data/pages.js';
+import { applications } from '../data/applications.js';
+import { posts } from '../data/blog.js';
+import { site } from '../data/site.js';
+const visible = pages.filter((p) => !p.noindex);
+const name = (p) => p.navLabel || p.h1;
+const sections = [
+  { title: 'Main pages', links: [['Home', '/'], ['Absence calculator', '/absence-calculator/'], ['Contact us', '/contact-us/'], ['Search', '/search/']] },
+  ...Object.entries(groups).map(([k, g]) => ({ title: g.label, links: visible.filter((p) => p.group === k).map((p) => [name(p), `/${p.slug}/`]) })),
+  { title: 'Blog', links: [['All blog posts', '/blog/'], ...posts.map((p) => [p.h1, `/blog/${p.slug}/`])] },
+].filter((g) => g.links.length);
+---
+<Page title={`Sitemap | ${site.name}`} description={`Every page on the ${site.name} website: UK visas, employer services, guides and company information.`}>
+  <main>
+    <div class="page-head"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a></nav><h1>Sitemap</h1><p class="lead">Every page on our website, in one place.</p></div></div>
+    <div class="wrap section sitemap" style="padding-top:56px">
+      {sections.map((g) => <section><h2>{g.title}</h2><ul>{g.links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul></section>)}
+    </div>
+  </main>
+</Page>
+<style>
+  .sitemap { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px 48px; align-items: start; }
+  .sitemap h2 { font-size: 22px; margin: 0 0 12px; }
+  .sitemap ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+</style>

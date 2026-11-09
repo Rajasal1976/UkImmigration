@@ -1,0 +1,58 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "order": 40,
+  "navLabel": "Life in the UK test",
+  "h1": "Life in the UK test",
+  "intro": "Most people applying for ILR or British citizenship must pass the Life in the UK test. Here’s how it works, how to book and how to prepare.",
+  "cardText": "How the test works, how to book and how to pass.",
+  "sections": [
+    {
+      "heading": "About the Life in the UK test",
+      "text": "It’s a computer-based test of 24 questions about British traditions, history and customs, based on the official handbook. You have 45 minutes and need to answer at least 18 questions correctly, which is 75%, to pass."
+    },
+    {
+      "heading": "Who needs to take it?",
+      "text": "Most people aged 18 to 64 applying for Indefinite Leave to Remain or British citizenship. You only need to pass once."
+    },
+    {
+      "heading": "Booking the Life in the UK test",
+      "text": "Book online through GOV.UK at least 3 days in advance. The test costs £50. Take the ID you booked with, as you won’t be able to sit the test without it."
+    },
+    {
+      "heading": "How to prepare",
+      "text": "Study the official handbook, Life in the United Kingdom: A Guide for New Residents, and use practice tests. Book early, as you need your pass before you apply."
+    },
+    {
+      "heading": "On the day",
+      "text": "Arrive in good time with the same ID you used to book. Your test centre checks your identity and takes your photo. If you pass, you get a unique reference number, which you use in your ILR or citizenship application, so keep it safe."
+    },
+    {
+      "heading": "If you don’t pass",
+      "text": "You can book again and resit after 7 days. There’s no limit on the number of attempts, but each one costs the full fee, so it’s worth preparing properly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many questions are in the Life in the UK test?",
+      "a": "24 questions, and you need 18 correct to pass."
+    },
+    {
+      "q": "How much does the Life in the UK test cost?",
+      "a": "£50."
+    },
+    {
+      "q": "Does my Life in the UK test pass expire?",
+      "a": "No. You only need to pass once."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "british-citizenship"
+  ],
+  "title": "Life in the UK Test 2026 | How to Book and Pass",
+  "description": "The Life in the UK test explained: 24 questions, 45 minutes, a 75% pass mark and a £50 fee. Who needs it, how to book and how to prepare.",
+  "focusKeyword": "Life in the UK test",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

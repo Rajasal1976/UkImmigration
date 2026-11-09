@@ -1,0 +1,62 @@
+{
+  "layout": "section",
+  "group": "guide",
+  "order": 0,
+  "navLabel": "All guides",
+  "eyebrow": "Free guides",
+  "h1": "UK immigration guides",
+  "h1Accent": "in plain English.",
+  "intro": "Our UK immigration guides explain the rules people ask us about most: absences, the settlement changes, the spouse visa financial requirement, English language and the Life in the UK test.",
+  "facts": [
+    {
+      "value": "Free",
+      "label": "No sign-up"
+    },
+    {
+      "value": "Checked",
+      "label": "By regulated advisers"
+    },
+    {
+      "value": "Updated",
+      "label": "When the rules change"
+    },
+    {
+      "value": "Tool",
+      "label": "Absence calculator"
+    }
+  ],
+  "childrenTitle": "Guides",
+  "sections": [
+    {
+      "heading": "Why we write these UK immigration guides",
+      "text": "UK immigration rules change often, and official guidance can be hard to follow. Our UK immigration guides explain what the rules mean in practice. They’re general guidance: book a consultation for advice on your own case."
+    },
+    {
+      "heading": "Most popular guides",
+      "text": "- [Absence calculator](/absence-calculator/): check your time outside the UK\n- [ILR changes 2026](/ilr-changes-2026/): the earned settlement plans\n- [Spouse visa financial requirement](/spouse-visa-financial-requirement/): how the £29,000 threshold works\n- [English language requirement](/english-language-requirement/): the level for each route\n- [Life in the UK test](/life-in-the-uk-test/): booking and passing"
+    },
+    {
+      "heading": "Need advice on your own case?",
+      "text": "Guides explain the general rules, but every case is different. A consultation with one of our IAA-regulated advisers looks at your circumstances and tells you exactly where you stand, before you spend money on an application."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these UK immigration guides legal advice?",
+      "a": "No. They’re general information. Book a consultation for advice on your situation."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much do you charge?",
+      "a": "We confirm the consultation fee when you book, and agree any further fee in writing before we start work. There are no hidden extras. Home Office fees and the Immigration Health Surcharge are paid separately, directly to the Home Office."
+    }
+  ],
+  "title": "UK Immigration Guides | Plain-English Advice",
+  "description": "UK immigration guides from IAA-regulated advisers: absence rules, the ILR changes, spouse visa finances, English language and the Life in the UK test.",
+  "focusKeyword": "UK immigration guides",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

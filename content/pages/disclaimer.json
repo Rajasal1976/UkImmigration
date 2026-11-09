@@ -1,0 +1,38 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 60,
+  "navLabel": "Disclaimer",
+  "h1": "Disclaimer",
+  "focusKeyword": "disclaimer",
+  "intro": "Please read this disclaimer before using our website or services.",
+  "body": [
+    "UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority, reference F200700144. We are not a law firm and are not connected to the Home Office or any government.",
+    "The information on this website is general guidance based on the rules at the time of writing. UK immigration rules change often, so it shouldn’t be relied on as advice for your situation. Book a consultation for advice on your case.",
+    "The absence calculator is a guide only. Exceptions and discretion can apply, and we check your exact position at consultation."
+  ],
+  "sections": [
+    {
+      "heading": "About this disclaimer",
+      "text": "This disclaimer applies to everything on this website, including our guides, service pages and tools."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are you part of the Home Office?",
+      "a": "No. We are an independent, IAA-regulated adviser."
+    },
+    {
+      "q": "Is the website information legal advice?",
+      "a": "No. It’s general guidance. Book a consultation for advice on your case."
+    },
+    {
+      "q": "Is the absence calculator definitive?",
+      "a": "No. It’s a guide; we check your exact position at consultation."
+    }
+  ],
+  "title": "Disclaimer | UK Immigration Advisory",
+  "description": "Disclaimer: UK Immigration Advisory is an IAA-regulated adviser, a trading name of Unique Visa Services Ltd, not a law firm or the Home Office.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

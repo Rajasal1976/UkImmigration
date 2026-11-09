@@ -1,0 +1,50 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "order": 10,
+  "navLabel": "ILR changes 2026",
+  "h1": "ILR changes: earned settlement explained",
+  "intro": "The ILR changes announced on 2 November 2026 move most routes from 5 to 10 years under a new earned settlement system. Here’s who is affected, who keeps a 5-year route, and what to do now.",
+  "cardText": "The earned settlement plans and what they mean for you.",
+  "sections": [
+    {
+      "heading": "What are the ILR changes?",
+      "text": "The standard qualifying period for Indefinite Leave to Remain will rise from 5 to 10 years. How long you wait will depend on your earnings, work and immigration history:\n- 3 years: earning at least £125,141 a year for 3 years, or on the highest talent routes\n- 5 years: earning at least £50,271 in 3 of the last 5 years, 5 years in an eligible health or education role, or having a British connection\n- 10 years: the standard route for most people"
+    },
+    {
+      "heading": "Who keeps a 5-year route?",
+      "text": "Partners, parents and children of British citizens; Commonwealth citizens on the UK Ancestry route; Hong Kong BN(O) visa holders; higher earners on £50,271 or more; and eligible doctors, nurses, teachers and other listed health and education workers."
+    },
+    {
+      "heading": "When do the ILR changes start?",
+      "text": "The government says the new rules will start to be laid from the December 2026 Immigration Rules and come in during 2027. Until then, applications are decided under the current rules. The rules that apply are the ones in force when your application is decided."
+    },
+    {
+      "heading": "What should you do now?",
+      "text": "If you already qualify for ILR on a 5-year route, or will soon, don’t wait. Check your qualifying date, your [time outside the UK](/absence-calculator/), and your Life in the UK test and English evidence."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When do the ILR changes take effect?",
+      "a": "The new rules are due to be laid from December 2026 and come in during 2027."
+    },
+    {
+      "q": "Will the ILR changes affect people already in the UK?",
+      "a": "The government has said they are intended to apply to people already on the path to settlement."
+    },
+    {
+      "q": "I’m married to a British citizen. Do the ILR changes affect me?",
+      "a": "Under the plans, partners of British citizens keep a 5-year route."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "absence-calculator"
+  ],
+  "title": "ILR Changes 2026: Earned Settlement Explained",
+  "description": "The ILR changes explained: most routes move to 10 years under earned settlement, who keeps 5 years, when it starts, and what to do now.",
+  "focusKeyword": "ILR changes",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

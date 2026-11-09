@@ -1,0 +1,49 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "order": 20,
+  "navLabel": "Spouse visa finances",
+  "h1": "Spouse visa financial requirement",
+  "intro": "The spouse visa financial requirement is the most common reason partner applications are refused. Here’s how the £29,000 threshold works, what income and savings count, and who is exempt.",
+  "cardText": "How the £29,000 threshold works, and what counts.",
+  "sections": [
+    {
+      "heading": "The spouse visa financial requirement in 2026",
+      "text": "Most new partner applications need a gross annual income of at least £29,000, shown through one or more of: employment, self-employment, pension, certain other income, or cash savings."
+    },
+    {
+      "heading": "Using savings",
+      "text": "Savings above £16,000 can make up a shortfall in income. For a first application or extension, the shortfall is multiplied by 2.5. If you rely on savings alone, you need £16,000 plus 2.5 times the full £29,000, which is £88,500. Savings must usually have been held for at least 6 months."
+    },
+    {
+      "heading": "Who is exempt?",
+      "text": "If your partner receives certain benefits, such as some disability or carer’s benefits, you don’t need to meet the £29,000 threshold. Instead you show “adequate maintenance”: that you can support yourselves without other public funds."
+    },
+    {
+      "heading": "Evidence is everything",
+      "text": "The rules set out exactly which payslips, bank statements and letters you need, for which periods. Small gaps are the commonest reason for refusal, so we check every page."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the spouse visa financial requirement?",
+      "a": "£29,000 a year for most new applications, from income, savings or both."
+    },
+    {
+      "q": "Can I combine income and savings?",
+      "a": "Yes, in many cases, using the formula for savings above £16,000."
+    },
+    {
+      "q": "Does my income count if I’m the applicant?",
+      "a": "If you’re already working in the UK with permission to work, your income can usually count."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk"
+  ],
+  "title": "Spouse Visa Financial Requirement 2026 | £29,000 Explained",
+  "description": "The spouse visa financial requirement explained: the £29,000 threshold, using savings, the £88,500 savings-only figure, exemptions and evidence.",
+  "focusKeyword": "spouse visa financial requirement",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

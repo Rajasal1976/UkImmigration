@@ -1,0 +1,19 @@
+---
+import { inline, plain } from '../lib/inline.js';
+const { items = [], title = 'Questions people ask' } = Astro.props;
+const list = items.filter((f) => f && f.q && f.a);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: list.map((f) => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })),
+};
+---
+{list.length > 0 && (
+  <section class="faq">
+    <h2>{title}</h2>
+    <div>
+      {list.map((f, i) => <details open={i === 0}><summary>{f.q}</summary><p set:html={inline(f.a)} /></details>)}
+    </div>
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </section>
+)}

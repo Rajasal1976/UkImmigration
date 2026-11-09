@@ -1,0 +1,13 @@
+---
+// The four steps. Wording is edited in the admin: Homepage › The four steps.
+import home from '../../content/home.json';
+const { steps = home.steps ?? [], title = home.stepsTitle } = Astro.props;
+---
+<section class="flow-band" aria-label="How it works">
+  <div class="wrap">
+    {title && <div class="section-head" style="padding-top:72px;margin-bottom:0"><span class="kicker">How it works</span><h2>{title}</h2></div>}
+    <ol class="steps4">
+      {steps.slice(0, 4).map((s) => <li><h3>{s.title}</h3><p>{s.text}</p></li>)}
+    </ol>
+  </div>
+</section>

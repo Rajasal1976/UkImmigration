@@ -1,0 +1,47 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 50,
+  "navLabel": "Complaints procedure",
+  "h1": "Complaints procedure",
+  "focusKeyword": "complaints procedure",
+  "intro": "Our complaints procedure explains what to do if you’re unhappy with our service. We take every complaint seriously and aim to put things right quickly.",
+  "body": [
+    "How to complain: email or write to us with your name, your reference if you have one, and what went wrong. You can also call us and we’ll make a note of your complaint.",
+    "What happens next: we acknowledge your complaint in writing within 5 working days and send a full written response within 28 days.",
+    "Review: if you’re not satisfied, ask for a review and our director will reply within 14 days.",
+    "The Immigration Advice Authority: if you are still not satisfied, you can complain to the Immigration Advice Authority, which regulates our immigration advice. You can contact the IAA at any stage."
+  ],
+  "sections": [
+    {
+      "heading": "Before using the complaints procedure",
+      "text": "Often a quick call sorts things out. If your concern is about the progress of an application, call us first and we’ll check it with you."
+    },
+    {
+      "heading": "What to include in your complaint",
+      "text": "Tell us your name and contact details, your reference if you have one, what went wrong and when, and what you’d like us to do to put it right. Include copies of any emails or documents that help explain the problem. The more detail you give, the faster we can look into it."
+    },
+    {
+      "heading": "Contacting the Immigration Advice Authority",
+      "text": "The IAA regulates our immigration advice and services. You can find its contact details and complaint form on GOV.UK. You don’t have to use our complaints procedure first, although it’s often the quickest way to resolve things."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does the complaints procedure take?",
+      "a": "We acknowledge complaints within 5 working days and reply in full within 28 days."
+    },
+    {
+      "q": "Can I complain to the IAA?",
+      "a": "Yes. You can complain to the Immigration Advice Authority at any stage."
+    },
+    {
+      "q": "Will complaining affect my case?",
+      "a": "No. Making a complaint never affects how we handle your case."
+    }
+  ],
+  "title": "Complaints Procedure | UK Immigration Advisory",
+  "description": "Our complaints procedure: how to complain to UK Immigration Advisory, how quickly we respond, and how to complain to the Immigration Advice Authority.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

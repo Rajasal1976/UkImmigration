@@ -1,0 +1,151 @@
+{
+  "layout": "visa",
+  "group": "employers",
+  "order": 10,
+  "navLabel": "Sponsor licence",
+  "eyebrow": "For employers",
+  "h1": "Sponsor licence",
+  "h1Accent": "applications and renewals.",
+  "intro": "A sponsor licence lets your business employ workers from overseas on the Skilled Worker and other routes. We prepare your sponsor licence application, set up your Key Personnel and help you meet ongoing duties.",
+  "cardText": "For employers: applications, compliance and Certificates of Sponsorship.",
+  "facts": [
+    {
+      "value": "£611",
+      "label": "Licence fee for small businesses and charities"
+    },
+    {
+      "value": "£1,682",
+      "label": "Licence fee for medium and large businesses"
+    },
+    {
+      "value": "£525",
+      "label": "Per Certificate of Sponsorship"
+    },
+    {
+      "value": "£750",
+      "label": "Optional priority decision"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A genuine UK business",
+      "hint": "Operating lawfully"
+    },
+    {
+      "item": "Roles that meet the rules",
+      "hint": "Skill level and salary"
+    },
+    {
+      "item": "HR systems",
+      "hint": "To monitor sponsored workers"
+    },
+    {
+      "item": "Suitable Key Personnel",
+      "hint": "With no unspent relevant convictions"
+    }
+  ],
+  "purposesTitle": "What we do for your sponsor licence",
+  "purposes": [
+    {
+      "icon": "factory",
+      "title": "Licence applications",
+      "text": "Preparing and submitting your application."
+    },
+    {
+      "icon": "people",
+      "title": "Key Personnel",
+      "text": "Authorising Officer, Key Contact and Level 1 User."
+    },
+    {
+      "icon": "book",
+      "title": "Certificates of Sponsorship",
+      "text": "Assigning them correctly."
+    },
+    {
+      "icon": "clock",
+      "title": "Renewals and changes",
+      "text": "Keeping your licence in good order."
+    }
+  ],
+  "notCoveredTitle": "Common sponsor licence problems",
+  "notCovered": [
+    "Missing or wrong supporting documents",
+    "Roles that don’t meet the skill or salary rules",
+    "HR records not ready for a compliance visit",
+    "Key Personnel who aren’t eligible"
+  ],
+  "documentsTable": [
+    {
+      "document": "Company documents",
+      "details": "Evidence the business is genuine and trading, from the Home Office’s list.",
+      "needed": "Required"
+    },
+    {
+      "document": "Key Personnel details",
+      "details": "For your Authorising Officer, Key Contact and Level 1 User.",
+      "needed": "Required"
+    },
+    {
+      "document": "Job details",
+      "details": "For the roles you want to sponsor.",
+      "needed": "Required"
+    },
+    {
+      "document": "HR policies",
+      "details": "Showing how you’ll meet your sponsor duties.",
+      "needed": "Helpful"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Home Office fees from 8 April 2026",
+      "text": "Sponsor licence: £611 for small businesses and charities, or £1,682 for medium and large businesses. Certificate of Sponsorship: £525 each. Immigration Skills Charge: £480 a year for small sponsors or £1,320 for medium and large, paid upfront for the visa length."
+    },
+    {
+      "title": "Compliance visits",
+      "text": "The Home Office can visit before or after granting a licence, sometimes unannounced. [Read about compliance](/sponsor-licence-compliance/)"
+    },
+    {
+      "title": "Right to work checks",
+      "text": "Sponsors must check every employee’s right to work, not just sponsored workers. [Read our guide](/right-to-work-checks/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Who needs a sponsor licence?",
+      "text": "Any UK employer that wants to hire someone from overseas on a Skilled Worker visa, or on most other work routes, needs a sponsor licence first. That includes workers already in the UK on another visa, such as a Student or Graduate visa, who want to switch. You don’t need a licence to employ British or Irish citizens, people with ILR or settled status, or people whose visa already lets them work for any employer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does a sponsor licence cost?",
+      "a": "£611 for small businesses and charities, or £1,682 for medium and large businesses, plus £525 per Certificate of Sponsorship and the Immigration Skills Charge."
+    },
+    {
+      "q": "How long does a sponsor licence take?",
+      "a": "The Home Office aims to decide most applications within 8 weeks, or faster with the optional £750 priority service."
+    },
+    {
+      "q": "How long does a sponsor licence last?",
+      "a": "It no longer needs renewing every 4 years under the current rules, but you must keep meeting your duties."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "sponsor-licence-compliance",
+    "right-to-work-checks",
+    "skilled-worker-visa"
+  ],
+  "title": "Sponsor Licence | Applications for UK Employers",
+  "description": "Sponsor licence applications for UK employers: 2026 fees, Key Personnel, Certificates of Sponsorship and compliance. IAA-regulated advisers.",
+  "focusKeyword": "sponsor licence",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

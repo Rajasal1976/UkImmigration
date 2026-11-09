@@ -1,0 +1,27 @@
+---
+import { site } from '../data/site.js';
+import { groups, pagesIn, navName } from '../data/pages.js';
+const year = new Date().getFullYear();
+const col = (g, n = 8) => pagesIn(g).slice(0, n).map((p) => [navName(p), `/${p.slug}/`]);
+---
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-cols">
+      <div>
+        <span class="footer-brand">UK Immigration<small>Advisory</small></span>
+        <span style="margin-top:12px">{site.address.line1}<br />{site.address.city} {site.address.postcode}</span>
+        <span>{site.hours}</span>
+        <a href={`tel:${site.phoneIntl}`}>{site.phone}</a>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+        {site.social.length > 0 && <ul class="footer-social" aria-label="Follow us">{site.social.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.name}</a></li>)}</ul>}
+      </div>
+      <div><span class="footer-title">{groups.visas.label}</span>{col('visas', 9).map(([l, h]) => <a href={h}>{l}</a>)}</div>
+      <div><span class="footer-title">{groups.employers.label}</span>{col('employers').map(([l, h]) => <a href={h}>{l}</a>)}<span class="footer-title" style="margin-top:18px">{groups.guide.label}</span><a href="/absence-calculator/">Absence calculator</a>{col('guide', 5).filter(([, h]) => h !== '/absence-calculator/').map(([l, h]) => <a href={h}>{l}</a>)}</div>
+      <div><span class="footer-title">Company</span>{col('company', 10).map(([l, h]) => <a href={h}>{l}</a>)}<a href="/blog/">Blog</a><a href="/contact-us/">Contact us</a><a href="/sitemap/">Sitemap</a></div>
+    </div>
+    <div class="footer-legal">
+      <span>UK Immigration Advisory is a trading name of {site.legalName}{site.companyNumber && <>, company number {site.companyNumber}</>}, regulated by the Immigration Advice Authority (IAA), reference {site.iaaRef}. <a href={site.iaaFinder} rel="noopener" target="_blank">Check our registration</a>. We are not a law firm and are not connected to the Home Office.</span>
+      <span>© {year} {site.legalName}. Part of the {site.groupName} group. <a href="/disclaimer/">Disclaimer</a> · <a href="/privacy-policy/">Privacy policy</a></span>
+    </div>
+  </div>
+</footer>

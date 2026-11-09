@@ -1,0 +1,41 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 40,
+  "navLabel": "Terms and conditions",
+  "h1": "Terms and conditions",
+  "focusKeyword": "terms and conditions",
+  "intro": "These terms and conditions apply when you use our website and our immigration advice services.",
+  "body": [
+    "Our service: we give immigration advice and help you prepare applications. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority, reference F200700144. We are not a law firm and are not connected to the Home Office.",
+    "Client care letter: before we start work, we send you a client care letter setting out the work we’ll do, our fee and how to complain. That letter forms part of our agreement.",
+    "Decisions: all immigration decisions are made by the Home Office. We can’t guarantee the outcome of any application.",
+    "Your responsibilities: give us complete and truthful information and genuine documents, and tell us about anything that could affect your case.",
+    "Fees: our fee is agreed in writing before we start. Home Office fees and the Immigration Health Surcharge are paid separately.",
+    "These terms are governed by the law of England and Wales."
+  ],
+  "sections": [
+    {
+      "heading": "Questions about these terms and conditions",
+      "text": "Contact us before you instruct us if anything in these terms and conditions is unclear."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do your terms and conditions guarantee a visa?",
+      "a": "No. All immigration decisions are made by the Home Office."
+    },
+    {
+      "q": "When is your fee agreed?",
+      "a": "In writing, in your client care letter, before we start work."
+    },
+    {
+      "q": "Which law applies?",
+      "a": "The law of England and Wales."
+    }
+  ],
+  "title": "Terms and Conditions | UK Immigration Advisory",
+  "description": "Our terms and conditions for using UK Immigration Advisory: our service, Home Office decisions, your responsibilities, fees and complaints.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

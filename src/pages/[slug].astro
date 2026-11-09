@@ -1,0 +1,167 @@
+---
+// Every page in content/pages is built from this one template. Edit pages in the admin (/admin).
+// "Page layout" decides the layout: service page, section page, guide or company page.
+// Any part left empty in the admin is simply not shown.
+import Page from '../layouts/Page.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Flow from '../components/Flow.astro';
+import GuideSections from '../components/GuideSections.astro';
+import DocumentsTable from '../components/DocumentsTable.astro';
+import AbsenceCalculator from '../components/AbsenceCalculator.astro';
+import { pages, pageBySlug, groups, pagesIn, navName } from '../data/pages.js';
+import { site } from '../data/site.js';
+import { svg } from '../data/icons.js';
+import { inline } from '../lib/inline.js';
+
+export function getStaticPaths() {
+  return pages.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const layout = p.layout || 'visa';
+const g = groups[p.group];
+const hub = g && pageBySlug[g.hub] && g.hub !== p.slug ? pageBySlug[g.hub] : null;
+const crumbs: [string, string][] = [['Home', '/'], ...(hub ? [[navName(hub), `/${hub.slug}/`]] : []), [navName(p), `/${p.slug}/`]];
+const book = p.applyButton && p.applyButton !== 'none' ? p.applyButton : site.bookingUrl;
+const bookLabel = p.applyLabel || 'Book a consultation';
+const children = layout === 'section' ? pagesIn(p.group) : [];
+const related = (p.related || []).map((s) => pageBySlug[s]).filter(Boolean);
+const tick = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+const serviceSchema = layout === 'visa' ? [JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'Service', name: p.h1, description: p.description,
+  serviceType: 'Immigration advice', areaServed: 'GB', provider: { '@id': `${site.url}/#business` },
+})] : [];
+---
+<Page title={p.title} description={p.description} crumbs={crumbs} schemas={serviceSchema}>
+  <main>
+    {(layout === 'visa' || layout === 'section') ? (
+      <section class="teal">
+        <div class="wrap hero-grid">
+          <div>
+            <nav class="crumbs" aria-label="Breadcrumb">{crumbs.slice(0, -1).map(([n, u]) => <><a href={u}>{n}</a><span aria-hidden="true">›</span></>)}{navName(p)}</nav>
+            {p.eyebrow && <span class="eyebrow">{p.eyebrow}</span>}
+            <h1>{p.h1}{p.h1Accent && <span>{p.h1Accent}</span>}</h1>
+            {p.intro && <p class="lead" set:html={inline(p.intro)} />}
+            <div class="btn-row">
+              <a class="btn btn-gold" href={book}>{bookLabel}</a>
+              <a class="btn btn-ghost-light" href={`tel:${site.phoneIntl}`}>Call {site.phone}</a>
+            </div>
+            {p.facts?.length > 0 && <ul class="facts">{p.facts.map((f) => <li><b>{f.value}</b><span>{f.label}</span></li>)}</ul>}
+          </div>
+          {p.checklist?.length > 0 && (
+            <aside class="card-float">
+              <h2>{p.checklistTitle || 'Key requirements'}</h2>
+              <p style="margin:8px 0 14px;font-size:15px">{p.checklistIntro || 'The main things the Home Office will look at. We check each one with you.'}</p>
+              <ul class="req-list">{p.checklist.map((c) => <li><span set:html={tick} /><span>{c.item}{c.hint && <small style="display:block;color:var(--ink-mute);font-size:13.5px">{c.hint}</small>}</span></li>)}</ul>
+              <a class="btn btn-gold" href={book} style="width:100%">{bookLabel}</a>
+            </aside>
+          )}
+          {layout === 'section' && !(p.checklist?.length > 0) && (
+            <aside class="card-float">
+              <h2>Not sure where to start?</h2>
+              <p style="margin:8px 0 16px;font-size:15px">Book a consultation with an IAA-regulated adviser. We’ll tell you your options honestly and agree our fee in writing before we start.</p>
+              <a class="btn btn-gold" href={site.bookingUrl} style="width:100%">Book a consultation</a>
+            </aside>
+          )}
+        </div>
+      </section>
+    ) : (
+      <div class="page-head">
+        <div class="wrap">
+          <nav class="crumbs" aria-label="Breadcrumb">{crumbs.slice(0, -1).map(([n, u]) => <><a href={u}>{n}</a><span aria-hidden="true">›</span></>)}{navName(p)}</nav>
+          <h1>{p.h1}</h1>
+          {p.intro && <p class="lead" set:html={inline(p.intro)} />}
+        </div>
+      </div>
+    )}
+
+    {layout === 'section' && children.length > 0 && (
+      <section class="section">
+        <div class="wrap">
+          {p.childrenTitle && <div class="section-head"><h2>{p.childrenTitle}</h2>{p.childrenIntro && <p>{p.childrenIntro}</p>}</div>}
+          <div class="services">
+            {children.map((c) => <a class="service" href={`/${c.slug}/`}><h3>{navName(c)}</h3><p>{c.cardText || c.description}</p><span>Find out more</span></a>)}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'absence' && (
+      <section class="section" id="absence">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Check your time outside the UK'}</h2><p>Add your trips abroad to see how they measure up against the limits.</p></div>
+          <AbsenceCalculator />
+        </div>
+      </section>
+    )}
+
+    {layout === 'visa' && p.purposes?.length > 0 && (
+      <section class="section" id="routes">
+        <div class="wrap">
+          <div class="section-head"><h2>{p.purposesTitle || 'Which route fits you'}</h2>{p.purposesIntro && <p>{p.purposesIntro}</p>}</div>
+          <div class="purposes">
+            {p.purposes.map((x) => <article class="purpose"><div class="icon-box" set:html={svg(x.icon)} /><div><h3 style="font-size:22px">{x.title}</h3><p set:html={inline(x.text)} /></div></article>)}
+          </div>
+          {p.notCovered?.length > 0 && (
+            <div class="not-covered">
+              <h3><span set:html={svg('info')} />{p.notCoveredTitle || 'Common reasons for refusal'}</h3>
+              <ul>{p.notCovered.map((n) => <li set:html={inline(n)} />)}</ul>
+            </div>
+          )}
+        </div>
+      </section>
+    )}
+
+    {layout === 'visa' && p.documentsTable?.length > 0 && (
+      <section class="section tinted" id="documents">
+        <div class="wrap content" style="max-width:var(--wrap)">
+          <DocumentsTable rows={p.documentsTable} />
+          {p.documentsNote && <p class="soft" style="font-size:15px" set:html={inline(p.documentsNote)} />}
+        </div>
+      </section>
+    )}
+
+    {layout === 'visa' && p.showSteps !== false && <Flow />}
+
+    {layout === 'visa' && p.rules?.length > 0 && (
+      <section class="section" id="rules">
+        <div class="wrap">
+          <div class="section-head"><h2>{p.rulesTitle || 'Good to know'}</h2>{p.rulesIntro && <p>{p.rulesIntro}</p>}</div>
+          <div class="rules">{p.rules.map((r) => <article class="rule"><h3 style="font-size:22px">{r.title}</h3><p set:html={inline(r.text)} /></article>)}</div>
+          {p.boxTitle && (
+            <div class="teal-box"><div><h3>{p.boxTitle}</h3>{p.boxText && <p>{p.boxText}</p>}</div><a class="btn btn-gold" href={p.boxLink || site.bookingUrl}>{p.boxButton || 'Book a consultation'}</a></div>
+          )}
+        </div>
+      </section>
+    )}
+
+    {(p.sections?.length > 0 || p.body?.length > 0 || related.length > 0 || layout === 'guide' || layout === 'company') && (
+      <section class="section">
+        <div class="wrap page-body">
+          <div class="content">
+            {p.body?.length > 0 && <div class="prose">{p.body.map((t) => <p set:html={inline(t)} />)}</div>}
+            {layout !== 'visa' && p.documentsTable?.length > 0 && <DocumentsTable rows={p.documentsTable} />}
+            <GuideSections sections={p.sections} />
+            {related.length > 0 && (
+              <section><h2>Related pages</h2><div class="pills">{related.map((r) => <a href={`/${r.slug}/`}>{navName(r)}</a>)}</div></section>
+            )}
+          </div>
+          {layout !== 'company' && (
+            <aside class="aside">
+              <div class="panel">
+                <h2>Speak to an adviser</h2>
+                <ul><li>Regulated by the IAA</li><li>Honest view of your options</li><li>Fixed fee, agreed in writing</li></ul>
+                <a class="btn btn-gold" href={book}>{bookLabel}</a>
+                <a class="btn btn-outline" href={`tel:${site.phoneIntl}`}>Call {site.phone}</a>
+              </div>
+            </aside>
+          )}
+        </div>
+      </section>
+    )}
+
+    {p.faqs?.length > 0 && <section class="section tinted"><div class="wrap"><Faq items={p.faqs} title={p.faqHeading || 'Frequently asked questions'} /></div></section>}
+
+    {layout !== 'company' && <CtaBand />}
+  </main>
+</Page>

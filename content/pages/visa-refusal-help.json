@@ -1,0 +1,135 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 80,
+  "navLabel": "Visa refusal help",
+  "eyebrow": "Refusals",
+  "h1": "Visa refusal help",
+  "h1Accent": "understand it, then act.",
+  "intro": "Had a UK visa refused? Our visa refusal help starts with reading your refusal letter carefully, explaining why it happened and what your options are, then preparing a stronger fresh application where that is the right route.",
+  "cardText": "Understanding a refusal and your options from here.",
+  "facts": [
+    {
+      "value": "Deadlines",
+      "label": "Some options have strict time limits"
+    },
+    {
+      "value": "Read it first",
+      "label": "The letter explains the reasons"
+    },
+    {
+      "value": "Fresh applications",
+      "label": "Often the best route"
+    },
+    {
+      "value": "Honest advice",
+      "label": "On your realistic chances"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Your refusal letter"
+    },
+    {
+      "item": "A copy of the application you made"
+    },
+    {
+      "item": "The documents you sent"
+    },
+    {
+      "item": "Any deadline mentioned in the letter"
+    }
+  ],
+  "purposesTitle": "Your options after a refusal",
+  "purposes": [
+    {
+      "icon": "book",
+      "title": "A fresh application",
+      "text": "Fixing the problems the Home Office identified."
+    },
+    {
+      "icon": "scales",
+      "title": "Administrative review",
+      "text": "For some refusals, with strict deadlines."
+    },
+    {
+      "icon": "shield",
+      "title": "Appeal",
+      "text": "Where you have a right of appeal, such as some family and human rights claims."
+    }
+  ],
+  "notCoveredTitle": "Act quickly if",
+  "notCovered": [
+    "Your letter gives a deadline for review or appeal",
+    "You are in the UK and your permission has ended",
+    "You have been refused more than once"
+  ],
+  "documentsTable": [
+    {
+      "document": "Refusal letter",
+      "details": "The full decision letter.",
+      "needed": "Required"
+    },
+    {
+      "document": "Your application",
+      "details": "A copy of the form you submitted.",
+      "needed": "Required"
+    },
+    {
+      "document": "Your documents",
+      "details": "Everything you sent with the application.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Deadlines are strict",
+      "text": "Administrative review and appeal deadlines are short, often 14 days from inside the UK or 28 days from outside. Contact us straight away."
+    },
+    {
+      "title": "Appeals and reviews",
+      "text": "Our advisers are regulated by the IAA at Level 1. We review your refusal and advise on your options, and where an appeal or administrative review is needed, we refer you to a representative authorised to handle it."
+    },
+    {
+      "title": "Declare previous refusals",
+      "text": "Every future application must declare a refusal. A well-prepared fresh application can still succeed."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "How our visa refusal help works",
+      "text": "We read the refusal letter with you, explain each reason in plain English, and look at whether the problem was evidence, eligibility or how the application was presented. We then tell you honestly whether a fresh application is likely to succeed and what it would need."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I reapply after a visa refusal?",
+      "a": "Usually yes, once you’ve fixed the reasons for the refusal. You must declare the refusal."
+    },
+    {
+      "q": "Is there a deadline after a refusal?",
+      "a": "If you have a right to administrative review or appeal, there are strict deadlines. Check your letter and contact us straight away."
+    },
+    {
+      "q": "Do you handle appeals?",
+      "a": "We advise on your options and refer appeal work to an authorised representative where needed."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "uk-visit-visa",
+    "spouse-visa-uk"
+  ],
+  "title": "Visa Refusal Help | UK Visa Refused? What Next",
+  "description": "Visa refusal help from IAA-regulated advisers: understand your refusal letter, deadlines, administrative review, appeals and fresh applications.",
+  "focusKeyword": "visa refusal help",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

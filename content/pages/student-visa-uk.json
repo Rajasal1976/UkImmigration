@@ -1,0 +1,155 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 50,
+  "navLabel": "Student visa",
+  "eyebrow": "Study visas",
+  "h1": "Student visa UK",
+  "h1Accent": "for universities and colleges.",
+  "intro": "A Student visa UK application lets you study at a licensed university or college. Financial evidence is where most applications go wrong, so we check your bank statements and CAS before you apply.",
+  "cardText": "Study at a licensed UK university or college.",
+  "facts": [
+    {
+      "value": "CAS",
+      "label": "From a licensed sponsor"
+    },
+    {
+      "value": "28 days",
+      "label": "Funds must be held"
+    },
+    {
+      "value": "B2 English",
+      "label": "For degree-level study"
+    },
+    {
+      "value": "20 hours",
+      "label": "Work during term time"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "An unconditional offer and CAS"
+    },
+    {
+      "item": "Money for fees and living costs",
+      "hint": "Held for 28 days in a row"
+    },
+    {
+      "item": "English at the required level",
+      "hint": "Usually B2 for degrees"
+    },
+    {
+      "item": "Parental consent",
+      "hint": "If you are under 18"
+    }
+  ],
+  "purposesTitle": "How we help with your Student visa UK application",
+  "purposes": [
+    {
+      "icon": "school",
+      "title": "New Student visas",
+      "text": "From outside or inside the UK."
+    },
+    {
+      "icon": "clock",
+      "title": "Extensions",
+      "text": "For a new course."
+    },
+    {
+      "icon": "family",
+      "title": "Child Student visas",
+      "text": "For under-18s at independent schools."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Switching afterwards",
+      "text": "To the Graduate or Skilled Worker visa."
+    }
+  ],
+  "notCoveredTitle": "Common Student visa refusals",
+  "notCovered": [
+    "Funds not held for 28 days in a row",
+    "Bank statements dated more than 31 days before applying",
+    "Funds in an account the Home Office won’t accept",
+    "Parents’ funds without the extra documents",
+    "CAS details that don’t match your documents"
+  ],
+  "documentsTable": [
+    {
+      "document": "CAS",
+      "details": "Confirmation of Acceptance for Studies from your sponsor.",
+      "needed": "Required"
+    },
+    {
+      "document": "Passport",
+      "details": "Your current passport.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Bank statements showing funds held for 28 days.",
+      "needed": "Required"
+    },
+    {
+      "document": "Parental documents",
+      "details": "Birth certificate and parental consent letter if using parents’ funds or under 18.",
+      "needed": "If applicable"
+    },
+    {
+      "document": "TB test certificate",
+      "details": "If you are from a listed country.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Dependants",
+      "text": "Most students on taught courses, including taught master’s degrees, can no longer bring family members. Dependants are generally only allowed for postgraduate research courses such as PhDs."
+    },
+    {
+      "title": "Working while you study",
+      "text": "Degree-level students can usually work up to 20 hours a week in term time and full time in vacations."
+    },
+    {
+      "title": "After your course",
+      "text": "You may be able to switch to the [Graduate visa](/graduate-visa/) to stay and work."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Student visa UK requirements",
+      "text": "You need an unconditional offer and a Confirmation of Acceptance for Studies (CAS) from a licensed student sponsor, enough money for your course fees and living costs held for at least 28 days, English at the required level, a valid passport, a tuberculosis test certificate if you are from a listed country, and parental consent if you are under 18."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much money do I need for a Student visa UK?",
+      "a": "Your course fees for the first year plus living costs for up to 9 months, at the rate for where you’ll study. The funds must be held for 28 days."
+    },
+    {
+      "q": "Can I bring my family on a Student visa?",
+      "a": "Usually only if you are on a postgraduate research course, such as a PhD."
+    },
+    {
+      "q": "Can I work while studying?",
+      "a": "Degree-level students can usually work up to 20 hours a week in term time."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "graduate-visa",
+    "english-language-requirement"
+  ],
+  "title": "Student Visa UK | Applications and CAS Checks",
+  "description": "Student visa UK advice: CAS, the 28-day funds rule, English, dependants and working while you study. Bank statements checked before you apply.",
+  "focusKeyword": "Student visa UK",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

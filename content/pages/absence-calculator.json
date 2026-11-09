@@ -1,0 +1,53 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "order": 5,
+  "navLabel": "Absence calculator",
+  "widget": "absence",
+  "widgetTitle": "Absence calculator for ILR and citizenship",
+  "h1": "Absence calculator for ILR and British citizenship",
+  "intro": "Use our free absence calculator to check your time outside the UK against the limits for Indefinite Leave to Remain and British citizenship. Add your trips, and see where you stand in seconds.",
+  "cardText": "Check your time outside the UK for ILR and citizenship.",
+  "sections": [
+    {
+      "heading": "How the absence calculator counts days",
+      "text": "The days you leave and return to the UK don’t count as days outside the UK. For ILR, the calculator checks every rolling 12-month period in your qualifying time against the 180-day limit. For citizenship, it adds up your days abroad in the residence period and in the last 12 months."
+    },
+    {
+      "heading": "The limits the absence calculator uses",
+      "text": "- Indefinite Leave to Remain: no more than 180 days outside the UK in any 12 months, for most routes\n- British citizenship: no more than 450 days in the 5 years before you apply, and 90 days in the last 12 months\n- Citizenship if married to a British citizen: no more than 270 days in 3 years, and 90 days in the last 12 months"
+    },
+    {
+      "heading": "Over the limit?",
+      "text": "There can be exceptions, for example for serious illness, compassionate reasons or some work trips, and the Home Office has discretion in some citizenship cases. [Book a consultation](/contact-us/) and we’ll look at your case."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the absence calculator count the day I leave?",
+      "a": "No. The days you leave and return don’t count as days outside the UK."
+    },
+    {
+      "q": "Is the ILR absence limit per calendar year?",
+      "a": "No. It applies to any rolling 12-month period, which the absence calculator checks."
+    },
+    {
+      "q": "Is my data saved?",
+      "a": "No. Everything stays in your browser and isn’t sent to us."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "british-citizenship",
+    "ilr-changes-2026"
+  ],
+  "title": "Absence Calculator for ILR and British Citizenship",
+  "description": "Free absence calculator: check your time outside the UK against the 180-day ILR limit and the 450 and 90-day British citizenship limits.",
+  "focusKeyword": "absence calculator",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

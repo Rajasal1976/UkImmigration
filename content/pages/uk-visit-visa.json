@@ -1,0 +1,152 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 70,
+  "navLabel": "UK visit visas",
+  "eyebrow": "Visitors",
+  "h1": "UK visit visa",
+  "h1Accent": "and inviting family.",
+  "intro": "A UK visit visa (Standard Visitor visa) covers tourism, visiting family and friends, and business trips. If you’re inviting someone, we help prepare both their application and your invitation documents.",
+  "cardText": "Family visits, tourism and business trips to the UK.",
+  "facts": [
+    {
+      "value": "6 months",
+      "label": "Usual longest visit"
+    },
+    {
+      "value": "Standard Visitor",
+      "label": "One visa, many purposes"
+    },
+    {
+      "value": "ETA",
+      "label": "For visa-free nationalities"
+    },
+    {
+      "value": "Long-term",
+      "label": "2, 5 and 10-year visas available"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A genuine reason for the visit"
+    },
+    {
+      "item": "Enough money for the trip",
+      "hint": "Or a sponsor who can pay"
+    },
+    {
+      "item": "Strong reasons to return home",
+      "hint": "Work, study, family or property"
+    },
+    {
+      "item": "A good travel history"
+    }
+  ],
+  "purposesTitle": "What a UK visit visa covers",
+  "purposes": [
+    {
+      "icon": "family",
+      "title": "Visiting family and friends",
+      "text": "Including parents visiting grandchildren."
+    },
+    {
+      "icon": "sun",
+      "title": "Tourism",
+      "text": "Holidays in the UK."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Business visits",
+      "text": "Meetings, conferences and negotiations."
+    },
+    {
+      "icon": "medical",
+      "title": "Private medical treatment",
+      "text": "With extra evidence."
+    }
+  ],
+  "notCoveredTitle": "Common UK visit visa refusals",
+  "notCovered": [
+    "Not enough evidence of ties to home",
+    "Unexplained deposits in bank statements",
+    "A vague or inconsistent travel plan",
+    "Previous overstays or refusals not explained",
+    "Sponsor documents missing"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passport",
+      "details": "Current passport and previous travel history.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Bank statements and income evidence.",
+      "needed": "Required"
+    },
+    {
+      "document": "Ties to home",
+      "details": "Employment letter, business, study or property evidence.",
+      "needed": "Required"
+    },
+    {
+      "document": "Invitation letter",
+      "details": "From the host in the UK, with their status documents.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Visa or ETA?",
+      "text": "Visitors from many countries, including India, Pakistan, Bangladesh, Nigeria and Ghana, need a visit visa. Visa-free visitors, such as US, Canadian, Australian and EU citizens, need an Electronic Travel Authorisation (ETA) instead."
+    },
+    {
+      "title": "No work",
+      "text": "Visitors can’t work in the UK or access public funds."
+    },
+    {
+      "title": "The host’s role",
+      "text": "A clear invitation letter, with the host’s own documents, makes a real difference."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "UK visit visa: what the Home Office looks for",
+      "text": "The application should show a clear reason for the visit and a realistic plan, enough money to pay for the trip or a sponsor who can, strong reasons to return home, and a good immigration history."
+    },
+    {
+      "heading": "Inviting family to the UK",
+      "text": "If you’re inviting parents or relatives, we prepare a clear invitation letter, gather your documents and check the visitor’s evidence, so the officer sees a consistent picture."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long can I stay on a UK visit visa?",
+      "a": "Usually up to 6 months per visit."
+    },
+    {
+      "q": "Can I work on a UK visit visa?",
+      "a": "No. Visitors can’t work in the UK."
+    },
+    {
+      "q": "Can a family member sponsor my visit?",
+      "a": "Yes. A host can provide an invitation and, if they’re paying, their financial evidence."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "visa-refusal-help"
+  ],
+  "title": "UK Visit Visa | Standard Visitor Visa Applications",
+  "description": "UK visit visa advice: Standard Visitor visas for family visits, tourism and business, inviting relatives, and how to avoid common refusals.",
+  "focusKeyword": "UK visit visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

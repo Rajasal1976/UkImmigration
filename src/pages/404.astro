@@ -1,0 +1,12 @@
+---
+import Page from '../layouts/Page.astro';
+import { site } from '../data/site.js';
+---
+<Page title={`Page not found | ${site.name}`} description="This page has moved or doesn't exist." noindex>
+  <main>
+    <div class="page-head"><div class="wrap">
+      <h1>That page has moved or doesn’t exist</h1>
+      <p class="lead">Try the <a href="/uk-immigration-services/">our services</a>, <a href="/search/">search the website</a>, or <a href="/contact-us/">contact us</a>.</p>
+    </div></div>
+  </main>
+</Page>

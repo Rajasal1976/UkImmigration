@@ -1,0 +1,47 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "order": 30,
+  "navLabel": "English language",
+  "h1": "English language requirement for UK visas",
+  "intro": "The English language requirement depends on your visa. Here are the levels for each route, the ways to prove your English, and who is exempt.",
+  "cardText": "The level you need for each route, and how to prove it.",
+  "sections": [
+    {
+      "heading": "English language requirement by route",
+      "text": "- Spouse or partner visa: A1 for a first application, A2 to extend, B1 for settlement\n- Skilled Worker visa: B2 for new applicants since January 2026\n- Student visa: usually B2 for degree-level study\n- Indefinite Leave to Remain and British citizenship: B1, with higher levels planned for ILR under the new rules"
+    },
+    {
+      "heading": "How to prove your English",
+      "text": "By passing a Secure English Language Test (SELT) from an approved provider at the right level, by having a degree taught in English (confirmed by Ecctis if from outside the UK), or by being a national of a majority English-speaking country."
+    },
+    {
+      "heading": "Who is exempt?",
+      "text": "People aged 65 or over, people with a long-term physical or mental condition that prevents them meeting the requirement, and nationals of majority English-speaking countries are usually exempt. The exemptions differ by route."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which English test should I take?",
+      "a": "A SELT from a Home Office approved provider, at the level your route requires. Tests from other providers aren’t accepted."
+    },
+    {
+      "q": "Does my degree meet the English language requirement?",
+      "a": "A degree taught in English can, with confirmation from Ecctis if it’s from outside the UK."
+    },
+    {
+      "q": "How long is an English test valid for?",
+      "a": "Usually 2 years from the test date, though passes used in earlier successful applications can sometimes be reused."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "skilled-worker-visa",
+    "british-citizenship"
+  ],
+  "title": "English Language Requirement for UK Visas | 2026 Guide",
+  "description": "The English language requirement for UK visas: levels for spouse, Skilled Worker, student, ILR and citizenship, approved tests and exemptions.",
+  "focusKeyword": "English language requirement",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

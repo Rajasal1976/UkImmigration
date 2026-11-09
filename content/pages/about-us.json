@@ -1,0 +1,74 @@
+{
+  "layout": "company",
+  "group": "company",
+  "order": 10,
+  "navLabel": "About us",
+  "h1": "About UK Immigration Advisory",
+  "focusKeyword": "UK Immigration Advisory",
+  "intro": "UK Immigration Advisory is part of the Unique Visa Services group, regulated by the Immigration Advice Authority and helping clients from our Manchester office since 2008.",
+  "body": [
+    "UK Immigration Advisory gives clear, honest advice on UK immigration: family visas, work visas, settlement, British citizenship and sponsor licences for employers. We’re a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144.",
+    "Our approach is simple. We assess your case properly before you spend money on an application, tell you plainly what your options are, agree our fee in writing, and check every document before it reaches the Home Office.",
+    "Every adviser who works on your case is covered by our IAA registration, and we follow the IAA’s Code of Standards, including clear client care letters, confidentiality and a fair complaints procedure."
+  ],
+  "sections": [
+    {
+      "heading": "Why clients choose UK Immigration Advisory",
+      "text": "- Advisers regulated by the Immigration Advice Authority\n- Part of the Unique Visa Services group, helping clients since 2008\n- A real office in Manchester city centre\n- Fixed fees agreed in writing\n- The same people handling your case from start to finish"
+    },
+    {
+      "heading": "What we help with",
+      "text": "[Spouse and partner visas](/spouse-visa-uk/), [Skilled Worker visas](/skilled-worker-visa/), [Indefinite Leave to Remain](/indefinite-leave-to-remain/), [British citizenship](/british-citizenship/), [Student](/student-visa-uk/) and [Graduate visas](/graduate-visa/), [visit visas](/uk-visit-visa/), and [sponsor licences](/sponsor-licence/) for employers."
+    },
+    {
+      "heading": "Helping employers too",
+      "text": "Many of our clients are UK businesses. We help employers get and keep a [sponsor licence](/sponsor-licence/), stay ready for Home Office compliance visits, run [right to work checks](/right-to-work-checks/) properly, and bring skilled workers to the UK. You deal with one team who knows your business and your workers."
+    },
+    {
+      "heading": "Honest advice, even when it’s not what you hoped",
+      "text": "Sometimes the right advice is to wait, to gather more evidence, or not to apply at all yet. We’ll always tell you plainly, because a refused application costs you money, time and can affect future applications. When you do apply, you’ll know exactly what the Home Office will look at and why your application meets the rules."
+    },
+    {
+      "heading": "Visiting our office",
+      "text": "Our office is at Suite 6, 61 Mosley Street, in Manchester city centre, a few minutes’ walk from Piccadilly Gardens and St Peter’s Square. Please book before you visit. We also advise clients across the UK and overseas by phone, video call and email."
+    },
+    {
+      "heading": "Our parent company",
+      "text": "Unique Visa Services also helps with travel visas for many countries and document legalisation. Visit [uvsuk.co.uk](https://www.uvsuk.co.uk) to find out more."
+    },
+    {
+      "heading": "How we work with you",
+      "text": "Every case starts with a consultation, by phone, video call or at our office. We look at your circumstances, explain your options and what each involves, and agree our fee in writing in a client care letter. We then prepare your application with you, check every document against the rules, and keep you updated until the Home Office makes its decision."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is UK Immigration Advisory regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority, reference F200700144."
+    },
+    {
+      "q": "Where is UK Immigration Advisory based?",
+      "a": "61 Mosley Street, Suite 6, Manchester M2 3HZ."
+    },
+    {
+      "q": "Is UK Immigration Advisory a law firm?",
+      "a": "No. We are IAA-regulated immigration advisers, not solicitors, and we’re not connected to the Home Office."
+    },
+    {
+      "q": "Do you offer consultations by video call?",
+      "a": "Yes. You can meet an adviser by phone, video call or at our Manchester office."
+    },
+    {
+      "q": "Can you help my employer as well as me?",
+      "a": "Yes. We help employers with sponsor licences and compliance, and their workers with visas."
+    },
+    {
+      "q": "What should I bring to my consultation?",
+      "a": "Your passport, your current visa or immigration status, and any letters from the Home Office. We’ll tell you anything else to bring when you book, based on what you need help with."
+    }
+  ],
+  "title": "About UK Immigration Advisory | IAA-Regulated Advisers",
+  "description": "About UK Immigration Advisory, part of the Unique Visa Services group: IAA-regulated immigration advisers in Manchester since 2008.",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}
