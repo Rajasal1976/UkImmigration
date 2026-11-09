@@ -1,0 +1,391 @@
+# Website editor settings (Decap CMS). https://decapcms.org/docs/
+# Connected to the GitHub repository below. If you name your repository differently, change "repo".
+
+backend:
+  name: github
+  repo: Rajasal1976/ukimmigrationadvisor
+  branch: main
+  base_url: https://api.netlify.com
+  commit_messages:
+    create: 'Add {{collection}}: {{slug}}'
+    update: 'Edit {{collection}}: {{slug}}'
+    delete: 'Delete {{collection}}: {{slug}}'
+    uploadMedia: 'Upload photo {{path}}'
+
+# Lets the editor work on a computer for testing (only when the site runs on localhost)
+local_backend: true
+
+site_url: https://ukimmigrationadvisor.co.uk
+display_url: https://ukimmigrationadvisor.co.uk
+logo_url: /favicon.png
+locale: en
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  # ---------- Pages ----------
+  - name: pages
+    label: Pages
+    label_singular: Page
+    description: >-
+      Every page on the website. Click a page to edit it, then click Publish: the website updates in about a minute.
+      To add a page, click "New Page" (the quickest way is to open a similar page and choose Duplicate from the Publish menu).
+      To remove a page, open it and switch on "Move to bin", or delete it. Menus, the homepage tiles, the sitemap and
+      search update themselves.
+    folder: content/pages
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    identifier_field: h1
+    summary: '{{group}} › {{h1}}'
+    sortable_fields:
+      - { field: group, label: Section, default_sort: asc }
+      - { field: order, label: Order in menus }
+      - { field: h1, label: Page heading }
+    view_groups:
+      - { label: Section, field: group }
+    preview_path: '{{slug}}/'
+    editor: { preview: true }
+    fields:
+      - { name: layout, label: Page layout, widget: select, default: visa, options: [{ label: 'Service page (banner, requirements, routes, documents, steps, rules)', value: visa }, { label: 'Section main page (banner and cards for every page in the section)', value: section }, { label: 'Guide or help page', value: guide }, { label: 'Company page (about, privacy, terms...)', value: company }], hint: 'Changes how the page is laid out. Parts you leave empty are not shown.' }
+      - { name: group, label: Section of the site, widget: select, default: visas, options: [{ label: 'Visas', value: visas }, { label: 'Employers', value: employers }, { label: 'Guides', value: guide }, { label: 'About', value: company }], hint: 'Decides which menu the page appears in.' }
+      - { name: navLabel, label: Name in menus, widget: string, required: false, hint: 'Short name for menus and buttons, e.g. "e-Business visa". If empty, the page heading is used.' }
+      - { name: order, label: Order in menus, widget: number, value_type: int, default: 50, required: false, hint: 'Lower numbers come first.' }
+      - { name: h1, label: Page heading, widget: string, hint: 'The big heading at the top. When you create a page, the web address is made from this.' }
+      - { name: eyebrow, label: Small label above the heading, widget: string, required: false }
+      - { name: h1Accent, label: Heading second line (gold italic), widget: string, required: false, hint: 'Visa and section pages: shown in saffron under the heading, e.g. "from the UK."' }
+      - { name: intro, label: Introduction, widget: text, required: false, hint: 'One or two sentences under the heading.' }
+      - { name: cardText, label: Short summary for cards, widget: text, required: false, hint: 'Shown on cards and homepage tiles. If empty, the Google description is used.' }
+      - { name: highlight, label: Highlight this page's homepage tile in red, widget: boolean, required: false, default: false }
+      - { name: applyButton, label: Main button goes to, widget: select, default: '/contact-us/', options: [{ label: 'Book a consultation (contact page)', value: '/contact-us/' }, { label: 'Absence calculator', value: '/absence-calculator/' }], hint: 'Where the main buttons on this page go.' }
+      - { name: applyLabel, label: Main button text, widget: string, required: false, hint: 'Empty = Book a consultation' }
+      - name: facts
+        label: Quick facts in the banner
+        label_singular: fact
+        widget: list
+        required: false
+        max: 4
+        summary: '{{fields.value}}: {{fields.label}}'
+        hint: 'Up to 4 boxes, e.g. "4 working days" / "Standard processing".'
+        fields:
+          - { name: value, label: Big text, widget: string }
+          - { name: label, label: Small text, widget: string }
+      - { name: checklistTitle, label: Requirements box title, widget: string, required: false, default: 'Key requirements' }
+      - { name: checklistIntro, label: Requirements box introduction, widget: text, required: false }
+      - name: checklist
+        label: 'Requirements box (banner)'
+        label_singular: item
+        widget: list
+        required: false
+        summary: '{{fields.item}}'
+        hint: 'The ticked list in the banner box.'
+        fields:
+          - { name: item, label: Item, widget: string }
+          - { name: hint, label: Small text, widget: string, required: false }
+      - { name: purposesTitle, label: 'Routes heading', widget: string, required: false }
+      - { name: purposesIntro, label: 'Routes introduction', widget: text, required: false }
+      - name: purposes
+        label: 'Route cards'
+        label_singular: card
+        widget: list
+        required: false
+        summary: '{{fields.title}}'
+        fields:
+          - { name: icon, label: Icon, widget: select, options: ['briefcase','trade','factory','stall','people','tool','mic','map','book','sun','heart','home','medical','leaf','yoga','school','plane','passport','camera','film','mountain','chart','family','check','info','shield','clock','pin'], default: check }
+          - { name: title, label: Title, widget: string }
+          - { name: text, label: Text, widget: string }
+      - { name: notCoveredTitle, label: 'Warning box heading', widget: string, required: false }
+      - { name: notCovered, label: 'Warning box points', widget: list, required: false, hint: 'One point per row. Shown in a pale red box.' }
+      - name: documentsTable
+        label: Documents table
+        label_singular: document
+        widget: list
+        required: false
+        summary: '{{fields.document}} · {{fields.needed}}'
+        fields:
+          - { name: document, label: Document, widget: string }
+          - { name: details, label: Details, widget: text, required: false }
+          - { name: needed, label: Needed, widget: select, options: ['Required', 'If applicable', 'Helpful', 'Optional', 'We prepare'], default: 'Required' }
+      - { name: documentsNote, label: Note under the documents table, widget: text, required: false }
+      - { name: showSteps, label: 'Show "four steps" band', widget: boolean, default: true, required: false }
+      - { name: rulesTitle, label: Rules heading, widget: string, required: false }
+      - { name: rulesIntro, label: Rules introduction, widget: text, required: false }
+      - name: rules
+        label: Rules to know
+        label_singular: rule
+        widget: list
+        required: false
+        summary: '{{fields.title}}'
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: text, label: Text, widget: text }
+      - { name: boxTitle, label: Navy box heading (under the rules), widget: string, required: false, hint: 'e.g. Need a regular visa? Leave empty for no box.' }
+      - { name: boxText, label: Navy box text, widget: text, required: false }
+      - { name: boxButton, label: Navy box button text, widget: string, required: false }
+      - { name: boxLink, label: Navy box button link, widget: string, required: false, hint: 'e.g. /contact-us/. Empty = Book a consultation.' }
+      - { name: widget, label: Absence calculator on this page, widget: select, required: false, default: '', options: [{ label: 'No', value: '' }, { label: 'Yes, show the absence calculator', value: 'absence' }] }
+      - { name: widgetTitle, label: Absence calculator heading, widget: string, required: false }
+      - name: body
+        label: Page text
+        label_singular: paragraph
+        widget: list
+        collapsed: false
+        required: false
+        field: { name: paragraph, label: Paragraph, widget: text }
+        hint: 'Company pages (privacy policy, terms...): one paragraph per box.'
+      - name: sections
+        label: Guide sections
+        label_singular: section
+        widget: list
+        required: false
+        summary: '{{fields.heading}}'
+        hint: 'Longer explanations that help Google rank the page. Leave a blank line between paragraphs; start a line with "- " for a bullet point; links: [text](/page-address/).'
+        fields:
+          - { name: heading, label: Heading, widget: string, hint: 'Use the words people search for, e.g. "spouse visa requirements".' }
+          - { name: text, label: Text, widget: text }
+      - { name: faqHeading, label: FAQ heading, widget: string, required: false }
+      - name: faqs
+        label: FAQs
+        label_singular: FAQ
+        widget: list
+        required: false
+        summary: '{{fields.q}}'
+        hint: 'Questions clients really ask. Google can show these in search results.'
+        fields:
+          - { name: q, label: Question, widget: string }
+          - { name: a, label: Answer, widget: text }
+      - { name: related, label: Related pages, widget: relation, collection: pages, value_field: '{{slug}}', search_fields: [h1], display_fields: [h1], multiple: true, required: false, hint: 'Links shown near the bottom of the page. Good for Google too.' }
+      - name: title
+        label: 'Google: page title'
+        widget: string
+        pattern: ['^.{10,65}$', 'Keep it between 10 and 65 characters so Google shows it in full.']
+        hint: 'The blue headline in Google results. Put the most important words first.'
+      - name: description
+        label: 'Google: description'
+        widget: text
+        pattern: ['^[\s\S]{50,160}$', 'Keep it between 50 and 160 characters so Google shows it in full.']
+        hint: 'The grey text under the headline in Google results.'
+      - { name: focusKeyword, label: 'SEO: focus keyword', widget: string, required: false, hint: 'The main search you want this page to rank for, e.g. "spouse visa UK". Your SEO score and tips appear on the right as you type.' }
+      - { name: shareImage, label: 'SEO: social sharing image (optional)', widget: image, required: false, choose_url: false, hint: 'Shown when the page is shared on WhatsApp, Facebook or LinkedIn. Landscape, about 1200 × 630 pixels.' }
+      - { name: noindex, label: 'SEO: hide this page from Google', widget: boolean, required: false, default: false, hint: 'The page stays on the website but Google won’t list it.' }
+      - { name: hideFromMenus, label: Remove from menus, widget: boolean, required: false, default: false, hint: 'The page stays on the website but is left out of the menus and homepage tiles.' }
+      - { name: hidden, label: Move to bin (remove this page from the website), widget: boolean, required: false, default: false, hint: 'Takes the page off the website. Its address then sends visitors to the main page of its section. Switch off to bring it back.' }
+
+  # ---------- Homepage ----------
+  - name: homepage
+    label: Homepage
+    editor: { preview: true }
+    files:
+      - name: home
+        label: Homepage
+        file: content/home.json
+        fields:
+          - { name: heroEyebrow, label: Small label above the heading, widget: string }
+          - { name: heroHeading, label: Main heading, widget: string }
+          - { name: heroAccent, label: Words to show in gold italic, widget: string, required: false, hint: 'Must appear exactly in the main heading, e.g. UK immigration' }
+          - { name: heroIntro, label: Introduction, widget: text }
+          - { name: cardTitle, label: Side box heading, widget: string }
+          - { name: cardText, label: Side box text, widget: text }
+          - name: cardRules
+            label: Side box rows
+            label_singular: row
+            widget: list
+            fields:
+              - { name: label, label: Left, widget: string }
+              - { name: value, label: Right (bold), widget: string }
+          - name: trust
+            label: Trust points
+            label_singular: point
+            widget: list
+            max: 4
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text, widget: string }
+          - { name: servicesTitle, label: Services heading, widget: string }
+          - { name: servicesIntro, label: Services introduction, widget: text }
+          - name: services
+            label: Service cards
+            label_singular: card
+            widget: list
+            summary: '{{fields.title}}'
+            hint: 'Each card links to the page you choose, so it always leads to a real page.'
+            fields:
+              - { name: page, label: Links to page, widget: relation, collection: pages, value_field: '{{slug}}', search_fields: [h1], display_fields: [h1] }
+              - { name: icon, label: Icon, widget: select, options: ['briefcase','trade','factory','stall','people','tool','mic','map','book','sun','heart','home','medical','leaf','yoga','school','plane','passport','camera','film','mountain','chart','family','check','info','shield','clock','pin','scales'], default: check }
+              - { name: title, label: Title, widget: string, required: false }
+              - { name: text, label: Text, widget: string, required: false }
+          - { name: calculatorIntro, label: Absence calculator introduction, widget: text }
+          - { name: stepsTitle, label: Steps heading, widget: string }
+          - name: steps
+            label: The four steps
+            label_singular: step
+            widget: list
+            max: 4
+            hint: 'Shown on the homepage and on every service page.'
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text, widget: text }
+          - { name: parentTitle, label: Parent company heading, widget: string }
+          - { name: parentText, label: Parent company text, widget: text }
+          - name: sections
+            label: Guide sections
+            label_singular: section
+            widget: list
+            required: false
+            fields:
+              - { name: heading, label: Heading, widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: faqs
+            label: FAQs
+            label_singular: FAQ
+            widget: list
+            fields:
+              - { name: q, label: Question, widget: string }
+              - { name: a, label: Answer, widget: text }
+          - { name: title, label: 'Google: page title', widget: string, pattern: ['^.{10,65}$', 'Keep it between 10 and 65 characters.'] }
+          - { name: description, label: 'Google: description', widget: text, pattern: ['^[\s\S]{50,160}$', 'Keep it between 50 and 160 characters.'] }
+          - { name: focusKeyword, label: 'SEO: focus keyword', widget: string, required: false }
+          - { name: shareImage, label: 'SEO: social sharing image (optional)', widget: image, required: false, choose_url: false }
+
+  # ---------- Client forms (send a link and password to a client) ----------
+  - name: client_forms
+    label: Client forms
+    label_singular: client form
+    description: >-
+      Build a form to send to a client, or start from a template: open a template, choose Duplicate from the Publish menu,
+      and change the title. Its address is ukimmigrationadvisor.co.uk/client-forms/ followed by the form's file name,
+      which is made from the title when you first save (for example /client-forms/khan-family-spouse-visa/).
+      Generate a password, then send the client the link and the password separately.
+    folder: content/client-forms
+    format: json
+    extension: json
+    create: true
+    delete: false
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}}'
+    editor: { preview: true }
+    fields:
+      - { name: title, label: Form title, widget: string, hint: 'Shown at the top of the form, e.g. Spouse visa application: your details. Also used for the address.' }
+      - { name: template, label: 'This is a template (not a live form)', widget: boolean, default: false, required: false, hint: 'Templates are never shown to clients. To use one: open it, choose Duplicate from the Publish menu, then change the title, switch this off, generate a password and publish.' }
+      - { name: active, label: Form is open, widget: boolean, default: true, required: false, hint: 'Switch off to close the form once the client has finished.' }
+      - { name: password, label: Password, widget: password, required: false, hint: 'Click Generate password, then copy it to send to your client. Leave empty for no password.' }
+      - { name: intro, label: Introduction, widget: text, required: false }
+      - { name: includePassport, label: Ask for a passport scan (fills in their details), widget: boolean, default: true, required: false }
+      - { name: maxPeople, label: People on one form (1 to 5), widget: number, value_type: int, min: 1, max: 5, default: 1, hint: 'More than 1 lets the client add family members, each with their own passport and documents.' }
+      - { name: questionsTitle, label: Questions step title, widget: string, default: 'Your details', required: false }
+      - { name: askOnce, label: 'Ask the questions once (not for each person)', widget: boolean, default: false, required: false }
+      - name: questions
+        label: Questions
+        label_singular: question
+        widget: list
+        required: false
+        summary: '{{fields.label}} ({{fields.type}})'
+        fields:
+          - { name: label, label: Question, widget: string }
+          - { name: type, label: Type of answer, widget: select, options: ['Short answer', 'Long answer', 'Date', 'Yes / No', 'Choice list', 'Number', 'Email address', 'Phone number', 'Country'], default: 'Short answer' }
+          - { name: options, label: 'Choices (for a choice list)', widget: text, required: false, hint: 'One choice per line.' }
+          - { name: required, label: Answer required, widget: boolean, default: true, required: false }
+          - { name: hint, label: Help text (optional), widget: string, required: false }
+      - name: uploads
+        label: Named document uploads (up to 8)
+        label_singular: document
+        widget: list
+        required: false
+        max: 8
+        summary: '{{fields.label}}'
+        hint: 'Clients can always add as many other documents as they need with "Add another document".'
+        fields:
+          - { name: label, label: Document, widget: string }
+          - { name: required, label: Required, widget: boolean, default: true, required: false }
+          - { name: hint, label: Help text (optional), widget: string, required: false }
+
+  # ---------- Blog ----------
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    description: >-
+      News and guides for your blog. Click "New Blog post" to write one. Posts appear at /blog/, newest first.
+    folder: content/blog
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{fields.h1}}'
+    identifier_field: h1
+    summary: '{{date}} · {{h1}}'
+    preview_path: 'blog/{{slug}}/'
+    fields:
+      - { name: h1, label: Post title (heading), widget: string, hint: 'The headline readers see. Also used for the post’s web address when you first save it.' }
+      - { name: date, label: Date published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD/MM/YYYY', time_format: false, picker_utc: true }
+      - { name: updated, label: Date updated (optional), widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD/MM/YYYY', time_format: false, picker_utc: true, required: false }
+      - { name: category, label: Category, widget: select, options: ['Guides', 'Rule changes', 'Employers', 'News'], default: 'Guides' }
+      - { name: intro, label: Summary, widget: text, hint: 'Two or three sentences shown on the blog page and under the headline.' }
+      - name: sections
+        label: Post sections
+        label_singular: section
+        widget: list
+        summary: '{{fields.heading}}'
+        fields:
+          - { name: heading, label: Heading, widget: string }
+          - { name: text, label: Text, widget: text }
+      - name: faqs
+        label: FAQs (optional)
+        label_singular: FAQ
+        widget: list
+        required: false
+        summary: '{{fields.q}}'
+        fields:
+          - { name: q, label: Question, widget: string }
+          - { name: a, label: Answer, widget: text }
+      - { name: relatedPage, label: Button link (optional), widget: string, required: false, hint: 'A page on your site to send readers to, e.g. /indefinite-leave-to-remain/' }
+      - { name: relatedLabel, label: Button text (optional), widget: string, required: false, hint: 'e.g. Book a consultation' }
+      - { name: title, label: 'Google: page title', widget: string, pattern: ['^.{10,65}$', 'Keep it between 10 and 65 characters.'] }
+      - { name: description, label: 'Google: description', widget: text, pattern: ['^[\s\S]{50,160}$', 'Keep it between 50 and 160 characters.'] }
+      - { name: focusKeyword, label: 'SEO: focus keyword', widget: string, required: false }
+      - { name: shareImage, label: 'SEO: social sharing image (optional)', widget: image, required: false, choose_url: false }
+      - { name: noindex, label: 'SEO: hide this post from Google', widget: boolean, required: false, default: false }
+      - { name: draft, label: 'Draft (hide from the website)', widget: boolean, required: false, default: false }
+
+  # ---------- Business details ----------
+  - name: settings
+    label: Business details
+    editor: { preview: false }
+    files:
+      - name: settings
+        label: Business details
+        description: These appear across the whole site. Keep them identical to your Google Business Profile.
+        file: content/settings.json
+        fields:
+          - { name: siteName, label: Website name, widget: string, hint: 'Used in page titles and Google, e.g. UK Immigration Advisory.' }
+          - { name: legalName, label: Company name, widget: string, hint: 'The registered company this site trades under, e.g. Unique Visa Services Ltd.' }
+          - { name: groupName, label: Group name, widget: string, required: false, hint: 'Shown in the footer as "part of the … group". Leave empty to hide.' }
+          - { name: companyNumber, label: Company number, widget: string, required: false, hint: 'Only fill in if this company is registered under its own number.' }
+          - { name: siteLogo, label: Website logo, widget: image, required: false, choose_url: false }
+          - { name: shareImage, label: 'Default social sharing image', widget: image, required: false, choose_url: false, hint: 'Landscape, about 1200 × 630 pixels.' }
+          - { name: phone, label: Phone number, widget: string }
+          - { name: iaaRef, label: IAA reference number, widget: string }
+          - { name: iaaFinder, label: Link to your IAA register entry, widget: string }
+          - { name: googleVerification, label: Google Search Console verification code, widget: string, required: false, hint: 'The code from your google-site-verification meta tag. Keeps Search Console verified.' }
+          - { name: email, label: Email address, widget: string }
+          - { name: addressLine1, label: Address, widget: string }
+          - { name: city, label: Town or city, widget: string }
+          - { name: postcode, label: Postcode, widget: string }
+          - { name: hours, label: Opening hours, widget: string, hint: 'As shown on the site, e.g. Mon–Fri 9am–5pm' }
+          - { name: hoursForGoogle, label: Opening hours for Google, widget: string, hint: 'Same hours in Google''s format, e.g. Mo-Fr 09:00-17:00' }
+          - { name: yearsInPractice, label: Years in practice, widget: string }
+          - { name: applicationsHandled, label: Applications handled, widget: string }
+          - { name: googleRating, label: Google rating, widget: string, required: false }
+          - { name: googleReviewCount, label: Number of Google reviews, widget: string, required: false, hint: 'Your star rating is only shown to Google when this is filled in.' }
+          - { name: googleReviewsUrl, label: Link to your Google reviews, widget: string, required: false }
+          - { name: disclaimerShort, label: Disclaimer (footer), widget: text }
+          - { name: facebook, label: Facebook page link, widget: string, required: false }
+          - { name: instagram, label: Instagram link, widget: string, required: false }
+          - { name: linkedin, label: LinkedIn link, widget: string, required: false }
+          - { name: x, label: X (Twitter) link, widget: string, required: false }
+          - { name: tiktok, label: TikTok link, widget: string, required: false }
+          - { name: youtube, label: YouTube link, widget: string, required: false }
+          - { name: whatsapp, label: WhatsApp link, widget: string, required: false, hint: 'e.g. https://wa.me/447908242929. Empty = no WhatsApp button.' }
