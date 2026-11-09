@@ -1,14 +1,23 @@
 {
-  "title": "UK Immigration Advisory | IAA-Regulated Immigration Advice",
-  "description": "UK immigration advice from IAA-regulated advisers: spouse visas, Skilled Worker, ILR, British citizenship and sponsor licences. Part of Unique Visa Services.",
-  "focusKeyword": "UK immigration",
-  "shareImage": "/images/share.jpg",
-  "heroEyebrow": "Regulated UK immigration advisers",
-  "heroHeading": "Clear, honest advice for your UK immigration journey.",
   "heroAccent": "UK immigration",
-  "heroIntro": "Expert UK immigration advice for spouse visas, Skilled Worker visas, ILR, British citizenship and sponsor licences. We assess your case properly, tell you your options plainly, and check every document before it reaches the Home Office.",
-  "cardTitle": "Applying for settlement or citizenship?",
-  "cardText": "Time spent outside the UK can make or break your application. Know where you stand before you apply.",
+  "steps": [
+    {
+      "title": "Consultation",
+      "text": "We review your situation and tell you honestly whether you qualify and what it involves."
+    },
+    {
+      "title": "Fixed fee",
+      "text": "You get our fee in writing before we start, with no hidden extras."
+    },
+    {
+      "title": "Preparation",
+      "text": "We prepare your application and check every document against the rules."
+    },
+    {
+      "title": "Submission",
+      "text": "We submit and keep you updated until the Home Office decides."
+    }
+  ],
   "cardRules": [
     {
       "label": "Indefinite Leave to Remain",
@@ -23,6 +32,27 @@
       "value": "270 days in 3 years"
     }
   ],
+  "heroHeading": "Clear, honest advice for your UK immigration journey.",
+  "cardTitle": "Applying for settlement or citizenship?",
+  "calculatorIntro": "Add your trips abroad and see how your time outside the UK measures up against the limits for settlement and citizenship.",
+  "servicesIntro": "Advice and full application support for individuals, families and employers.",
+  "sections": [
+    {
+      "heading": "UK immigration advice you can rely on",
+      "text": "Good UK immigration advice starts with an honest assessment. Before you spend money on a Home Office application, we look at your circumstances, explain which routes are open to you and what each needs, and tell you plainly if something stands in the way.\n\nWe’re a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority. You can check our registration on the IAA’s online register."
+    },
+    {
+      "heading": "Changes to settlement in 2027",
+      "text": "The government plans to move most routes to Indefinite Leave to Remain from 5 to 10 years during 2027. If you qualify now or soon, it’s worth getting UK immigration advice early. [Read about the ILR changes](/ilr-changes-2026/)."
+    }
+  ],
+  "parentTitle": "Part of the Unique Visa Services group",
+  "heroEyebrow": "Regulated UK immigration advisers",
+  "focusKeyword": "UK immigration",
+  "stepsTitle": "A clear process, from first call to decision",
+  "heroIntro": "Expert UK immigration advice for spouse visas, Skilled Worker visas, ILR, British citizenship and sponsor licences. We assess your case properly, tell you your options plainly, and check every document before it reaches the Home Office.",
+  "parentText": "UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA) and helping clients from our Manchester office since 2008. [Visit uvsuk.co.uk](https://www.uvsuk.co.uk)",
+  "title": "UK Immigration Advisory | IAA-Regulated Immigration Advice",
   "trust": [
     {
       "title": "IAA regulated",
@@ -42,7 +72,27 @@
     }
   ],
   "servicesTitle": "UK immigration services",
-  "servicesIntro": "Advice and full application support for individuals, families and employers.",
+  "shareImage": "/images/uploads/gemini_generated_image_jaik3hjaik3hjaik.jpg",
+  "description": "UK immigration advice from IAA-regulated advisers: spouse visas, Skilled Worker, ILR, British citizenship and sponsor licences. Part of Unique Visa Services.",
+  "faqs": [
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    },
+    {
+      "q": "How much does a consultation cost?",
+      "a": "We’ll confirm the consultation fee when you book, and agree any further fee in writing before we start work."
+    },
+    {
+      "q": "Can I count my trips abroad myself?",
+      "a": "Yes, use our [absence calculator](/absence-calculator/) as a guide. Rules and exceptions vary by route, so we check your exact position at consultation."
+    },
+    {
+      "q": "Do you only help people in Manchester?",
+      "a": "No. We give UK immigration advice to clients across the UK and overseas by phone, video call and email."
+    }
+  ],
+  "cardText": "Time spent outside the UK can make or break your application. Know where you stand before you apply.",
   "services": [
     {
       "page": "spouse-visa-uk",
@@ -91,56 +141,6 @@
       "icon": "scales",
       "title": "Refusals and reviews",
       "text": "Understanding a refusal and your options from here."
-    }
-  ],
-  "calculatorIntro": "Add your trips abroad and see how your time outside the UK measures up against the limits for settlement and citizenship.",
-  "stepsTitle": "A clear process, from first call to decision",
-  "steps": [
-    {
-      "title": "Consultation",
-      "text": "We review your situation and tell you honestly whether you qualify and what it involves."
-    },
-    {
-      "title": "Fixed fee",
-      "text": "You get our fee in writing before we start, with no hidden extras."
-    },
-    {
-      "title": "Preparation",
-      "text": "We prepare your application and check every document against the rules."
-    },
-    {
-      "title": "Submission",
-      "text": "We submit and keep you updated until the Home Office decides."
-    }
-  ],
-  "parentTitle": "Part of the Unique Visa Services group",
-  "parentText": "UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA) and helping clients from our Manchester office since 2008. [Visit uvsuk.co.uk](https://www.uvsuk.co.uk)",
-  "sections": [
-    {
-      "heading": "UK immigration advice you can rely on",
-      "text": "Good UK immigration advice starts with an honest assessment. Before you spend money on a Home Office application, we look at your circumstances, explain which routes are open to you and what each needs, and tell you plainly if something stands in the way.\n\nWe’re a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority. You can check our registration on the IAA’s online register."
-    },
-    {
-      "heading": "Changes to settlement in 2027",
-      "text": "The government plans to move most routes to Indefinite Leave to Remain from 5 to 10 years during 2027. If you qualify now or soon, it’s worth getting UK immigration advice early. [Read about the ILR changes](/ilr-changes-2026/)."
-    }
-  ],
-  "faqs": [
-    {
-      "q": "Are you regulated?",
-      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
-    },
-    {
-      "q": "How much does a consultation cost?",
-      "a": "We’ll confirm the consultation fee when you book, and agree any further fee in writing before we start work."
-    },
-    {
-      "q": "Can I count my trips abroad myself?",
-      "a": "Yes, use our [absence calculator](/absence-calculator/) as a guide. Rules and exceptions vary by route, so we check your exact position at consultation."
-    },
-    {
-      "q": "Do you only help people in Manchester?",
-      "a": "No. We give UK immigration advice to clients across the UK and overseas by phone, video call and email."
     }
   ]
 }
