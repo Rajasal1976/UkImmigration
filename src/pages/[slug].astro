@@ -21,7 +21,9 @@ const { p } = Astro.props;
 const layout = p.layout || 'visa';
 const g = groups[p.group];
 const hub = g && pageBySlug[g.hub] && g.hub !== p.slug ? pageBySlug[g.hub] : null;
-const crumbs: [string, string][] = [['Home', '/'], ...(hub ? [[navName(hub), `/${hub.slug}/`]] : []), [navName(p), `/${p.slug}/`]];
+// "Main page" (parent) puts a page under another one, e.g. Unmarried partner visa under Spouse visa UK.
+const parent = p.parent && pageBySlug[p.parent] && p.parent !== p.slug ? pageBySlug[p.parent] : null;
+const crumbs: [string, string][] = [['Home', '/'], ...(hub ? [[navName(hub), `/${hub.slug}/`]] : []), ...(parent ? [[navName(parent), `/${parent.slug}/`]] : []), [navName(p), `/${p.slug}/`]];
 const book = p.applyButton && p.applyButton !== 'none' ? p.applyButton : site.bookingUrl;
 const bookLabel = p.applyLabel || 'Book a consultation';
 const children = layout === 'section' ? pagesIn(p.group) : [];
@@ -100,7 +102,9 @@ const serviceSchema = layout === 'visa' ? [JSON.stringify({
         <div class="wrap">
           <div class="section-head"><h2>{p.purposesTitle || 'Which route fits you'}</h2>{p.purposesIntro && <p>{p.purposesIntro}</p>}</div>
           <div class="purposes">
-            {p.purposes.map((x) => <article class="purpose"><div class="icon-box" set:html={svg(x.icon)} /><div><h3 style="font-size:22px">{x.title}</h3><p set:html={inline(x.text)} /></div></article>)}
+            {p.purposes.map((x) => x.link
+              ? <a class="purpose purpose-link" href={x.link}><div class="icon-box" set:html={svg(x.icon)} /><div><h3 style="font-size:22px">{x.title}</h3><p>{x.text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')}</p><span class="more">Find out more →</span></div></a>
+              : <article class="purpose"><div class="icon-box" set:html={svg(x.icon)} /><div><h3 style="font-size:22px">{x.title}</h3><p set:html={inline(x.text)} /></div></article>)}
           </div>
           {p.notCovered?.length > 0 && (
             <div class="not-covered">

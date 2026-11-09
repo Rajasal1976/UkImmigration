@@ -1,0 +1,132 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "british-citizenship",
+  "hideFromMenus": true,
+  "order": 41,
+  "navLabel": "Citizenship for spouses",
+  "h1": "British citizenship for spouses",
+  "h1Accent": "of British citizens.",
+  "intro": "British citizenship for spouses has a shorter route: if you’re married to or the civil partner of a British citizen, you can apply after 3 years’ residence, as soon as you have ILR.",
+  "cardText": "A 3-year route for husbands, wives and civil partners of British citizens.",
+  "facts": [
+    {
+      "value": "3 years",
+      "label": "Residence in the UK"
+    },
+    {
+      "value": "270 days",
+      "label": "Most time abroad in 3 years"
+    },
+    {
+      "value": "90 days",
+      "label": "Most time abroad in the last 12 months"
+    },
+    {
+      "value": "No wait",
+      "label": "Apply as soon as you have ILR"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Married to or civil partner of a British citizen"
+    },
+    {
+      "item": "ILR or settled status"
+    },
+    {
+      "item": "Absences within the limits"
+    },
+    {
+      "item": "Life in the UK test and B1 English"
+    }
+  ],
+  "purposesTitle": "How the spouse route differs",
+  "purposes": [
+    {
+      "icon": "clock",
+      "title": "Shorter residence",
+      "text": "3 years instead of 5."
+    },
+    {
+      "icon": "home",
+      "title": "No 12-month wait",
+      "text": "Apply as soon as you hold ILR."
+    }
+  ],
+  "notCoveredTitle": "Common problems",
+  "notCovered": [
+    "Absences over 270 days in 3 years",
+    "Immigration breaches during the residence period",
+    "Undisclosed offences"
+  ],
+  "documentsTable": [
+    {
+      "document": "Marriage or civil partnership certificate",
+      "details": "With a certified translation if needed.",
+      "needed": "Required"
+    },
+    {
+      "document": "Your partner’s British passport",
+      "details": "Or their certificate of naturalisation.",
+      "needed": "Required"
+    },
+    {
+      "document": "ILR evidence",
+      "details": "Your eVisa, BRP or settlement letter.",
+      "needed": "Required"
+    },
+    {
+      "document": "Travel history",
+      "details": "Every trip abroad in the 3 years.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Absence limits",
+      "text": "No more than 270 days outside the UK in the 3 years before you apply, and 90 days in the last 12 months. Use our [absence calculator](/absence-calculator/)."
+    },
+    {
+      "title": "Good character",
+      "text": "The Home Office checks criminal records, immigration history and debts."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "British citizenship for spouses: requirements",
+      "text": "You must be married to or the civil partner of a British citizen, hold ILR or settled status, have lived in the UK for at least 3 years with absences within the limits, pass the Life in the UK test, have B1 English and meet the good character requirement."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to wait 12 months after ILR?",
+      "a": "No, not if you are married to a British citizen."
+    },
+    {
+      "q": "How many days can I be abroad?",
+      "a": "No more than 270 in 3 years and 90 in the last 12 months."
+    },
+    {
+      "q": "Does my partner need to be British by birth?",
+      "a": "No. They just need to be a British citizen."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "british-citizenship",
+    "absence-calculator"
+  ],
+  "title": "British Citizenship for Spouses | 3-Year Route",
+  "description": "British citizenship for spouses of British citizens: the 3-year route, no wait after ILR, 270-day absence limit and good character.",
+  "focusKeyword": "British citizenship for spouses",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

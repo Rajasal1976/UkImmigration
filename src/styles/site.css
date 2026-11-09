@@ -403,3 +403,7 @@ a.card:hover { border-color: var(--green-800); color: inherit; }
   .trust-line div:first-child { border-top: 0; }
   .steps4 { padding: 52px 0; }
 }
+
+.purpose-link { text-decoration: none; color: var(--ink-soft) !important; }
+.purpose-link:hover { border-color: var(--gold); background: var(--gold-soft); }
+.purpose-link .more { display: inline-block; margin-top: 8px; font-size: 14px; font-weight: 600; color: var(--green-800); }

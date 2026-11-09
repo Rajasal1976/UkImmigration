@@ -53,17 +53,20 @@
     {
       "icon": "clock",
       "title": "Extensions",
-      "text": "With the same employer."
+      "text": "With the same employer.",
+      "link": "/skilled-worker-visa-extension/"
     },
     {
       "icon": "trade",
       "title": "Changing employer",
-      "text": "A new application before you start the new job."
+      "text": "A new application before you start the new job.",
+      "link": "/skilled-worker-change-of-employer/"
     },
     {
       "icon": "family",
       "title": "Dependants",
-      "text": "Partners and children joining you."
+      "text": "Partners and children joining you.",
+      "link": "/skilled-worker-dependant-visa/"
     }
   ],
   "notCoveredTitle": "Common Skilled Worker visa problems",

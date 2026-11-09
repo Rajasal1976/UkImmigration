@@ -49,23 +49,33 @@
   "purposes": [
     {
       "icon": "heart",
-      "title": "Spouse or civil partner",
-      "text": "For married couples and civil partners."
-    },
-    {
-      "icon": "home",
-      "title": "Unmarried partner",
-      "text": "For couples who have lived together for at least 2 years."
+      "title": "Spouse visa",
+      "text": "For husbands and wives of British or settled partners.",
+      "link": "/spouse-visa-application/"
     },
     {
       "icon": "family",
+      "title": "Civil partner visa",
+      "text": "For civil partners of British or settled partners.",
+      "link": "/civil-partner-visa/"
+    },
+    {
+      "icon": "home",
+      "title": "Unmarried partner visa",
+      "text": "For couples who have lived together for at least 2 years.",
+      "link": "/unmarried-partner-visa/"
+    },
+    {
+      "icon": "plane",
       "title": "Fiancé(e) visa",
-      "text": "For couples marrying in the UK within 6 months of arriving."
+      "text": "For couples marrying in the UK within 6 months of arriving.",
+      "link": "/fiance-visa-uk/"
     },
     {
       "icon": "clock",
-      "title": "Extension",
-      "text": "To extend after your first grant, towards settlement."
+      "title": "Spouse visa extension",
+      "text": "Extending after your first grant, towards settlement.",
+      "link": "/spouse-visa-extension/"
     }
   ],
   "notCoveredTitle": "Common reasons spouse visas are refused",

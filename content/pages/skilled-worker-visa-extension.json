@@ -1,0 +1,134 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "skilled-worker-visa",
+  "hideFromMenus": true,
+  "order": 21,
+  "navLabel": "Skilled Worker extension",
+  "h1": "Skilled Worker visa extension",
+  "h1Accent": "with the same employer.",
+  "intro": "A Skilled Worker visa extension lets you stay in your job with the same sponsor. Salary rules have changed, so we check which thresholds apply to you before your Skilled Worker visa extension goes in.",
+  "cardText": "Extending with the same employer.",
+  "facts": [
+    {
+      "value": "New CoS",
+      "label": "From your employer"
+    },
+    {
+      "value": "Before expiry",
+      "label": "Apply in time"
+    },
+    {
+      "value": "Salary check",
+      "label": "Old or new thresholds"
+    },
+    {
+      "value": "Dependants",
+      "label": "Can extend with you"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A new Certificate of Sponsorship",
+      "hint": "From your current employer"
+    },
+    {
+      "item": "Salary that meets the rules that apply to you"
+    },
+    {
+      "item": "Apply before your visa expires"
+    }
+  ],
+  "purposesTitle": "What we check for your Skilled Worker visa extension",
+  "purposes": [
+    {
+      "icon": "chart",
+      "title": "Salary thresholds",
+      "text": "Whether older thresholds still apply to you."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Job code",
+      "text": "Whether your role still fits its occupation code."
+    },
+    {
+      "icon": "family",
+      "title": "Dependants",
+      "text": "Extending your family’s visas at the same time."
+    }
+  ],
+  "notCoveredTitle": "Common Skilled Worker extension problems",
+  "notCovered": [
+    "Salary below the threshold that applies",
+    "A job code that no longer matches the duties",
+    "Applying after the visa has expired"
+  ],
+  "documentsTable": [
+    {
+      "document": "Certificate of Sponsorship",
+      "details": "The new reference number from your employer.",
+      "needed": "Required"
+    },
+    {
+      "document": "Passport",
+      "details": "Your current passport.",
+      "needed": "Required"
+    },
+    {
+      "document": "Payslips",
+      "details": "If your salary is being checked.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Which rules apply to you?",
+      "text": "People first sponsored before 22 July 2025 may keep older, lower skill and salary thresholds in some situations. We check your history."
+    },
+    {
+      "title": "Apply in time",
+      "text": "Apply before your current visa expires to keep your continuous residence."
+    },
+    {
+      "title": "Settlement",
+      "text": "Under the government’s plans, Skilled Workers earning £50,271 or more in 3 of the last 5 years keep a 5-year route to ILR. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Skilled Worker visa extension requirements",
+      "text": "You need a new Certificate of Sponsorship from your current employer, a job that still meets the skill level and salary rules that apply to you, and to apply before your current visa expires. You usually don’t need to prove your English again."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a new CoS for a Skilled Worker visa extension?",
+      "a": "Yes. Your employer assigns a new Certificate of Sponsorship."
+    },
+    {
+      "q": "Can my family extend with me?",
+      "a": "Yes, your dependants can apply at the same time."
+    },
+    {
+      "q": "Do I need another English test?",
+      "a": "Usually not, if you proved it in an earlier Skilled Worker application."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "skilled-worker-visa",
+    "skilled-worker-change-of-employer"
+  ],
+  "title": "Skilled Worker Visa Extension | Stay With Your Employer",
+  "description": "Skilled Worker visa extension advice: new Certificate of Sponsorship, which salary thresholds apply to you, timing and dependants.",
+  "focusKeyword": "Skilled Worker visa extension",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

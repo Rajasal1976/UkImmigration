@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: Rajasal1976/ukimmigrationadvisor
+  repo: Rajasal1976/UkImmigration
   branch: main
   base_url: https://api.netlify.com
   commit_messages:
@@ -52,6 +52,7 @@ collections:
     fields:
       - { name: layout, label: Page layout, widget: select, default: visa, options: [{ label: 'Service page (banner, requirements, routes, documents, steps, rules)', value: visa }, { label: 'Section main page (banner and cards for every page in the section)', value: section }, { label: 'Guide or help page', value: guide }, { label: 'Company page (about, privacy, terms...)', value: company }], hint: 'Changes how the page is laid out. Parts you leave empty are not shown.' }
       - { name: group, label: Section of the site, widget: select, default: visas, options: [{ label: 'Visas', value: visas }, { label: 'Employers', value: employers }, { label: 'Guides', value: guide }, { label: 'About', value: company }], hint: 'Decides which menu the page appears in.' }
+      - { name: parent, label: Main page (optional), widget: relation, collection: pages, value_field: '{{slug}}', search_fields: [h1], display_fields: [h1], required: false, hint: 'Puts this page under another page in the breadcrumbs, e.g. Unmarried partner visa under Spouse visa UK.' }
       - { name: navLabel, label: Name in menus, widget: string, required: false, hint: 'Short name for menus and buttons, e.g. "e-Business visa". If empty, the page heading is used.' }
       - { name: order, label: Order in menus, widget: number, value_type: int, default: 50, required: false, hint: 'Lower numbers come first.' }
       - { name: h1, label: Page heading, widget: string, hint: 'The big heading at the top. When you create a page, the web address is made from this.' }
@@ -97,6 +98,7 @@ collections:
           - { name: icon, label: Icon, widget: select, options: ['briefcase','trade','factory','stall','people','tool','mic','map','book','sun','heart','home','medical','leaf','yoga','school','plane','passport','camera','film','mountain','chart','family','check','info','shield','clock','pin'], default: check }
           - { name: title, label: Title, widget: string }
           - { name: text, label: Text, widget: string }
+          - { name: link, label: Card links to (optional), widget: string, required: false, hint: 'A page address, e.g. /unmarried-partner-visa/. The whole card becomes a link.' }
       - { name: notCoveredTitle, label: 'Warning box heading', widget: string, required: false }
       - { name: notCovered, label: 'Warning box points', widget: list, required: false, hint: 'One point per row. Shown in a pale red box.' }
       - name: documentsTable

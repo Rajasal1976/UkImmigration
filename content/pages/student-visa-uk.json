@@ -63,7 +63,8 @@
     {
       "icon": "briefcase",
       "title": "Switching afterwards",
-      "text": "To the Graduate or Skilled Worker visa."
+      "text": "To the Graduate or Skilled Worker visa.",
+      "link": "/graduate-visa/"
     }
   ],
   "notCoveredTitle": "Common Student visa refusals",

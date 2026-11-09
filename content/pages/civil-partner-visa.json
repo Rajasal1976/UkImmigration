@@ -1,0 +1,151 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "spouse-visa-uk",
+  "hideFromMenus": true,
+  "order": 12,
+  "navLabel": "Civil partner visa",
+  "h1": "Civil partner visa",
+  "h1Accent": "for civil partners.",
+  "intro": "The civil partner visa is for people in a civil partnership with a British citizen or settled person. It follows the same rules as the spouse visa, and we check your evidence just as carefully.",
+  "cardText": "For civil partners of British or settled people.",
+  "facts": [
+    {
+      "value": "Same rules",
+      "label": "As the spouse visa"
+    },
+    {
+      "value": "£29,000",
+      "label": "Financial requirement"
+    },
+    {
+      "value": "A1 English",
+      "label": "For a first application"
+    },
+    {
+      "value": "5 years",
+      "label": "To settlement"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A registered civil partnership",
+      "hint": "Recognised in UK law"
+    },
+    {
+      "item": "Your partner is British or settled"
+    },
+    {
+      "item": "£29,000 a year"
+    },
+    {
+      "item": "English at A1 level"
+    }
+  ],
+  "purposesTitle": "Who the civil partner visa covers",
+  "purposes": [
+    {
+      "icon": "heart",
+      "title": "UK civil partnerships",
+      "text": "Registered in the UK."
+    },
+    {
+      "icon": "passport",
+      "title": "Overseas relationships",
+      "text": "Recognised as civil partnerships in UK law."
+    },
+    {
+      "icon": "family",
+      "title": "Proposed civil partners",
+      "text": "Use the fiancé(e) route to register in the UK."
+    }
+  ],
+  "notCoveredTitle": "Common civil partner visa mistakes",
+  "notCovered": [
+    "An overseas partnership not recognised in UK law",
+    "Missing financial evidence",
+    "Accommodation not secured"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ current and previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Civil partnership certificate",
+      "details": "With a certified translation if needed.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements and employer letters, or savings evidence, in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "From an approved provider at the required level, unless exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Accommodation evidence",
+      "details": "Tenancy agreement or property documents, and permission from the owner if needed.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "The financial requirement",
+      "text": "Most new applications need £29,000 a year from income, savings or both. Some sponsors who receive certain benefits are exempt. [Read our financial requirement guide](/spouse-visa-financial-requirement/)"
+    },
+    {
+      "title": "English language",
+      "text": "A1 for a first application, A2 when you extend, and B1 for settlement, unless you are exempt. [Read our English language guide](/english-language-requirement/)"
+    },
+    {
+      "title": "Route to settlement",
+      "text": "Partners of British citizens keep a 5-year route to Indefinite Leave to Remain under the government’s plans. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Civil partner visa requirements",
+      "text": "The civil partner visa has the same requirements as the spouse visa: a genuine and continuing relationship, the intention to live together permanently in the UK, the financial requirement, English language and adequate accommodation. Opposite-sex and same-sex civil partnerships are both covered."
+    },
+    {
+      "heading": "Registering in the UK",
+      "text": "If you plan to register your civil partnership in the UK, apply for the [fiancé(e) visa](/fiance-visa-uk/) as a proposed civil partner first."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the civil partner visa different from the spouse visa?",
+      "a": "No. The rules are the same; only the relationship document differs."
+    },
+    {
+      "q": "Are overseas civil partnerships recognised?",
+      "a": "Many are. We check whether yours is recognised in UK law."
+    },
+    {
+      "q": "Can I work on a civil partner visa?",
+      "a": "Yes."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "fiance-visa-uk"
+  ],
+  "title": "Civil Partner Visa UK | Applications and Advice",
+  "description": "Civil partner visa advice for partners of British or settled people: the same rules as the spouse visa, documents, finances and settlement.",
+  "focusKeyword": "civil partner visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

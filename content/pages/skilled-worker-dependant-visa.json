@@ -1,0 +1,135 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "skilled-worker-visa",
+  "hideFromMenus": true,
+  "order": 23,
+  "navLabel": "Skilled Worker dependants",
+  "h1": "Skilled Worker dependant visa",
+  "h1Accent": "for partners and children.",
+  "intro": "A Skilled Worker dependant visa lets your partner and children join you in the UK. We prepare each Skilled Worker dependant visa application so the relationship and finances are clearly shown.",
+  "cardText": "Partners and children joining a Skilled Worker.",
+  "facts": [
+    {
+      "value": "Partner",
+      "label": "Married, civil or unmarried"
+    },
+    {
+      "value": "Children",
+      "label": "Under 18"
+    },
+    {
+      "value": "Funds",
+      "label": "Unless your employer certifies"
+    },
+    {
+      "value": "Work",
+      "label": "Partners can usually work"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A genuine relationship",
+      "hint": "Married, civil partners, or 2 years living together"
+    },
+    {
+      "item": "Children under 18",
+      "hint": "Living with you"
+    },
+    {
+      "item": "Maintenance funds",
+      "hint": "Unless your sponsor certifies"
+    }
+  ],
+  "purposesTitle": "Who can apply as a dependant",
+  "purposes": [
+    {
+      "icon": "heart",
+      "title": "Partners",
+      "text": "Husbands, wives, civil and unmarried partners."
+    },
+    {
+      "icon": "family",
+      "title": "Children",
+      "text": "Under 18, or already in the UK as your dependant."
+    }
+  ],
+  "notCoveredTitle": "Common dependant visa problems",
+  "notCovered": [
+    "Not enough evidence of the relationship",
+    "Missing birth certificates",
+    "Funds not held for 28 days"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "For each family member.",
+      "needed": "Required"
+    },
+    {
+      "document": "Relationship evidence",
+      "details": "Marriage or civil partnership certificate, or 2 years’ cohabitation evidence.",
+      "needed": "Required"
+    },
+    {
+      "document": "Birth certificates",
+      "details": "For children.",
+      "needed": "Required"
+    },
+    {
+      "document": "Maintenance funds",
+      "details": "Bank statements, unless your sponsor certifies maintenance.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Care workers",
+      "text": "Care workers and senior care workers who applied after 11 March 2024 can’t bring dependants."
+    },
+    {
+      "title": "Maintenance",
+      "text": "You may need to show funds for each family member, held for 28 days, unless your employer certifies maintenance on your CoS."
+    },
+    {
+      "title": "Settlement together",
+      "text": "Dependants can usually apply for settlement with you."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Skilled Worker dependant visa requirements",
+      "text": "Your partner must be your husband, wife or civil partner, or have lived with you for at least 2 years. Children must be under 18 when they first apply. You must show you can support them, unless your employer certifies maintenance."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can my partner work on a Skilled Worker dependant visa?",
+      "a": "Yes, partners can usually work in almost any job."
+    },
+    {
+      "q": "Can care workers bring dependants?",
+      "a": "Not if they applied after 11 March 2024."
+    },
+    {
+      "q": "Can my children study in the UK?",
+      "a": "Yes, children can attend school."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "skilled-worker-visa"
+  ],
+  "title": "Skilled Worker Dependant Visa | Partners and Children",
+  "description": "Skilled Worker dependant visa advice for partners and children: relationship evidence, maintenance funds, care worker rules and settlement.",
+  "focusKeyword": "Skilled Worker dependant visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

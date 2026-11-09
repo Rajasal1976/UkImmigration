@@ -1,0 +1,149 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "spouse-visa-uk",
+  "hideFromMenus": true,
+  "order": 15,
+  "navLabel": "Spouse visa extension",
+  "h1": "Spouse visa extension",
+  "h1Accent": "the next step to settlement.",
+  "intro": "A spouse visa extension gives you another 2 years 6 months in the UK on the route to settlement. You must meet the requirements again, including A2 English, so we check everything has stayed on track.",
+  "cardText": "Extending your partner visa towards settlement.",
+  "facts": [
+    {
+      "value": "2 years 6 months",
+      "label": "Further permission"
+    },
+    {
+      "value": "A2 English",
+      "label": "For your extension"
+    },
+    {
+      "value": "£29,000",
+      "label": "Or the threshold that applies to you"
+    },
+    {
+      "value": "Before expiry",
+      "label": "Apply in time"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Still in a genuine relationship",
+      "hint": "Living together"
+    },
+    {
+      "item": "The financial requirement",
+      "hint": "At the level that applies to you"
+    },
+    {
+      "item": "English at A2 level"
+    },
+    {
+      "item": "Apply before your visa expires"
+    }
+  ],
+  "purposesTitle": "What you show for a spouse visa extension",
+  "purposes": [
+    {
+      "icon": "heart",
+      "title": "Your continuing relationship",
+      "text": "Living together since your last application."
+    },
+    {
+      "icon": "chart",
+      "title": "Finances",
+      "text": "Meeting the financial requirement again."
+    },
+    {
+      "icon": "book",
+      "title": "English at A2",
+      "text": "Unless you are exempt."
+    }
+  ],
+  "notCoveredTitle": "Common spouse visa extension problems",
+  "notCovered": [
+    "Applying after the visa has expired",
+    "No A2 English test",
+    "Finances that changed since the first visa",
+    "Not enough evidence of living together"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ current and previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Evidence of living together",
+      "details": "Documents addressed to you both at the same address since your last visa.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements and employer letters, or savings evidence, in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "At A2 or above, unless exempt.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Apply before your visa expires",
+      "text": "Applying late can break your continuous residence. We advise on the best time to apply."
+    },
+    {
+      "title": "Which financial threshold?",
+      "text": "If you were first granted before April 2024, a lower threshold may still apply to you. We check which applies."
+    },
+    {
+      "title": "Route to settlement",
+      "text": "Partners of British citizens keep a 5-year route to Indefinite Leave to Remain under the government’s plans. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Spouse visa extension requirements",
+      "text": "You must still be in a genuine relationship and living together, meet the financial requirement at the level that applies to you, pass English at A2 level unless exempt, and have adequate accommodation."
+    },
+    {
+      "heading": "After your spouse visa extension",
+      "text": "When you complete your qualifying period, you can apply for [Indefinite Leave to Remain](/indefinite-leave-to-remain/). Check your [time outside the UK](/absence-calculator/) as you go."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When should I apply for my spouse visa extension?",
+      "a": "Before your current visa expires. We help you choose the best date."
+    },
+    {
+      "q": "Do I need a new English test for my spouse visa extension?",
+      "a": "Yes, at A2 level, unless you’re exempt or already passed at a higher level."
+    },
+    {
+      "q": "Does the £29,000 threshold apply to my extension?",
+      "a": "It depends when you were first granted. Some people keep the earlier threshold."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "indefinite-leave-to-remain",
+    "english-language-requirement"
+  ],
+  "title": "Spouse Visa Extension | Extend Your UK Partner Visa",
+  "description": "Spouse visa extension advice: 2 years 6 months more, A2 English, the financial threshold that applies to you, and timing your application.",
+  "focusKeyword": "spouse visa extension",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

@@ -1,0 +1,131 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "indefinite-leave-to-remain",
+  "hideFromMenus": true,
+  "order": 31,
+  "navLabel": "Long residence ILR",
+  "h1": "Long residence ILR",
+  "h1Accent": "after 10 years in the UK.",
+  "intro": "The long residence route lets you apply for ILR after 10 years’ continuous lawful residence in the UK, across different visas. We check every gap and every absence before you apply on long residence.",
+  "cardText": "Settlement after 10 years’ lawful residence.",
+  "facts": [
+    {
+      "value": "10 years",
+      "label": "Continuous lawful residence"
+    },
+    {
+      "value": "180 days",
+      "label": "Most time abroad in any 12 months"
+    },
+    {
+      "value": "B1 English",
+      "label": "Plus the Life in the UK test"
+    },
+    {
+      "value": "Any visas",
+      "label": "Time on different routes can count"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "10 years’ continuous lawful residence"
+    },
+    {
+      "item": "Absences within the limits"
+    },
+    {
+      "item": "Life in the UK test"
+    },
+    {
+      "item": "English at B1 level"
+    }
+  ],
+  "purposesTitle": "What counts towards long residence",
+  "purposes": [
+    {
+      "icon": "clock",
+      "title": "Time on most visas",
+      "text": "Work, study, family and other routes."
+    },
+    {
+      "icon": "passport",
+      "title": "Short gaps",
+      "text": "Some short gaps between visas can be overlooked."
+    }
+  ],
+  "notCoveredTitle": "Common long residence problems",
+  "notCovered": [
+    "Gaps in lawful residence",
+    "Absences over the limit",
+    "Time on immigration bail or temporary admission"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports and visas",
+      "details": "Covering the full 10 years.",
+      "needed": "Required"
+    },
+    {
+      "document": "Travel history",
+      "details": "Every trip abroad.",
+      "needed": "Required"
+    },
+    {
+      "document": "Life in the UK and English evidence",
+      "details": "Your test reference and English evidence at B1.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Absences",
+      "text": "Under the current rules you must not have spent more than 180 days outside the UK in any 12 months. Use our [absence calculator](/absence-calculator/)."
+    },
+    {
+      "title": "Gaps",
+      "text": "Some short gaps between visas can be disregarded if you applied in time. We check each one."
+    },
+    {
+      "title": "Rules are changing",
+      "text": "The government’s settlement plans may change this route. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Long residence requirements",
+      "text": "You need 10 years’ continuous lawful residence in the UK, absences within the limits, the Life in the UK test, English at B1 level and good conduct. Time on most visas can count, which helps people who have moved between routes."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does time as a student count towards long residence?",
+      "a": "Yes, lawful time on a Student visa usually counts."
+    },
+    {
+      "q": "What if I had a gap between visas?",
+      "a": "Some short gaps can be disregarded if you applied in time. We check your history."
+    },
+    {
+      "q": "Is long residence changing?",
+      "a": "The government’s settlement plans may change it. Get advice before applying."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "absence-calculator"
+  ],
+  "title": "Long Residence ILR | Settlement After 10 Years",
+  "description": "Long residence ILR advice: 10 years’ continuous lawful residence, absences, gaps between visas and the upcoming settlement changes.",
+  "focusKeyword": "long residence",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

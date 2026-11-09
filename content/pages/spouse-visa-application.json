@@ -1,0 +1,157 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "spouse-visa-uk",
+  "hideFromMenus": true,
+  "order": 11,
+  "navLabel": "Spouse visa application",
+  "h1": "Spouse visa application",
+  "h1Accent": "for married couples.",
+  "intro": "A spouse visa application is for husbands and wives of British citizens or settled people. We check your marriage, finances and evidence carefully before your spouse visa application goes to the Home Office.",
+  "cardText": "For husbands and wives of British or settled partners.",
+  "facts": [
+    {
+      "value": "2 years 9 months",
+      "label": "First grant from outside the UK"
+    },
+    {
+      "value": "2 years 6 months",
+      "label": "First grant inside the UK"
+    },
+    {
+      "value": "£29,000",
+      "label": "Financial requirement"
+    },
+    {
+      "value": "5 years",
+      "label": "To settlement"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A legally recognised marriage"
+    },
+    {
+      "item": "Your partner is British or settled"
+    },
+    {
+      "item": "£29,000 a year",
+      "hint": "From income, savings or both"
+    },
+    {
+      "item": "English at A1 level"
+    }
+  ],
+  "purposesTitle": "Where you can apply from",
+  "purposes": [
+    {
+      "icon": "plane",
+      "title": "From outside the UK",
+      "text": "Entry clearance to join your partner."
+    },
+    {
+      "icon": "home",
+      "title": "From inside the UK",
+      "text": "Switching from another visa, where allowed."
+    }
+  ],
+  "notCoveredTitle": "Common spouse visa application mistakes",
+  "notCovered": [
+    "A marriage not recognised in UK law",
+    "Missing or wrongly dated payslips",
+    "Bank statements that don’t match the payslips",
+    "No evidence you’ll live together"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ current and previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Marriage certificate",
+      "details": "With a certified translation if it isn’t in English.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements and employer letters, or savings evidence, in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "From an approved provider at the required level, unless exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Accommodation evidence",
+      "details": "Tenancy agreement or property documents, and permission from the owner if needed.",
+      "needed": "Required"
+    },
+    {
+      "document": "Relationship evidence",
+      "details": "Photos, messages and evidence of time together.",
+      "needed": "Helpful"
+    }
+  ],
+  "rules": [
+    {
+      "title": "The financial requirement",
+      "text": "Most new applications need £29,000 a year from income, savings or both. Some sponsors who receive certain benefits are exempt. [Read our financial requirement guide](/spouse-visa-financial-requirement/)"
+    },
+    {
+      "title": "English language",
+      "text": "A1 for a first application, A2 when you extend, and B1 for settlement, unless you are exempt. [Read our English language guide](/english-language-requirement/)"
+    },
+    {
+      "title": "Route to settlement",
+      "text": "Partners of British citizens keep a 5-year route to Indefinite Leave to Remain under the government’s plans. [Read about the ILR changes](/ilr-changes-2026/)"
+    },
+    {
+      "title": "Switching from inside the UK",
+      "text": "You can only switch to a spouse visa from inside the UK from certain visas. Visitors usually can’t switch. We check whether you can."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Spouse visa application requirements",
+      "text": "You must both be 18 or over, legally married in a way that is recognised in the UK, have met in person, and intend to live together permanently in the UK. You also need to meet the financial, English language and accommodation requirements. Your partner must be British, Irish, settled, or have refugee status or humanitarian protection."
+    },
+    {
+      "heading": "How long does a spouse visa application take?",
+      "text": "Applications from outside the UK are usually decided within about 12 weeks, and in-country applications within about 8 weeks, though times vary."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a religious-only marriage enough for a spouse visa application?",
+      "a": "Only if the marriage is legally recognised where it took place and in UK law. We check your certificate."
+    },
+    {
+      "q": "Can I work in the UK on a spouse visa?",
+      "a": "Yes. You can work and study."
+    },
+    {
+      "q": "What happens after 2 years 9 months?",
+      "a": "You apply to extend your visa, then for settlement when you qualify."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "spouse-visa-extension",
+    "spouse-visa-financial-requirement"
+  ],
+  "title": "Spouse Visa Application | UK Visa for Husbands and Wives",
+  "description": "Spouse visa application help for husbands and wives of British or settled partners: requirements, documents, finances and processing times.",
+  "focusKeyword": "spouse visa application",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

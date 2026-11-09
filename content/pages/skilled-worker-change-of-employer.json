@@ -1,0 +1,128 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "skilled-worker-visa",
+  "hideFromMenus": true,
+  "order": 22,
+  "navLabel": "Changing employer",
+  "h1": "Skilled Worker change of employer",
+  "h1Accent": "moving to a new job.",
+  "intro": "A change of employer on a Skilled Worker visa needs a new application with your new sponsor. We help you time it correctly, so your change of employer doesn’t put your status at risk.",
+  "cardText": "Moving to a new job with a new sponsor.",
+  "facts": [
+    {
+      "value": "New sponsor",
+      "label": "Must hold a licence"
+    },
+    {
+      "value": "New CoS",
+      "label": "From the new employer"
+    },
+    {
+      "value": "New application",
+      "label": "Before you start"
+    },
+    {
+      "value": "Salary check",
+      "label": "For the new role"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "A job offer from a licensed sponsor"
+    },
+    {
+      "item": "A new Certificate of Sponsorship"
+    },
+    {
+      "item": "A role that meets the skill and salary rules"
+    }
+  ],
+  "purposesTitle": "What changes when you move job",
+  "purposes": [
+    {
+      "icon": "trade",
+      "title": "A new application",
+      "text": "With the new employer’s CoS."
+    },
+    {
+      "icon": "chart",
+      "title": "New salary rules",
+      "text": "The new role must meet the rules that apply to you."
+    },
+    {
+      "icon": "clock",
+      "title": "Timing",
+      "text": "Get the new application in before you start."
+    }
+  ],
+  "notCoveredTitle": "Change of employer mistakes",
+  "notCovered": [
+    "Starting the new job before applying",
+    "A new employer without a sponsor licence",
+    "A role that doesn’t meet the salary rules"
+  ],
+  "documentsTable": [
+    {
+      "document": "Certificate of Sponsorship",
+      "details": "From your new employer.",
+      "needed": "Required"
+    },
+    {
+      "document": "Passport",
+      "details": "Your current passport.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Apply before you start",
+      "text": "You must make a new application, with a new CoS, before you start the new job."
+    },
+    {
+      "title": "Your old employer",
+      "text": "Your current sponsor reports when you leave. Plan your notice period around your application."
+    },
+    {
+      "title": "Settlement",
+      "text": "Under the government’s plans, Skilled Workers earning £50,271 or more in 3 of the last 5 years keep a 5-year route to ILR. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "How a Skilled Worker change of employer works",
+      "text": "Your new employer must hold a sponsor licence and assign you a Certificate of Sponsorship. You then make a new Skilled Worker application before you start the new job. If you’re only moving within the same employer to a different role, a change of employer application may not be needed, but some changes still need one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a new visa for a change of employer?",
+      "a": "Yes. You need a new Skilled Worker application with the new employer’s CoS."
+    },
+    {
+      "q": "Can I start my new job straight away?",
+      "a": "Apply before you start the new job. We’ll advise on timing for your case."
+    },
+    {
+      "q": "Will a change of employer affect my settlement?",
+      "a": "Time with different sponsors on the Skilled Worker route can usually count, as long as there are no gaps in your permission."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "skilled-worker-visa",
+    "skilled-worker-visa-extension"
+  ],
+  "title": "Skilled Worker Change of Employer | New Job Visa Help",
+  "description": "Skilled Worker change of employer advice: new sponsor, new Certificate of Sponsorship, salary rules and timing your application.",
+  "focusKeyword": "change of employer",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

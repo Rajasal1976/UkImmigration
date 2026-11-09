@@ -1,0 +1,128 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "british-citizenship",
+  "hideFromMenus": true,
+  "order": 42,
+  "navLabel": "Registering children",
+  "h1": "Register a child as a British citizen",
+  "h1Accent": "for your children.",
+  "intro": "Many children can register as British citizens, depending on where they were born and their parents’ status. We work out whether you can register a child as a British citizen as of right, or under the Home Office’s discretion.",
+  "cardText": "Children born in the UK or with British or settled parents.",
+  "facts": [
+    {
+      "value": "As of right",
+      "label": "For many UK-born children"
+    },
+    {
+      "value": "Discretion",
+      "label": "For other cases"
+    },
+    {
+      "value": "Good character",
+      "label": "For children aged 10 and over"
+    },
+    {
+      "value": "Under 18",
+      "label": "Apply before 18"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "The child is under 18"
+    },
+    {
+      "item": "Where they were born"
+    },
+    {
+      "item": "Parents’ status at and after the birth"
+    }
+  ],
+  "purposesTitle": "Common routes for children",
+  "purposes": [
+    {
+      "icon": "home",
+      "title": "Born in the UK",
+      "text": "If a parent later became British or settled."
+    },
+    {
+      "icon": "family",
+      "title": "Living in the UK",
+      "text": "Children who have lived here for 10 years."
+    },
+    {
+      "icon": "book",
+      "title": "Discretionary registration",
+      "text": "Where the Home Office can use its discretion."
+    }
+  ],
+  "notCoveredTitle": "Good to know",
+  "notCovered": [
+    "Children born in the UK to a British or settled parent are usually British automatically",
+    "Children aged 10 and over must meet the good character requirement",
+    "Registration must usually be applied for before 18"
+  ],
+  "documentsTable": [
+    {
+      "document": "Child’s birth certificate",
+      "details": "The full certificate showing the parents.",
+      "needed": "Required"
+    },
+    {
+      "document": "Parents’ passports and status evidence",
+      "details": "At the time of birth and now.",
+      "needed": "Required"
+    },
+    {
+      "document": "Evidence of residence",
+      "details": "If relying on time in the UK.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Already British?",
+      "text": "Children born in the UK to a British or settled parent are usually British already, and just need a passport."
+    },
+    {
+      "title": "Apply before 18",
+      "text": "Most registration routes for children must be applied for before their 18th birthday."
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "How to register a child as a British citizen",
+      "text": "The route depends on the child’s birthplace, the parents’ status at the time of birth and since, and how long the child has lived in the UK. We look at your family’s history and tell you which route applies."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is my UK-born child already British?",
+      "a": "If a parent was British or settled when the child was born, usually yes."
+    },
+    {
+      "q": "Can I register a child born abroad?",
+      "a": "Sometimes, depending on the parents’ status. We check."
+    },
+    {
+      "q": "Does my child need to take the Life in the UK test?",
+      "a": "No, children don’t need to."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "british-citizenship"
+  ],
+  "title": "Register a Child as a British Citizen | UK Guide",
+  "description": "How to register a child as a British citizen: children born in the UK, parents becoming settled, 10 years’ residence and discretion.",
+  "focusKeyword": "register a child as a British citizen",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

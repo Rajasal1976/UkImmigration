@@ -55,12 +55,14 @@
     {
       "icon": "heart",
       "title": "Married to a British citizen",
-      "text": "A 3-year residence route, with no wait after ILR."
+      "text": "A 3-year residence route, with no wait after ILR.",
+      "link": "/british-citizenship-for-spouses/"
     },
     {
       "icon": "family",
       "title": "Registering children",
-      "text": "Children born in the UK or with British parents."
+      "text": "Children born in the UK or with British parents.",
+      "link": "/register-child-british-citizen/"
     },
     {
       "icon": "passport",

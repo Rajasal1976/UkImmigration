@@ -1,0 +1,151 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "spouse-visa-uk",
+  "hideFromMenus": true,
+  "order": 14,
+  "navLabel": "Fiancé(e) visa",
+  "h1": "Fiancé visa UK",
+  "h1Accent": "to marry in the UK.",
+  "intro": "The fiancé visa lets you come to the UK to marry, or register a civil partnership with, your British or settled partner within 6 months. You then switch to a spouse visa without leaving the UK.",
+  "cardText": "For couples marrying in the UK within 6 months of arriving.",
+  "facts": [
+    {
+      "value": "6 months",
+      "label": "To marry or register"
+    },
+    {
+      "value": "£29,000",
+      "label": "Financial requirement"
+    },
+    {
+      "value": "No work",
+      "label": "While on the fiancé visa"
+    },
+    {
+      "value": "Switch",
+      "label": "To a spouse visa afterwards"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Plans to marry within 6 months",
+      "hint": "With evidence such as a booking"
+    },
+    {
+      "item": "Your partner is British or settled"
+    },
+    {
+      "item": "£29,000 a year"
+    },
+    {
+      "item": "English at A1 level"
+    }
+  ],
+  "purposesTitle": "How the fiancé visa works",
+  "purposes": [
+    {
+      "icon": "plane",
+      "title": "Come to the UK",
+      "text": "With your fiancé(e) visa."
+    },
+    {
+      "icon": "heart",
+      "title": "Marry or register",
+      "text": "Within 6 months of arriving."
+    },
+    {
+      "icon": "home",
+      "title": "Switch to a spouse visa",
+      "text": "From inside the UK, before the 6 months end."
+    }
+  ],
+  "notCoveredTitle": "Fiancé visa limits",
+  "notCovered": [
+    "You can’t work while on the fiancé visa",
+    "It can’t be extended beyond 6 months, except in limited cases",
+    "You must marry within the 6 months"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ current and previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Wedding evidence",
+      "details": "Evidence of your wedding or ceremony plans, such as a booking.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements and employer letters, or savings evidence, in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "From an approved provider at the required level, unless exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Accommodation evidence",
+      "details": "Tenancy agreement or property documents, and permission from the owner if needed.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Marry within 6 months",
+      "text": "You must marry or register your civil partnership within the 6 months, then apply for a [spouse visa](/spouse-visa-application/) before the fiancé visa expires."
+    },
+    {
+      "title": "The financial requirement",
+      "text": "Most new applications need £29,000 a year from income, savings or both. Some sponsors who receive certain benefits are exempt. [Read our financial requirement guide](/spouse-visa-financial-requirement/)"
+    },
+    {
+      "title": "English language",
+      "text": "A1 for a first application, A2 when you extend, and B1 for settlement, unless you are exempt. [Read our English language guide](/english-language-requirement/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Fiancé visa requirements",
+      "text": "You must both be 18 or over, have met in person, intend to marry or register a civil partnership in the UK within 6 months and live together permanently, and meet the financial, English language and accommodation requirements. Proposed civil partners use the same route."
+    },
+    {
+      "heading": "After your wedding",
+      "text": "Once you’re married, you apply to switch to a spouse visa from inside the UK, which usually gives you 2 years 6 months."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I work on a fiancé visa?",
+      "a": "No. You can work once you switch to a spouse visa."
+    },
+    {
+      "q": "How long is a fiancé visa?",
+      "a": "6 months."
+    },
+    {
+      "q": "Is the fiancé visa the right choice if we can marry abroad?",
+      "a": "Not always. Marrying first and applying for a spouse visa can be simpler and cheaper. We’ll compare the options."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "spouse-visa-application",
+    "spouse-visa-uk"
+  ],
+  "title": "Fiancé Visa UK | Marry Your Partner in the UK",
+  "description": "Fiancé visa UK advice: come to the UK to marry within 6 months, then switch to a spouse visa. Requirements, documents and finances explained.",
+  "focusKeyword": "fiancé visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}

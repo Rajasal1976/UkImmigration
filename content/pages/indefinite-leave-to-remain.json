@@ -51,17 +51,20 @@
     {
       "icon": "briefcase",
       "title": "Skilled Worker",
-      "text": "After 5 years, or longer under the new rules for some earners."
+      "text": "After 5 years, or longer under the new rules for some earners.",
+      "link": "/skilled-worker-visa/"
     },
     {
       "icon": "heart",
       "title": "Spouse or partner",
-      "text": "After 5 years on the partner route."
+      "text": "After 5 years on the partner route.",
+      "link": "/spouse-visa-uk/"
     },
     {
       "icon": "clock",
       "title": "Long residence",
-      "text": "After 10 years’ lawful residence."
+      "text": "After 10 years’ lawful residence.",
+      "link": "/long-residence-ilr/"
     },
     {
       "icon": "people",

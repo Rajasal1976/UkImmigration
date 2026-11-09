@@ -1,0 +1,156 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "parent": "spouse-visa-uk",
+  "hideFromMenus": true,
+  "order": 13,
+  "navLabel": "Unmarried partner visa",
+  "h1": "Unmarried partner visa",
+  "h1Accent": "for couples who live together.",
+  "intro": "The unmarried partner visa is for couples who aren’t married but have lived together in a relationship like marriage for at least 2 years. Proving those 2 years is the key, and we help you build that evidence.",
+  "cardText": "For couples who have lived together for at least 2 years.",
+  "facts": [
+    {
+      "value": "2 years",
+      "label": "Living together before you apply"
+    },
+    {
+      "value": "£29,000",
+      "label": "Financial requirement"
+    },
+    {
+      "value": "A1 English",
+      "label": "For a first application"
+    },
+    {
+      "value": "5 years",
+      "label": "To settlement"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Living together for 2 years",
+      "hint": "In a relationship akin to marriage"
+    },
+    {
+      "item": "Your partner is British or settled"
+    },
+    {
+      "item": "£29,000 a year"
+    },
+    {
+      "item": "English at A1 level"
+    }
+  ],
+  "purposesTitle": "Evidence of living together",
+  "purposes": [
+    {
+      "icon": "home",
+      "title": "Joint tenancy or mortgage",
+      "text": "Shared housing documents."
+    },
+    {
+      "icon": "book",
+      "title": "Bills and letters",
+      "text": "Addressed to you both at the same address."
+    },
+    {
+      "icon": "chart",
+      "title": "Bank statements",
+      "text": "Sent to the shared address across the 2 years."
+    }
+  ],
+  "notCoveredTitle": "Common unmarried partner visa refusals",
+  "notCovered": [
+    "Gaps in the 2 years of evidence",
+    "Letters to only one partner",
+    "Time apart not explained",
+    "Not enough evidence from early in the 2 years"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passports",
+      "details": "Both partners’ current and previous passports.",
+      "needed": "Required"
+    },
+    {
+      "document": "Cohabitation evidence",
+      "details": "Documents addressed to you both at the same address, spread across the full 2 years.",
+      "needed": "Required"
+    },
+    {
+      "document": "Financial evidence",
+      "details": "Payslips, bank statements and employer letters, or savings evidence, in the exact format the rules require.",
+      "needed": "Required"
+    },
+    {
+      "document": "English test certificate",
+      "details": "From an approved provider at the required level, unless exempt.",
+      "needed": "Required"
+    },
+    {
+      "document": "Accommodation evidence",
+      "details": "Tenancy agreement or property documents, and permission from the owner if needed.",
+      "needed": "Required"
+    }
+  ],
+  "rules": [
+    {
+      "title": "The 2-year rule",
+      "text": "You must have lived together for at least 2 years before you apply. Evidence should cover the whole period."
+    },
+    {
+      "title": "The financial requirement",
+      "text": "Most new applications need £29,000 a year from income, savings or both. Some sponsors who receive certain benefits are exempt. [Read our financial requirement guide](/spouse-visa-financial-requirement/)"
+    },
+    {
+      "title": "English language",
+      "text": "A1 for a first application, A2 when you extend, and B1 for settlement, unless you are exempt. [Read our English language guide](/english-language-requirement/)"
+    },
+    {
+      "title": "Route to settlement",
+      "text": "Partners of British citizens keep a 5-year route to Indefinite Leave to Remain under the government’s plans. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Want a second pair of eyes before you apply?",
+  "boxText": "A consultation costs far less than a refused application. We’ll check your case against the current rules and tell you honestly where you stand.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Unmarried partner visa requirements",
+      "text": "You must both be 18 or over, have lived together in a relationship akin to marriage or civil partnership for at least 2 years, and intend to live together permanently in the UK. The financial, English language and accommodation requirements are the same as for a spouse visa."
+    },
+    {
+      "heading": "Building your 2 years of evidence",
+      "text": "The Home Office usually wants to see documents addressed to you both, or each of you, at the same address, spread across the 2 years: tenancy agreements, council tax, utility bills and bank statements. We review what you have and tell you where the gaps are."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long do we need to have lived together for an unmarried partner visa?",
+      "a": "At least 2 years before you apply."
+    },
+    {
+      "q": "Do we need to have lived together in the UK?",
+      "a": "No. The 2 years can be anywhere."
+    },
+    {
+      "q": "What if we got married recently?",
+      "a": "You may apply as a spouse instead. We check which route is stronger."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "spouse-visa-financial-requirement"
+  ],
+  "title": "Unmarried Partner Visa UK | 2-Year Rule Explained",
+  "description": "Unmarried partner visa advice: the 2-year living together rule, the evidence you need, finances and English. IAA-regulated advisers.",
+  "focusKeyword": "unmarried partner visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}
