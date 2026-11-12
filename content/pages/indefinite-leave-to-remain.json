@@ -67,9 +67,15 @@
       "link": "/long-residence-ilr/"
     },
     {
+      "icon": "passport",
+      "title": "UK Ancestry",
+      "text": "After 5 years on the Ancestry route.",
+      "link": "/uk-ancestry-visa/"
+    },
+    {
       "icon": "people",
       "title": "Other routes",
-      "text": "Ancestry, Global Talent and more."
+      "text": "Global Talent, long-term family routes and more."
     }
   ],
   "notCoveredTitle": "Common reasons ILR applications are refused",

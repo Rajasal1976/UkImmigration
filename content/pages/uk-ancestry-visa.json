@@ -1,0 +1,182 @@
+{
+  "layout": "visa",
+  "group": "visas",
+  "order": 65,
+  "navLabel": "UK Ancestry visa",
+  "eyebrow": "Commonwealth citizens",
+  "h1": "UK Ancestry visa",
+  "h1Accent": "through your grandparent.",
+  "intro": "If you’re a Commonwealth citizen with a grandparent born in the UK, the UK Ancestry visa gives you 5 years to live and work here, with a clear path to settlement. We confirm your family link qualifies, then prepare your UK Ancestry visa application with you.",
+  "cardText": "Commonwealth citizens with a UK-born grandparent.",
+  "facts": [
+    {
+      "value": "5 years",
+      "label": "Permission to live and work"
+    },
+    {
+      "value": "Grandparent",
+      "label": "Born in the UK, or Ireland before 1922"
+    },
+    {
+      "value": "17+",
+      "label": "Minimum age"
+    },
+    {
+      "value": "5-year route",
+      "label": "To settlement, under current plans"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Commonwealth citizenship",
+      "hint": "Aged 17 or over"
+    },
+    {
+      "item": "A qualifying grandparent",
+      "hint": "Born in the UK, Channel Islands, Isle of Man, or Ireland before 31 March 1922"
+    },
+    {
+      "item": "Plans to work in the UK",
+      "hint": "A job offer helps, but isn’t essential"
+    },
+    {
+      "item": "Funds to support yourself",
+      "hint": "Until you’re earning"
+    }
+  ],
+  "purposesTitle": "What the UK Ancestry visa gives you",
+  "purposes": [
+    {
+      "icon": "briefcase",
+      "title": "Work freely",
+      "text": "Any job, at any level, or self-employment."
+    },
+    {
+      "icon": "school",
+      "title": "Study",
+      "text": "Courses alongside or instead of work."
+    },
+    {
+      "icon": "family",
+      "title": "Family",
+      "text": "Partner and children under 18 can join you."
+    },
+    {
+      "icon": "home",
+      "title": "Settlement",
+      "text": "Indefinite Leave to Remain after 5 years."
+    }
+  ],
+  "notCoveredTitle": "Common UK Ancestry visa problems",
+  "notCovered": [
+    "A great-grandparent rather than a grandparent",
+    "Gaps in the chain of birth certificates",
+    "Names that differ between documents with no explanation",
+    "No real evidence of plans to work",
+    "Funds that are too low or not clearly yours"
+  ],
+  "documentsTable": [
+    {
+      "document": "Passport",
+      "details": "Your current passport, and any previous ones.",
+      "needed": "Required"
+    },
+    {
+      "document": "Three generations of birth certificates",
+      "details": "Yours, your parent’s and your grandparent’s, in full form.",
+      "needed": "Required"
+    },
+    {
+      "document": "Marriage or name-change records",
+      "details": "Wherever a surname changes between certificates.",
+      "needed": "If applicable"
+    },
+    {
+      "document": "Work plans",
+      "details": "A job offer, or your CV with evidence of your job search.",
+      "needed": "Required"
+    },
+    {
+      "document": "Bank statements",
+      "details": "Showing you can support yourself until you start work.",
+      "needed": "Required"
+    },
+    {
+      "document": "TB test certificate",
+      "details": "If you’re applying from a listed country.",
+      "needed": "If applicable"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Grandparents only",
+      "text": "The visa covers a grandparent through either parent. Great-grandparents don’t count, however strong the family link."
+    },
+    {
+      "title": "Ireland before 1922",
+      "text": "A grandparent born anywhere in Ireland counts if born before 31 March 1922. After that date, only Northern Ireland counts."
+    },
+    {
+      "title": "No English test for the visa",
+      "text": "You don’t need an English test to get the visa, but you’ll need B1 English and the [Life in the UK test](/life-in-the-uk-test/) to settle."
+    },
+    {
+      "title": "Settlement",
+      "text": "After 5 years you can apply for [Indefinite Leave to Remain](/indefinite-leave-to-remain/). The government’s plans keep a 5-year route for UK Ancestry visa holders. [Read about the ILR changes](/ilr-changes-2026/)"
+    }
+  ],
+  "boxTitle": "Not sure your family link qualifies?",
+  "boxText": "Send us what you know about your grandparents and we’ll tell you honestly whether you can apply, before you order any certificates.",
+  "boxButton": "Book a consultation",
+  "boxLink": "/contact-us/",
+  "sections": [
+    {
+      "heading": "Who can apply for the UK Ancestry visa?",
+      "text": "Citizens of Commonwealth countries, such as Australia, Canada, New Zealand, South Africa, India, Jamaica and Ghana, can apply if they are 17 or over and have a grandparent born in the UK, the Channel Islands or the Isle of Man. A grandparent born in Ireland also counts if they were born before 31 March 1922. Some British nationals, including British overseas territories citizens, can apply too."
+    },
+    {
+      "heading": "Proving your family link",
+      "text": "The Home Office wants an unbroken paper trail: your birth certificate naming your parent, your parent’s birth certificate naming your grandparent, and your grandparent’s birth certificate showing where they were born. If anyone changed their name through marriage, include the marriage certificate. If a certificate is missing, official replacements can usually be ordered."
+    },
+    {
+      "heading": "Showing you’ll work and support yourself",
+      "text": "You need to show that you’re able to work and that you intend to. A job offer is the strongest evidence, but a CV, qualifications and evidence of applications also help. You also need enough money to live on until you’re earning, for you and anyone joining you. There’s no fixed figure, so the amount should be realistic for where you’ll live."
+    },
+    {
+      "heading": "How long does a UK Ancestry visa take?",
+      "text": "Most applications made from outside the UK are decided within about 3 weeks of the biometrics appointment. You can apply up to 3 months before you travel. You pay the visa fee and the Immigration Health Surcharge when you apply."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I get a UK Ancestry visa through a great-grandparent?",
+      "a": "No. Only a grandparent qualifies."
+    },
+    {
+      "q": "Do I need a job offer for a UK Ancestry visa?",
+      "a": "No, but you must show you can work and plan to work. A job offer makes your application stronger."
+    },
+    {
+      "q": "Can my partner and children come with me?",
+      "a": "Yes. Your partner and children under 18 can apply as your dependants."
+    },
+    {
+      "q": "Can I extend my UK Ancestry visa?",
+      "a": "Yes, you can extend, or apply for settlement after 5 years if you qualify."
+    },
+    {
+      "q": "Are you regulated?",
+      "a": "Yes. UK Immigration Advisory is a trading name of Unique Visa Services Ltd, regulated by the Immigration Advice Authority (IAA), reference F200700144. You can check our registration on the IAA’s online register."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "british-citizenship",
+    "life-in-the-uk-test"
+  ],
+  "title": "UK Ancestry Visa | Commonwealth Grandparent Route",
+  "description": "UK Ancestry visa advice for Commonwealth citizens with a UK-born grandparent: who qualifies, proving your family link, work plans and settlement.",
+  "focusKeyword": "UK Ancestry visa",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/"
+}
