@@ -1,6 +1,7 @@
 // Menus, built automatically from the pages in the admin.
 // Each page's "Section of the site" decides which menu it is in, and "Order in menus" its position.
 import { groups, pagesIn, pageBySlug, navName } from './pages.js';
+import { tools } from './tools.js';
 
 const item = (p) => [navName(p), `/${p.slug}/`];
 const section = (key, extra = []) => {
@@ -13,14 +14,8 @@ const section = (key, extra = []) => {
 export const menu = [
   section('visas'),
   section('employers'),
-  { label: 'Free tools', href: '/absence-calculator/', items: [
-    ['Absence calculator', '/absence-calculator/'],
-    ['Spouse visa calculator', '/spouse-visa-calculator/'],
-    ['Visa fee calculator', '/uk-visa-fee-calculator/'],
-    ['ILR eligibility checker', '/ilr-eligibility-checker/'],
-    ['SOC code checker', '/soc-code-checker/'],
-    ['Life in the UK practice test', '/life-in-the-uk-practice-test/'],
-  ] },
+  // The list of tools is in src/data/tools.js (also used on the homepage and /uk-immigration-tools/)
+  { label: 'UK immigration tools', href: '/uk-immigration-tools/', items: [...tools.map((t) => [t.menu, t.href]), ['All free tools', '/uk-immigration-tools/']] },
   section('guide', [['Blog', '/blog/']]),
   section('company', [['Contact us', '/contact-us/']]),
 ].filter((m) => m.items.length || m.href);

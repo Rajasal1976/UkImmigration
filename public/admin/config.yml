@@ -128,7 +128,7 @@ collections:
       - { name: boxText, label: Navy box text, widget: text, required: false }
       - { name: boxButton, label: Navy box button text, widget: string, required: false }
       - { name: boxLink, label: Navy box button link, widget: string, required: false, hint: 'e.g. /contact-us/. Empty = Book a consultation.' }
-      - { name: widget, label: Free tool on this page, widget: select, required: false, default: '', options: [{ label: 'None', value: '' }, { label: 'Absence calculator', value: 'absence' }, { label: 'Spouse visa financial requirement calculator', value: 'financial' }, { label: 'Visa fee calculator', value: 'fees' }, { label: 'ILR eligibility checker', value: 'ilr' }, { label: 'SOC code checker', value: 'jobs' }, { label: 'Life in the UK practice test', value: 'lituk' }] }
+      - { name: widget, label: Free tool on this page, widget: select, required: false, default: '', options: [{ label: 'None', value: '' }, { label: 'Absence calculator', value: 'absence' }, { label: 'Spouse visa financial requirement calculator', value: 'financial' }, { label: 'Visa fee calculator', value: 'fees' }, { label: 'ILR eligibility checker', value: 'ilr' }, { label: 'SOC code checker', value: 'jobs' }, { label: 'Life in the UK practice test', value: 'lituk' }, { label: 'B1 English practice test', value: 'english-b1' }, { label: 'B2 English practice test', value: 'english-b2' }] }
       - { name: widgetTitle, label: Free tool heading, widget: string, required: false }
       - name: body
         label: Page text

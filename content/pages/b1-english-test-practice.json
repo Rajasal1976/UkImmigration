@@ -1,0 +1,70 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 42,
+  "navLabel": "B1 English test practice",
+  "widget": "english-b1",
+  "widgetTitle": "B1 English test practice",
+  "h1": "B1 English test practice",
+  "intro": "Free B1 English test practice for Indefinite Leave to Remain and British citizenship. Work through grammar, reading and listening questions, see how you score in each part, and use our timed speaking tasks to practise for the real conversation with an examiner.",
+  "cardText": "Free B1 grammar, reading and listening practice with speaking tasks.",
+  "sections": [
+    {
+      "heading": "How our B1 English test practice works",
+      "text": "Every practice test has 24 questions: 12 on grammar and vocabulary, 6 on two short reading texts, and 6 on two recordings that your browser reads aloud. You can listen to each recording twice.\n\nYou get your result straight away, broken down by part, with the right answer and a short explanation for anything you got wrong. The speaking tasks under the test have a timer, so you can practise talking for a set time without stopping."
+    },
+    {
+      "heading": "When you need B1 English",
+      "text": "Most people need to show English at B1 in speaking and listening for:\n- [Indefinite Leave to Remain](/indefinite-leave-to-remain/)\n- [British citizenship](/british-citizenship/)\n\nThe Immigration Rules have been changed so that settlement applications made from 26 March 2027 will need B2 instead. If that applies to you, use our [B2 English test practice](/b2-english-test-practice/) as well. Read our guide to the [English language requirement](/english-language-requirement/) for every route."
+    },
+    {
+      "heading": "What examiners look for at B1",
+      "text": "At B1 you should be able to:\n- follow clear speech on familiar topics like work, family and local services\n- describe experiences, events, hopes and plans\n- give brief reasons for your opinions\n- keep a simple conversation going, even if you make some mistakes\n\nFluency and being understood matter more than perfect grammar. Short pauses are fine. Long silences and one-word answers are not."
+    },
+    {
+      "heading": "Proving your English to the Home Office",
+      "text": "B1 English test practice helps you get ready, but it isn’t proof of your level. You can meet the requirement with a Secure English Language Test at B1 or above from an approved provider, a degree taught in English (confirmed by Ecctis if it’s from abroad), or nationality of a majority English-speaking country. People aged 65 or over are usually exempt.\n\nCheck the [approved test list on GOV.UK](https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt) before you book, because results from unapproved tests are refused."
+    },
+    {
+      "heading": "On the day of your real test",
+      "text": "Arrive early with the same ID you used to book, usually your passport or biometric residence document. The B1 speaking and listening test is normally a short conversation with an examiner, sometimes with another candidate. You may be asked about yourself, to talk about a topic, and to discuss a task together.\n\nListen carefully to each question, answer in full sentences and give examples. If you don’t catch something, it’s fine to ask the examiner to repeat it. Results usually come within about a week."
+    },
+    {
+      "heading": "Practice tips",
+      "text": "- Do one B1 English test practice session a day for a couple of weeks.\n- Review every explanation, especially for tenses and prepositions.\n- Record yourself doing the speaking tasks and listen back.\n- Practise with friends or colleagues in English, not just online.\n- Book your real test well before you plan to apply, as dates can fill up."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is this B1 English test practice free?",
+      "a": "Yes. There’s no sign-up and no limit on how many times you practise."
+    },
+    {
+      "q": "Is it an official test?",
+      "a": "No. Our questions are written for practice. For your application you need a Secure English Language Test from a Home Office approved provider, unless you’re exempt."
+    },
+    {
+      "q": "Which skills does the B1 test for ILR cover?",
+      "a": "Speaking and listening. Our practice also includes grammar and reading, which build the skills you need for both."
+    },
+    {
+      "q": "Is the ILR English level changing?",
+      "a": "Yes. From 26 March 2027, most settlement applications will need B2 instead of B1."
+    },
+    {
+      "q": "What score should I aim for?",
+      "a": "18 or more out of 24, several times in a row, is a good sign you’re at around B1."
+    }
+  ],
+  "related": [
+    "english-language-requirement",
+    "life-in-the-uk-practice-test",
+    "indefinite-leave-to-remain"
+  ],
+  "title": "B1 English Test Practice | Free ILR & Citizenship Questions",
+  "description": "Free B1 English test practice for ILR and citizenship: grammar, reading and listening questions marked instantly, plus timed speaking tasks.",
+  "focusKeyword": "B1 English test practice",
+  "hideFromMenus": true
+}

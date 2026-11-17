@@ -1,0 +1,70 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 43,
+  "navLabel": "B2 English test practice",
+  "widget": "english-b2",
+  "widgetTitle": "B2 English test practice",
+  "h1": "B2 English test practice",
+  "intro": "Free B2 English test practice for Skilled Worker visa applicants. Answer upper-intermediate grammar, reading and listening questions, get an instant score for each part, and practise speaking with timed tasks before you book the real test.",
+  "cardText": "Free B2 practice for Skilled Worker applicants, with speaking tasks.",
+  "sections": [
+    {
+      "heading": "How our B2 English test practice works",
+      "text": "Each practice test has 24 questions: 12 on grammar and vocabulary, 6 on two longer reading texts, and 6 on two recordings read aloud by your browser. You can play each recording twice.\n\nWhen you finish, you see your score for each part, with explanations for every question you missed. Underneath the test are timed speaking tasks, which ask you to give opinions, compare options and speculate, as you would at B2."
+    },
+    {
+      "heading": "When you need B2 English",
+      "text": "B2 has been the level for these routes since 8 January 2026:\n- the [Skilled Worker visa](/skilled-worker-visa/), for first-time applicants\n- the Scale-up visa\n- the High Potential Individual visa\n\nSkilled Workers who were granted at B1 can usually extend or change employer at B1. From 26 March 2027, B2 will also apply to most [Indefinite Leave to Remain](/indefinite-leave-to-remain/) applications. See our guide to the [English language requirement](/english-language-requirement/) for every route."
+    },
+    {
+      "heading": "What B2 looks like",
+      "text": "At B2 you should be able to:\n- understand the main ideas of complex texts and discussions in your field\n- follow talks and conversations at natural speed\n- speak with enough fluency for a natural conversation\n- explain a point of view, with advantages and disadvantages\n\nCompared with B1, you’ll need a wider vocabulary, more complex grammar such as conditionals and the passive, and longer answers that link ideas clearly."
+    },
+    {
+      "heading": "Proving your English for a Skilled Worker visa",
+      "text": "This B2 English test practice is a way to check your level. To prove it, you can use a Secure English Language Test at B2 or above from an approved provider, covering all four skills; a degree taught in English (with Ecctis confirmation if it’s from outside the UK); nationality of a majority English-speaking country; or a GCSE, A level or Scottish Higher in English taken at a UK school while under 18.\n\nCheck the [approved test list on GOV.UK](https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt) before booking."
+    },
+    {
+      "heading": "On the day of your real test",
+      "text": "Bring the same ID you used to book. A B2 test for a Skilled Worker visa covers reading, writing, speaking and listening, so expect it to take a few hours, with the speaking part often done face to face or on a separate day.\n\nManage your time in the reading and writing papers, and plan written answers before you start. In the speaking part, develop your answers with reasons and examples rather than stopping after one sentence. Check how long results take before you book, so they arrive in time for your application."
+    },
+    {
+      "heading": "Practice tips",
+      "text": "- Read a news article in English every day and summarise it out loud.\n- Watch talks or documentaries at normal speed without subtitles.\n- Use linking words like however, whereas, despite and as a result.\n- Do a B2 English test practice session every few days and review your mistakes.\n- Practise writing too: an email, a complaint or an opinion piece."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is this B2 English test practice free?",
+      "a": "Yes. Practise as many times as you want, with no sign-up."
+    },
+    {
+      "q": "Is it an official test?",
+      "a": "No. It’s practice written by us. Your visa needs a Secure English Language Test from an approved provider, unless you can prove your English another way."
+    },
+    {
+      "q": "Do all Skilled Workers need B2?",
+      "a": "First-time applicants from 8 January 2026 do. If your current Skilled Worker visa was granted at B1, you can usually extend at B1."
+    },
+    {
+      "q": "Can I use my degree instead of a test?",
+      "a": "Yes, if it was taught in English. A degree from outside the UK needs confirmation from Ecctis."
+    },
+    {
+      "q": "What score should I aim for?",
+      "a": "18 or more out of 24, consistently, suggests you’re at around B2."
+    }
+  ],
+  "related": [
+    "english-language-requirement",
+    "skilled-worker-visa",
+    "soc-code-checker"
+  ],
+  "title": "B2 English Test Practice | Free Skilled Worker Questions",
+  "description": "Free B2 English test practice for Skilled Worker visas: upper-intermediate grammar, reading and listening, marked instantly, plus timed speaking tasks.",
+  "focusKeyword": "B2 English test practice",
+  "hideFromMenus": true
+}

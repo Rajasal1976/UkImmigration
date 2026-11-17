@@ -370,6 +370,8 @@ a.card:hover { border-color: var(--green-800); color: inherit; }
 .service svg { color: var(--gold-text); }
 .service p { font-size: 15px; }
 .service span { margin-top: auto; font-size: 14px; font-weight: 600; color: var(--green-800); }
+.service-featured { background: var(--gold-soft); }
+.service-featured:hover { background: #F0E3C2; }
 .steps4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 36px; list-style: none; margin: 0; padding: 72px 0; counter-reset: s; }
 .steps4 li { border-top: 2px solid var(--gold); padding-top: 22px; }
 .steps4 li::before { counter-increment: s; content: "0" counter(s); font-family: var(--serif); font-size: 40px; color: var(--gold-text); display: block; line-height: 1; margin-bottom: 12px; }

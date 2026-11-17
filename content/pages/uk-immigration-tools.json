@@ -1,0 +1,64 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 8,
+  "navLabel": "UK immigration tools",
+  "hideFromMenus": true,
+  "h1": "UK immigration tools",
+  "intro": "Free UK immigration tools to check your position before you apply. Count your days outside the UK, test the spouse visa financial requirement, add up your fees, find out when you qualify for ILR, check a job’s SOC code, and practise for the Life in the UK and English tests.",
+  "cardText": "Free calculators, checkers and practice tests.",
+  "sections": [
+    {
+      "heading": "Our free UK immigration tools",
+      "text": "- [Absence calculator](/absence-calculator/): add your trips abroad and see how they measure up against the limits for ILR and citizenship.\n- [Spouse visa calculator](/spouse-visa-calculator/): check your income and savings against the financial requirement.\n- [UK visa fee calculator](/uk-visa-fee-calculator/): the Home Office fee and Immigration Health Surcharge for each person applying.\n- [ILR eligibility checker](/ilr-eligibility-checker/): find out when you can apply for settlement and what you still need.\n- [SOC code checker](/soc-code-checker/): search a job to see its occupation code, whether it can be sponsored and the minimum salary.\n- [Life in the UK practice test](/life-in-the-uk-practice-test/): 24 questions, 45 minutes and instant marking.\n- [B1 English test practice](/b1-english-test-practice/): for ILR and citizenship.\n- [B2 English test practice](/b2-english-test-practice/): for Skilled Worker applicants."
+    },
+    {
+      "heading": "Which tool should I start with?",
+      "text": "If you’re planning to settle, start with the ILR eligibility checker and the absence calculator, because time outside the UK is one of the most common reasons settlement applications fail. Then book your Life in the UK test and check your English level.\n\nIf you’re applying for a spouse or partner visa, the spouse visa calculator comes first. For work visas, check the job in the SOC code checker before a Certificate of Sponsorship is assigned."
+    },
+    {
+      "heading": "Tools for employers",
+      "text": "Employers sponsoring overseas workers can use the SOC code checker to confirm a role is eligible before assigning a Certificate of Sponsorship. It shows the going rate and new entrant rate for each occupation, and flags jobs on the Temporary Shortage List or open only to workers already in the UK.\n\nThe visa fee calculator shows the Home Office fee and Immigration Health Surcharge for the worker and any family members, which helps if you’re offering to cover relocation costs. Remember that sponsors also pay the Immigration Skills Charge and the Certificate of Sponsorship fee, which the worker can’t be asked to repay. If you don’t hold a licence yet, read our guide to getting a [sponsor licence](/sponsor-licence/)."
+    },
+    {
+      "heading": "How we keep the tools accurate",
+      "text": "We review GOV.UK every week for changes to the Immigration Rules, Home Office fees, salary thresholds and English requirements. When something changes, we update the UK immigration tools straight away. Each tool links to the official source so you can check the figures yourself."
+    },
+    {
+      "heading": "Your privacy",
+      "text": "You don’t need an account to use any of our UK immigration tools. What you enter stays on your device, unless you choose to send your result to us so an adviser can check it."
+    },
+    {
+      "heading": "Need a second opinion?",
+      "text": "Tools work best for straightforward cases. Speak to an adviser if you’ve had a refusal, have gaps in your residence, are self-employed or a company director, or have any criminal record. Our advisers are regulated by the Immigration Advice Authority. [Contact us](/contact-us/) for a consultation."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are these UK immigration tools free?",
+      "a": "Yes. All of them are free, with no sign-up and no limit on use."
+    },
+    {
+      "q": "Can I rely on the result?",
+      "a": "They’re a reliable first check for common situations, but the Home Office decides each case on its own facts and evidence."
+    },
+    {
+      "q": "How often are they updated?",
+      "a": "We check for changes every week and update the tools whenever the rules or fees change."
+    },
+    {
+      "q": "Can I send my result to an adviser?",
+      "a": "Yes. Each tool has a short form that sends us your result, and we’ll get back to you."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "spouse-visa-uk",
+    "skilled-worker-visa"
+  ],
+  "title": "UK Immigration Tools | Free Calculators and Practice Tests",
+  "description": "Free UK immigration tools: absence and spouse visa calculators, visa fee and ILR checkers, a SOC code checker, plus Life in the UK and English practice tests.",
+  "focusKeyword": "UK immigration tools"
+}

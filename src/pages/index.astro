@@ -15,6 +15,7 @@ import { inline } from '../lib/inline.js';
 const esc = (t = '') => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const accent = (h, a) => (a && h.includes(a) ? esc(h).replace(esc(a), `<em>${esc(a)}</em>`) : esc(h));
 const services = (home.services || []).map((s) => ({ ...s, page: pageBySlug[s.page] })).filter((s) => s.page);
+import { tools } from '../data/tools.js';
 ---
 <Page title={home.title} description={home.description} crumbs={[]}>
   <main>
@@ -44,7 +45,14 @@ const services = (home.services || []).map((s) => ({ ...s, page: pageBySlug[s.pa
       </div>
     </div></section>
 
-    <section class="section" id="absence"><div class="wrap">
+    <section class="section" id="tools"><div class="wrap">
+      <div class="section-head"><span class="kicker">Free tools</span><h2>UK immigration tools</h2><p>Practise for the Life in the UK and English tests, and check your figures before you apply. Free, with no sign-up. <a href="/uk-immigration-tools/">See all tools</a>.</p></div>
+      <div class="services">
+        {tools.map((t) => <a class={t.featured ? 'service service-featured' : 'service'} href={t.href}><span style="margin:0;color:var(--gold-text)" set:html={svg(t.icon, 26)} /><h3>{t.name}</h3><p>{t.text}</p><span>{t.featured ? 'Start a practice test' : 'Use the tool'}</span></a>)}
+      </div>
+    </div></section>
+
+    <section class="section tinted" id="absence"><div class="wrap">
       <div class="section-head"><span class="kicker">Free tool</span><h2>Absence calculator</h2><p>{home.calculatorIntro}</p></div>
       <AbsenceCalculator />
     </div></section>
