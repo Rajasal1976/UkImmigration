@@ -1,0 +1,73 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 9,
+  "navLabel": "SOC code checker",
+  "widget": "jobs",
+  "widgetTitle": "SOC code checker",
+  "h1": "SOC code checker for Skilled Worker visas",
+  "intro": "Use our free SOC code checker to find the occupation code for a job and see whether it can be sponsored for a Skilled Worker visa. It shows the going rate and minimum salary from the official Home Office list.",
+  "cardText": "Find a job’s SOC code, eligibility and minimum salary.",
+  "sections": [
+    {
+      "heading": "What is a SOC code?",
+      "text": "SOC stands for Standard Occupational Classification. Every job in the UK falls under a four-digit SOC 2020 code, such as 2134 for software developers or 2237 for nurses. The Home Office uses these codes to decide which jobs can be sponsored and what the minimum salary is.\n\nThe employer puts the SOC code on the worker’s Certificate of Sponsorship, so getting it right matters."
+    },
+    {
+      "heading": "How to use the SOC code checker",
+      "text": "Type a job title or a four-digit code and choose the closest match. The SOC code checker shows:\n- The occupation code and the job titles it covers\n- Whether the job can be sponsored for new applicants\n- The minimum salary and the going rate\n- The lower salary for new entrants, where it applies"
+    },
+    {
+      "heading": "Choosing the right SOC code",
+      "text": "The code must match the job’s actual duties, not just its title. A “manager” in a small business may really be doing a supervisor’s job, which has a different code and may not be eligible. The Home Office checks this, and a wrong code can lead to a refusal or a sponsor licence being suspended."
+    },
+    {
+      "heading": "Salary rules for each SOC code",
+      "text": "For degree-level jobs, the minimum salary is the higher of £41,700 and the going rate for the SOC code. New entrants can be paid the higher of £33,400 and 70% of the going rate. Health and education jobs use national pay scales instead.\n\nJobs below degree level can only be sponsored if they’re on the Temporary Shortage List, or for workers sponsored before 22 July 2025."
+    },
+    {
+      "heading": "Examples of SOC codes",
+      "text": "- 2134: software developers and programmers\n- 2237: nurses (paid on NHS pay bands)\n- 2421: chartered and qualified accountants\n- 2412: solicitors\n- 5241: electricians (Temporary Shortage List)\n- 5434: chefs (only for workers sponsored before 22 July 2025)\n- 6135: care workers (only for workers already on the route)\n\nSearch any of these in the SOC code checker above to see the full details and minimum salary."
+    },
+    {
+      "heading": "Need help with a SOC code?",
+      "text": "We help employers choose the right code, check salaries against the rules and apply for a [sponsor licence](/sponsor-licence/). We also help workers check whether a job offer meets the [Skilled Worker visa](/skilled-worker-visa/) rules before they apply. For a full guide to each job, see the Skilled Worker jobs pages on our sister site, Unique Visa Services."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I find the SOC code for a job?",
+      "a": "Search the job title in the SOC code checker and choose the closest match. Then check the duties match the code’s description."
+    },
+    {
+      "q": "Is the SOC code checker up to date?",
+      "a": "It uses the Home Office’s Appendix Skilled Occupations, updated October 2026, and the Temporary Shortage List. We update it when the rules change."
+    },
+    {
+      "q": "Can an employer choose any SOC code?",
+      "a": "No. The code must genuinely match the job’s duties. Using the wrong code can lead to a refusal and compliance action against the sponsor."
+    },
+    {
+      "q": "What if my job isn’t eligible?",
+      "a": "Another route may suit you, such as a partner, Graduate or UK Ancestry visa. Ask us about your options."
+    },
+    {
+      "q": "Does the SOC code affect the salary?",
+      "a": "Yes. Each SOC code has its own going rate, which can be higher than the £41,700 general threshold."
+    },
+    {
+      "q": "Is the SOC code checker free to use?",
+      "a": "Yes. It’s free, with no sign-up. Ask our advisers if you want us to confirm the code and salary for a real job offer."
+    }
+  ],
+  "related": [
+    "skilled-worker-visa",
+    "sponsor-licence",
+    "uk-visa-fee-calculator"
+  ],
+  "title": "SOC Code Checker 2026 | Skilled Worker Jobs and Salaries",
+  "description": "Free SOC code checker: find the occupation code for any job, see if it can be sponsored for a Skilled Worker visa, and check the minimum salary.",
+  "focusKeyword": "SOC code checker"
+}

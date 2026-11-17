@@ -18,6 +18,8 @@ export const menu = [
     ['Spouse visa calculator', '/spouse-visa-calculator/'],
     ['Visa fee calculator', '/uk-visa-fee-calculator/'],
     ['ILR eligibility checker', '/ilr-eligibility-checker/'],
+    ['SOC code checker', '/soc-code-checker/'],
+    ['Life in the UK practice test', '/life-in-the-uk-practice-test/'],
   ] },
   section('guide', [['Blog', '/blog/']]),
   section('company', [['Contact us', '/contact-us/']]),

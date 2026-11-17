@@ -12,6 +12,8 @@ import AbsenceCalculator from '../components/AbsenceCalculator.astro';
 import FinancialCalculator from '../components/FinancialCalculator.astro';
 import VisaFeeCalculator from '../components/VisaFeeCalculator.astro';
 import IlrChecker from '../components/IlrChecker.astro';
+import SkilledWorkerChecker from '../components/SkilledWorkerChecker.astro';
+import LifeInUkTest from '../components/LifeInUkTest.astro';
 import { pages, pageBySlug, groups, pagesIn, navName } from '../data/pages.js';
 import { site } from '../data/site.js';
 import { svg } from '../data/icons.js';
@@ -114,6 +116,24 @@ const serviceSchema = layout === 'visa' ? [JSON.stringify({
         <div class="wrap">
           <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Work out your visa fees'}</h2><p>Choose your application and who’s applying to see the full cost.</p></div>
           <VisaFeeCalculator />
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'lituk' && (
+      <section class="section" id="calculator">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Life in the UK practice test'}</h2><p>24 questions, 45 minutes, 18 to pass. New questions every time.</p></div>
+          <LifeInUkTest />
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'jobs' && (
+      <section class="section" id="calculator">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Check a job'}</h2><p>Search a job title to see its code, whether it can be sponsored and the minimum salary.</p></div>
+          <SkilledWorkerChecker jobBase="https://www.uvsuk.co.uk/skilled-worker-jobs/" />
         </div>
       </section>
     )}

@@ -1,0 +1,74 @@
+{
+  "layout": "guide",
+  "group": "company",
+  "order": 15,
+  "navLabel": "Areas we serve",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "h1": "Areas we serve",
+  "intro": "We give regulated immigration advice to clients in Manchester and across the North West, Yorkshire and the Midlands, and anywhere in the UK by phone or video call. Here are the areas we serve most often.",
+  "cardText": "Immigration advice across the North West, Yorkshire and the Midlands.",
+  "sections": [
+    {
+      "heading": "Areas we serve, from our Manchester office",
+      "text": "Our office is in Manchester city centre, at 61 Mosley Street. Most clients never need to visit: we hold consultations by phone or video call and review your documents online. If you’d like to meet an adviser, you’re welcome to come in."
+    },
+    {
+      "heading": "Leeds and Yorkshire",
+      "text": "Graduates, healthcare staff and growing businesses make up much of our Leeds work. Biometrics can usually be done at the Leeds UKVCAS service point. [Read more about Leeds](/immigration-advice-leeds/)."
+    },
+    {
+      "heading": "Liverpool and Merseyside",
+      "text": "Spouse visas, ILR and citizenship for families across Merseyside, plus students and healthcare workers. Liverpool has its own UKVCAS service point. [Read more about Liverpool](/immigration-advice-liverpool/)."
+    },
+    {
+      "heading": "Warrington and Cheshire",
+      "text": "Close enough to visit our Manchester office easily. Much of our Warrington work is sponsor licences for logistics and engineering firms. [Read more about Warrington](/immigration-advice-warrington/)."
+    },
+    {
+      "heading": "Birmingham and the West Midlands",
+      "text": "Every kind of case, from sponsored workers and students to family visas, plus sponsor compliance checks for Midlands employers. [Read more about Birmingham](/immigration-advice-birmingham/)."
+    },
+    {
+      "heading": "Nottingham and the East Midlands",
+      "text": "Students moving to the Graduate or Skilled Worker visa, healthcare staff and their families. Biometrics can usually be done in the city. [Read more about Nottingham](/immigration-advice-nottingham/)."
+    },
+    {
+      "heading": "Leicester and Leicestershire",
+      "text": "Spouse and partner visas, visit visas for relatives, ILR and citizenship, and help for students staying on after their course. [Read more about Leicester](/immigration-advice-leicester/)."
+    },
+    {
+      "heading": "Anywhere else in the UK",
+      "text": "Not in one of these areas? We work with clients right across the UK in the same way: a consultation by phone or video, a fixed fee agreed in writing, and every document checked before your application is submitted. [Get in touch](/contact-us/) to book a consultation."
+    },
+    {
+      "heading": "Biometrics near you",
+      "text": "For most applications made inside the UK, you give your fingerprints and photo at a UKVCAS service point after applying online. There are service points in many cities, including Manchester, Leeds, Liverpool, Birmingham, Nottingham and Leicester. We tell you which appointment to book."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which areas do you serve?",
+      "a": "Manchester and the North West, Yorkshire and the Midlands, including Leeds, Liverpool, Warrington, Birmingham, Nottingham and Leicester, and anywhere in the UK by phone or video."
+    },
+    {
+      "q": "Do I have to come to Manchester?",
+      "a": "No. Most clients work with us entirely by phone, video call and email."
+    },
+    {
+      "q": "Is the fee the same wherever I live?",
+      "a": "Yes. Our fee is agreed in writing before we start and doesn’t depend on where you live."
+    }
+  ],
+  "related": [
+    "immigration-advice-leeds",
+    "immigration-advice-liverpool",
+    "immigration-advice-warrington",
+    "immigration-advice-birmingham",
+    "immigration-advice-nottingham",
+    "immigration-advice-leicester"
+  ],
+  "title": "Areas We Serve | UK Immigration Advisory Manchester",
+  "description": "Areas we serve: immigration advice for clients in Leeds, Liverpool, Warrington, Birmingham, Nottingham, Leicester and across the UK, from Manchester.",
+  "focusKeyword": "areas we serve"
+}
