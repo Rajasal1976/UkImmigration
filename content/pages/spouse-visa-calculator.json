@@ -1,0 +1,69 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 6,
+  "navLabel": "Spouse visa calculator",
+  "widget": "financial",
+  "widgetTitle": "Spouse visa calculator",
+  "h1": "Spouse visa calculator: check the financial requirement",
+  "intro": "Use our free spouse visa calculator to check whether your income and savings meet the financial requirement. It works out the £29,000 threshold, how much savings you need to cover any shortfall, and which rules apply to you.",
+  "cardText": "Check your income and savings against the £29,000 threshold.",
+  "sections": [
+    {
+      "heading": "How the spouse visa calculator works",
+      "text": "The calculator adds up the income that counts towards the requirement: your partner’s earnings, your own earnings if you’re already in the UK with permission to work, and other income such as rent or dividends. It compares the total with the threshold that applies to your application.\n\nIf your income falls short, it works out how much cash savings you need to make up the difference, using the formula in the Immigration Rules."
+    },
+    {
+      "heading": "The £29,000 financial requirement",
+      "text": "Most new partner applications need a combined gross income of at least £29,000 a year. This threshold has applied since 11 April 2024 and covers spouses, civil partners, unmarried partners and fiancé(e)s.\n\nThere’s no extra amount for children under the current rules. Read more about the [spouse visa financial requirement](/spouse-visa-financial-requirement/)."
+    },
+    {
+      "heading": "Using savings to make up a shortfall",
+      "text": "Only savings above £16,000 count. For a first visa or an extension, the shortfall in income is multiplied by 2.5. For Indefinite Leave to Remain, the shortfall isn’t multiplied.\n\nFor example, if your income is £24,000, the shortfall is £5,000. For a first visa you’d need £16,000 plus £12,500, which is £28,500 in savings. If you rely on savings alone, you need £88,500.\n\nSavings must usually have been held for at least 6 months, in your name, your partner’s name or a joint account."
+    },
+    {
+      "heading": "If you were granted under the old rules",
+      "text": "If your first partner visa was granted before 11 April 2024, you can usually keep the old threshold for your extension and ILR. That’s £18,600, plus £3,800 for the first child who isn’t British or settled and £2,400 for each other child. Choose this option in the calculator to see your figure."
+    },
+    {
+      "heading": "Who doesn’t need to meet the threshold?",
+      "text": "If your partner receives certain benefits, such as Personal Independence Payment, Disability Living Allowance, Attendance Allowance or Carer’s Allowance, you show “adequate maintenance” instead. That means showing you can support yourselves without claiming extra public funds."
+    },
+    {
+      "heading": "What the spouse visa calculator can’t check",
+      "text": "Each type of income needs specific evidence, for specific periods. Salaried income usually needs 6 months of payslips and bank statements. Self-employed income needs a full tax year of accounts, and it can’t be combined with savings.\n\nThat’s why small mistakes in evidence are the most common reason partner visas are refused. Use the calculator as a first check, then ask us to look at your documents before you apply."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How accurate is the spouse visa calculator?",
+      "a": "It uses the same figures and savings formula as the Immigration Rules. It can’t check your evidence, so we confirm your exact position before you apply."
+    },
+    {
+      "q": "Does my income count if I’m the applicant?",
+      "a": "Only if you’re already in the UK with permission to work. Income from a job overseas doesn’t count for a first application from outside the UK."
+    },
+    {
+      "q": "How much savings do I need with no income?",
+      "a": "£88,500 for a first visa or extension under the £29,000 rules. That’s £16,000 plus 2.5 times £29,000."
+    },
+    {
+      "q": "Do I need more income if we have children?",
+      "a": "Not under the £29,000 rules. If you were first granted under the old rules, extra amounts apply for each child who isn’t British or settled."
+    },
+    {
+      "q": "Can we combine income and savings?",
+      "a": "Yes, in most cases. Savings above £16,000 can make up a shortfall, but they can’t be combined with self-employed income."
+    }
+  ],
+  "related": [
+    "spouse-visa-financial-requirement",
+    "spouse-visa-uk",
+    "spouse-visa-extension"
+  ],
+  "title": "Spouse Visa Calculator 2026 | Check the £29,000 Requirement",
+  "description": "Free spouse visa calculator: check your income and savings against the £29,000 financial requirement, the old £18,600 rules and the savings formula.",
+  "focusKeyword": "spouse visa calculator"
+}

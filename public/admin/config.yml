@@ -128,8 +128,8 @@ collections:
       - { name: boxText, label: Navy box text, widget: text, required: false }
       - { name: boxButton, label: Navy box button text, widget: string, required: false }
       - { name: boxLink, label: Navy box button link, widget: string, required: false, hint: 'e.g. /contact-us/. Empty = Book a consultation.' }
-      - { name: widget, label: Absence calculator on this page, widget: select, required: false, default: '', options: [{ label: 'No', value: '' }, { label: 'Yes, show the absence calculator', value: 'absence' }] }
-      - { name: widgetTitle, label: Absence calculator heading, widget: string, required: false }
+      - { name: widget, label: Free tool on this page, widget: select, required: false, default: '', options: [{ label: 'None', value: '' }, { label: 'Absence calculator', value: 'absence' }, { label: 'Spouse visa financial requirement calculator', value: 'financial' }, { label: 'Visa fee calculator', value: 'fees' }, { label: 'ILR eligibility checker', value: 'ilr' }] }
+      - { name: widgetTitle, label: Free tool heading, widget: string, required: false }
       - name: body
         label: Page text
         label_singular: paragraph

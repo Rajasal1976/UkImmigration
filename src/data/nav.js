@@ -13,7 +13,12 @@ const section = (key, extra = []) => {
 export const menu = [
   section('visas'),
   section('employers'),
-  { label: 'Absence calculator', href: '/absence-calculator/', items: [] },
+  { label: 'Free tools', href: '/absence-calculator/', items: [
+    ['Absence calculator', '/absence-calculator/'],
+    ['Spouse visa calculator', '/spouse-visa-calculator/'],
+    ['Visa fee calculator', '/uk-visa-fee-calculator/'],
+    ['ILR eligibility checker', '/ilr-eligibility-checker/'],
+  ] },
   section('guide', [['Blog', '/blog/']]),
   section('company', [['Contact us', '/contact-us/']]),
 ].filter((m) => m.items.length || m.href);

@@ -9,6 +9,9 @@ import Flow from '../components/Flow.astro';
 import GuideSections from '../components/GuideSections.astro';
 import DocumentsTable from '../components/DocumentsTable.astro';
 import AbsenceCalculator from '../components/AbsenceCalculator.astro';
+import FinancialCalculator from '../components/FinancialCalculator.astro';
+import VisaFeeCalculator from '../components/VisaFeeCalculator.astro';
+import IlrChecker from '../components/IlrChecker.astro';
 import { pages, pageBySlug, groups, pagesIn, navName } from '../data/pages.js';
 import { site } from '../data/site.js';
 import { svg } from '../data/icons.js';
@@ -93,6 +96,33 @@ const serviceSchema = layout === 'visa' ? [JSON.stringify({
         <div class="wrap">
           <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Check your time outside the UK'}</h2><p>Add your trips abroad to see how they measure up against the limits.</p></div>
           <AbsenceCalculator />
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'financial' && (
+      <section class="section" id="calculator">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Check your income and savings'}</h2><p>Enter your figures to see if you meet the financial requirement.</p></div>
+          <FinancialCalculator />
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'fees' && (
+      <section class="section" id="calculator">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Work out your visa fees'}</h2><p>Choose your application and who’s applying to see the full cost.</p></div>
+          <VisaFeeCalculator />
+        </div>
+      </section>
+    )}
+
+    {p.widget === 'ilr' && (
+      <section class="section" id="calculator">
+        <div class="wrap">
+          <div class="section-head"><span class="kicker">Free tool</span><h2>{p.widgetTitle || 'Check when you can apply for ILR'}</h2><p>Answer a few questions to see when you qualify and what you still need.</p></div>
+          <IlrChecker />
         </div>
       </section>
     )}

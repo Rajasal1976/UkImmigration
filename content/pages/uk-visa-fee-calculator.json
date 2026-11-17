@@ -1,0 +1,73 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 7,
+  "navLabel": "Visa fee calculator",
+  "widget": "fees",
+  "widgetTitle": "UK visa fee calculator",
+  "h1": "UK visa fee calculator: work out your total cost",
+  "intro": "Use our free UK visa fee calculator to work out the Home Office fees and Immigration Health Surcharge for your application. Choose your visa and who’s applying, and see the full government cost in seconds.",
+  "cardText": "Work out Home Office fees and the health surcharge for your family.",
+  "sections": [
+    {
+      "heading": "How the UK visa fee calculator works",
+      "text": "Choose the application you’re making, how long the visa is for, and how many adults and children are applying. The calculator adds up the application fee for each person and the Immigration Health Surcharge, which is paid upfront for the whole length of the visa."
+    },
+    {
+      "heading": "Home Office fees from April 2026",
+      "text": "These are some of the main fees per person:\n- Spouse or partner visa from outside the UK: £2,064\n- Spouse or partner visa inside the UK: £1,407\n- Indefinite Leave to Remain: £3,226\n- British citizenship: £1,709, plus a £130 ceremony fee\n- Skilled Worker from outside the UK: £819 for up to 3 years, or £1,618 for longer\n- Student visa: £558\n- Standard Visitor visa: £135"
+    },
+    {
+      "heading": "The Immigration Health Surcharge",
+      "text": "Most people applying for more than 6 months pay the Immigration Health Surcharge. It’s £1,035 a year for adults, and £776 a year for students, their dependants and children under 18.\n\nA part year of 6 months or less counts as half a year, and over 6 months counts as a full year. For example, a 33-month spouse visa from outside the UK means 3 years of surcharge: £3,105 per adult.\n\nHealth and Care Worker visa holders and their families don’t pay it, and you don’t pay it for ILR or citizenship."
+    },
+    {
+      "heading": "Example: a family joining a Skilled Worker",
+      "text": "A Skilled Worker applying from outside the UK for a 3-year visa, with a partner and one child, would pay:\n- Application fees: 3 × £819 = £2,457\n- Health surcharge for the two adults: 2 × £3,105 = £6,210\n- Health surcharge for the child: £2,328\n\nThat’s £10,995 in government fees before travel, tests or advice. Use the UK visa fee calculator above to work out your own family’s cost, and remember the employer pays separate sponsorship costs such as the Certificate of Sponsorship and the Immigration Skills Charge."
+    },
+    {
+      "heading": "Costs the UK visa fee calculator doesn’t include",
+      "text": "Priority and super priority processing, visa centre appointment charges, translations, English tests and the Life in the UK test are all extra. Our own fee for preparing your application is separate too, and agreed in writing before we start."
+    },
+    {
+      "heading": "Avoid paying twice",
+      "text": "Home Office fees aren’t refunded if an application is refused. For a partner and three children applying from outside the UK, that’s £8,256 in application fees lost. Checking your application before you submit it costs far less than applying twice. Our [visa refusal help](/visa-refusal-help/) explains what to do if it has already happened."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are UK visa fees refunded if I’m refused?",
+      "a": "No. The application fee isn’t refunded. The health surcharge is usually refunded if the visa is refused."
+    },
+    {
+      "q": "Do children pay the full visa fee?",
+      "a": "Yes, children usually pay the same application fee as adults. They pay the lower health surcharge rate of £776 a year."
+    },
+    {
+      "q": "How much is the spouse visa in total?",
+      "a": "From outside the UK, £2,064 plus £3,105 health surcharge: £5,169 per adult in government fees."
+    },
+    {
+      "q": "How much does ILR cost?",
+      "a": "£3,226 per person, with no health surcharge. Each adult also needs to pass the Life in the UK test."
+    },
+    {
+      "q": "When do UK visa fees change?",
+      "a": "The Home Office usually reviews fees once a year, often in April. We update the calculator when they change."
+    },
+    {
+      "q": "Does the UK visa fee calculator include your fee?",
+      "a": "No. It shows government fees only. Our fee for preparing your application is agreed in writing before we start."
+    }
+  ],
+  "related": [
+    "spouse-visa-uk",
+    "indefinite-leave-to-remain",
+    "skilled-worker-visa"
+  ],
+  "title": "UK Visa Fee Calculator 2026 | Home Office Fees and IHS",
+  "description": "Free UK visa fee calculator: add up Home Office fees and the Immigration Health Surcharge for spouse, ILR, citizenship, Skilled Worker and student visas.",
+  "focusKeyword": "UK visa fee calculator"
+}

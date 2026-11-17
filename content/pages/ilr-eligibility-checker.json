@@ -1,0 +1,73 @@
+{
+  "layout": "guide",
+  "group": "guide",
+  "shareImage": "/images/share.jpg",
+  "applyButton": "/contact-us/",
+  "order": 8,
+  "navLabel": "ILR eligibility checker",
+  "widget": "ilr",
+  "widgetTitle": "ILR eligibility checker",
+  "h1": "ILR eligibility checker: when can you apply?",
+  "intro": "Use our free ILR eligibility checker to see when you can apply for Indefinite Leave to Remain and what you still need. Answer a few questions about your visa, time abroad, English and Life in the UK test.",
+  "cardText": "See when you qualify for ILR and what you still need.",
+  "sections": [
+    {
+      "heading": "How the ILR eligibility checker works",
+      "text": "Choose your visa route and the date it started. The checker works out when you complete the qualifying period and the earliest date you can apply, which is 28 days before. It then checks the main requirements and flags anything that could cause a problem."
+    },
+    {
+      "heading": "How long you need for ILR",
+      "text": "Under the current rules:\n- 5 years on the spouse or partner route\n- 5 years as a Skilled Worker\n- 5 years on the UK Ancestry or BN(O) routes\n- 10 years of continuous lawful residence on the long residence route\n\nYou need to be on the same route for the whole period, or on routes that can be combined."
+    },
+    {
+      "heading": "The main ILR requirements",
+      "text": "- No more than 180 days outside the UK in any rolling 12 months\n- A pass in the Life in the UK test, unless you’re 65 or over\n- English at B1 level or above, unless exempt\n- Still meeting the rules of your route, such as living with your partner or being paid the right salary by your sponsor\n- No serious problems with your immigration or criminal record\n\nCheck your trips with our [absence calculator](/absence-calculator/)."
+    },
+    {
+      "heading": "Documents you’ll usually need",
+      "text": "- Your passport and any previous passports covering the qualifying period\n- Your Life in the UK test pass reference\n- Your English test certificate or degree evidence, if needed\n- Evidence for your route: for partners, proof you live together and meet the financial requirement; for Skilled Workers, payslips and a letter from your sponsor\n- A full list of your trips outside the UK, with dates\n\nGathering these early gives you time to fix gaps before your earliest application date. Our ILR eligibility checker shows that date, so you can plan backwards from it."
+    },
+    {
+      "heading": "ILR changes coming in 2027",
+      "text": "The government plans to move most routes from 5 to 10 years under a new “earned settlement” system, starting during 2027. Partners of British citizens and higher earners are expected to keep a 5-year route. Applications are decided under the rules in force at the time, so if you qualify before the change, don’t wait. Read our guide to the [ILR changes](/ilr-changes-2026/)."
+    },
+    {
+      "heading": "Before you apply",
+      "text": "ILR costs £3,226 per person, and the fee isn’t refunded if you’re refused. The ILR eligibility checker is a first check. Our advisers can confirm your dates, absences and evidence, and prepare your application so it’s right first time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How early can I apply for ILR?",
+      "a": "Up to 28 days before you complete your qualifying period. Apply earlier and you’ll be refused."
+    },
+    {
+      "q": "Does the ILR eligibility checker include the new rules?",
+      "a": "It uses the current rules, which still apply. It also explains the earned settlement changes planned for 2027."
+    },
+    {
+      "q": "What if I’ve spent more than 180 days abroad?",
+      "a": "It can break your continuous residence, but there are exceptions for serious or compelling reasons. Get advice before you apply."
+    },
+    {
+      "q": "Do I need the Life in the UK test for ILR?",
+      "a": "Yes, unless you’re 65 or over or exempt for another reason. You need to pass it before you apply."
+    },
+    {
+      "q": "Can my family apply for ILR with me?",
+      "a": "Usually, yes. Partners and children can often apply at the same time as you, if they meet the requirements."
+    },
+    {
+      "q": "Is the ILR eligibility checker free?",
+      "a": "Yes. It’s free to use, and you can ask one of our advisers to check your result and documents."
+    }
+  ],
+  "related": [
+    "indefinite-leave-to-remain",
+    "ilr-changes-2026",
+    "absence-calculator"
+  ],
+  "title": "ILR Eligibility Checker | When Can You Apply for ILR?",
+  "description": "Free ILR eligibility checker: find your earliest ILR application date and check absences, Life in the UK test, English and the 2027 changes.",
+  "focusKeyword": "ILR eligibility checker"
+}
