@@ -1,0 +1,46 @@
+---
+// UK immigration news page: lists blog posts whose category is "News" (content/blog, edited in the admin under "Blog posts").
+// To add a news story, create a blog post and set its Category to "News".
+import Page from '../layouts/Page.astro';
+import { site } from '../data/site.js';
+import { posts, fmtDate } from '../data/blog.js';
+const news = posts.filter((p) => p.category === 'News');
+---
+<Page title="UK Immigration News | Latest Rule Changes Explained" description="Latest UK immigration news: changes to the Immigration Rules, settlement, fees, salary thresholds and English requirements, explained by IAA-regulated advisers." crumbs={[['Home', '/'], ['News', '/news/']]}>
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a></nav>
+        <h1>UK immigration news</h1>
+        <p class="lead">The latest changes to UK immigration rules, checked against GOV.UK and explained in plain English: settlement, work and family visas, fees, salary thresholds and English requirements.</p>
+      </div>
+    </div>
+    <div class="wrap section" style="padding-top:56px">
+      {news.length ? (
+        <div class="blog-list">
+          {news.map((p) => (
+            <article class="blog-card">
+              <p class="blog-date"><time datetime={p.date}>{fmtDate(p.date)}</time></p>
+              <h2><a href={`/blog/${p.slug}/`}>{p.h1}</a></h2>
+              <p>{p.intro}</p>
+              <a class="blog-more" href={`/blog/${p.slug}/`}>Read more<span class="sr-only">: {p.h1}</span></a>
+            </article>
+          ))}
+        </div>
+      ) : <p>No news stories yet. See our <a href="/blog/">blog</a> for guides.</p>}
+      <p class="news-foot">Need to know where you stand? Try our <a href="/uk-immigration-tools/">free tools</a>, read our <a href="/blog/">guides</a>, or <a href="/contact-us/">talk to an adviser</a>.</p>
+    </div>
+  </main>
+</Page>
+
+<style>
+  .blog-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; }
+  .blog-card { border: 1px solid var(--line); border-radius: 12px; padding: 24px 26px; background: #fff; display: flex; flex-direction: column; gap: 10px; }
+  .blog-card h2 { font-size: 22px; margin: 0; line-height: 1.3; }
+  .blog-card h2 a { color: var(--green-800); text-decoration: none; }
+  .blog-card h2 a:hover { text-decoration: underline; }
+  .blog-card p { margin: 0; }
+  .blog-date { color: var(--ink-mute); font-size: 14px; }
+  .blog-more { margin-top: auto; font-weight: 600; color: var(--green-800); }
+  .news-foot { margin-top: 40px; color: var(--ink-mute); }
+</style>

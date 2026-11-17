@@ -16,6 +16,7 @@ const esc = (t = '') => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<'
 const accent = (h, a) => (a && h.includes(a) ? esc(h).replace(esc(a), `<em>${esc(a)}</em>`) : esc(h));
 const services = (home.services || []).map((s) => ({ ...s, page: pageBySlug[s.page] })).filter((s) => s.page);
 import { tools } from '../data/tools.js';
+import NewsStrip from '../components/NewsStrip.astro';
 ---
 <Page title={home.title} description={home.description} crumbs={[]}>
   <main>
@@ -70,6 +71,8 @@ import { tools } from '../data/tools.js';
         {home.sections.map((s) => <section><h2>{s.heading}</h2>{s.text.split(/\n\s*\n/).map((t) => <p set:html={inline(t)} />)}</section>)}
       </div></section>
     )}
+
+    <NewsStrip title="Latest UK immigration news" allLabel="All news" />
 
     <section class="section tinted"><div class="wrap"><Faq items={home.faqs} title="Frequently asked questions" /></div></section>
     <CtaBand />

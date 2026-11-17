@@ -16,6 +16,6 @@ export const menu = [
   section('employers'),
   // The list of tools is in src/data/tools.js (also used on the homepage and /uk-immigration-tools/)
   { label: 'UK immigration tools', href: '/uk-immigration-tools/', items: [...tools.map((t) => [t.menu, t.href]), ['All free tools', '/uk-immigration-tools/']] },
-  section('guide', [['Blog', '/blog/']]),
+  section('guide', [['Blog', '/blog/'], ['News', '/news/']]),
   section('company', [['Contact us', '/contact-us/']]),
 ].filter((m) => m.items.length || m.href);
